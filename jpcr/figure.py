@@ -821,71 +821,8 @@ def figure_s2(summary: pd.DataFrame, paired: pd.DataFrame, output: Path) -> None
     save_figure(fig, output, "Figure_S2", True)
 
 
-def selected_prediction(cancer: str, signature: str, source_name: str) -> pd.DataFrame:
-    script_dir = PACKAGE / "reproducibility"
-    if str(script_dir) not in sys.path:
-        sys.path.insert(0, str(script_dir))
-    from select_process_linked_clinical_scores import candidate_predictions
-
-    frame = candidate_predictions(cancer, signature, "TCGA")
-    return frame[["observed", source_name]].rename(columns={source_name: "predicted"})
 
 
-def figure_s3(output: Path) -> None:
-    metrics, scores, auc = clinical_data()
-    exposure = pd.read_csv(SOURCE / "selected_score_exposure_metrics.tsv", sep="\t")
-    selections = pd.read_csv(SOURCE / "TCGA_nested_outer_fold_selection.tsv", sep="\t")
-    fig, axes = plt.subplots(2, 3, figsize=(PAGE_WIDTH_IN, 5.25))
-    fig.subplots_adjust(left=0.075, right=0.98, top=0.95, bottom=0.10, hspace=0.48, wspace=0.34)
-
-    specifications = [
-        ("a", "BRCA", "SBS3", "retatt_score", TCGA),
-        ("b", "UCEC", "SBS6", "global_score", CPTAC),
-        ("c", "UCEC", "SBS10", "ret4_score", PURPLE),
-    ]
-    for ax, (letter, cancer, signature, source_name, color) in zip(axes[0], specifications):
-        panel(ax, letter, -0.14, 1.05)
-        scatter_regression(ax, selected_prediction(cancer, signature, source_name), color, f"{cancer}–{signature} · TCGA")
-
-    ax_d = axes[1, 0]
-    panel(ax_d, "d", -0.14, 1.05)
-    hrd_auc = auc[auc.analysis.eq("HRD >=42") & auc.cohort.eq("TCGA BRCA")].iloc[0]
-    distribution_panel(ax_d, scores, [("TCGA BRCA", "HRD")], "TCGA BRCA HRD-high", TCGA, {("TCGA BRCA", "HRD"): float(hrd_auc.p_value)}, True)
-
-    ax_e = axes[1, 1]
-    panel(ax_e, "e", -0.14, 1.05)
-    previous = np.array([0.6801260022909505, 0.7093612010597585, 0.6209523016731875])
-    order = ["HRD >=42", "MSI/MMR", "POLE/POLD1"]
-    nested = np.array([metrics[metrics.analysis.eq(value) & metrics.cohort.str.startswith("TCGA")].iloc[0].estimate for value in order])
-    x_values = np.arange(3)
-    width = 0.36
-    ax_e.bar(x_values - width / 2, previous, width, color=NEGATIVE, label="Previous")
-    ax_e.bar(x_values + width / 2, nested, width, color=TCGA, label="Cross-validated")
-    ax_e.axhline(0.5, color=MUTED, linewidth=0.75, linestyle=(0, (3, 2)))
-    ax_e.set_xticks(x_values, ["HRD", "MSI/MMR", "POLE/POLD1"], rotation=20, ha="right")
-    ax_e.set_ylabel("ROC AUC")
-    ax_e.set_ylim(0.50, 0.77)
-    ax_e.set_title("TCGA AUC comparison", loc="left", fontsize=7.5, fontweight="bold", pad=6)
-    ax_e.legend(frameon=False, fontsize=5.9)
-    clean(ax_e, "y")
-
-    ax_f = axes[1, 2]
-    panel(ax_f, "f", -0.14, 1.05)
-    endpoints = ["HRD", "MSI/MMR", "POLE/POLD1"]
-    values = [selections[selections.endpoint.eq(endpoint)].legacy_weight.to_numpy(float) for endpoint in endpoints]
-    violin = ax_f.violinplot(values, positions=np.arange(3), showextrema=False, widths=0.72)
-    for body, color in zip(violin["bodies"], [TCGA, CPTAC, PURPLE]):
-        body.set_facecolor(color)
-        body.set_edgecolor(MUTED)
-        body.set_alpha(0.55)
-    for index, value in enumerate(values):
-        ax_f.scatter(np.full(len(value), index), value, color=INK, s=18, zorder=3)
-    ax_f.set_xticks(np.arange(3), endpoints, rotation=20, ha="right")
-    ax_f.set_ylabel("Legacy-score weight")
-    ax_f.set_ylim(0, 1)
-    ax_f.set_title("Cross-validation weights", loc="left", fontsize=7.5, fontweight="bold", pad=6)
-    clean(ax_f, "y")
-    save_figure(fig, output, "Figure_S3", True)
 
 
 def main() -> None:
