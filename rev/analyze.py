@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 ROOT=Path(__file__).resolve().parent.parent;OUT=ROOT/'rev'
 sys.path.insert(0,str(ROOT))
-import build_full210_equal_model_average_20260904 as primary
+from models import build_full210_equal_model_average_20260904 as primary
 SBS=list(primary.SIGNATURES);CANCERS=list(primary.CANCERS)
 LOCAL=dict(BRCA='Brca',HNSC='Hnscc',KIRC='Ccrcc',LUAD='Luad',LUSC='Lscc',OV='Ov',UCEC='Ucec')
 

@@ -137,7 +137,7 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 from marugoto.marugoto.extract.extract import extract_features_
-from marugoto.marugoto.extract.xiyue_wang.RetCLL import ResNet
+import ResNet
 from concurrent_canny_rejection import reject_background
 from PIL import Image
 

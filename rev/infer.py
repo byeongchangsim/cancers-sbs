@@ -16,9 +16,9 @@ import torch, h5py
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.linear_model import Ridge
-import build_full210_equal_model_average_20260904 as original
-import run_full210_exact25_multiscale_fusion_20260904 as training
-import run_full210_exact25_nested_stack_20260904 as stack
+from models import build_full210_equal_model_average_20260904 as original
+from models import run_full210_exact25_multiscale_fusion_20260904 as training
+from models import run_full210_exact25_nested_stack_20260904 as stack
 
 ROOT=original.BASE; OUT=ROOT/'rev'; SBS=list(original.SIGNATURES)
 
@@ -26,7 +26,7 @@ def run(cancer):
     started=time.monotonic(); torch.set_num_threads(1)
     torch.use_deterministic_algorithms(True)
     torch.backends.cudnn.benchmark=False
-    builder=original.import_file(ROOT/'legacy30_retccl_ctranspath_feature_fusion_20260829/build_fused_bags.py','revision_bags')
+    builder=original.import_file(ROOT/'models/build_fused_bags.py','revision_bags')
     ridge_module=original.import_file(stack.RIDGE_SCRIPT,'revision_ridge')
     tp,tx,ty,*_=ridge_module.load('TCGA',cancer)
     cp,cx,cy,*_=ridge_module.load('CPTAC',cancer)

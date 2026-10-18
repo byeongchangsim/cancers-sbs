@@ -16,8 +16,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-import build_full210_equal_model_average_20260904 as primary
-import run_full210_exact25_multiscale_fusion_20260904 as training
+from models import build_full210_equal_model_average_20260904 as primary
+from models import run_full210_exact25_multiscale_fusion_20260904 as training
 
 Image.MAX_IMAGE_PIXELS=None  # Known local study mosaics, not untrusted uploads.
 PRE=Path('/home/end2end-WSI-preprocessing-1.0.0-preprocessing')
@@ -40,7 +40,7 @@ def aligned_coordinates(builder,co,fn):
 
 def main():
     torch.set_num_threads(1)
-    builder=primary.import_file(ROOT/'legacy30_retccl_ctranspath_feature_fusion_20260829/build_fused_bags.py','attention_bags')
+    builder=primary.import_file(ROOT/'models/build_fused_bags.py','attention_bags')
     mod=training.implementation('1024');builder.BAG_SIZE=1024;builder.BASE_SEED=20260907
     selection=pd.read_csv(primary.SELECTION,sep='\t')
     scores=pd.read_csv(OUT/'patient_scores.tsv',sep='\t')

@@ -19,20 +19,19 @@ This runs on a CPU using the included patient scores. It checks the original 210
 
 The recorded check reproduced the 14 positive associations with nominal P < 0.05 in both cohorts. Nine met BH-adjusted P < 0.20 in each cohort. It also reproduced the 570-patient sensitivity analysis, four revision clinical comparisons with 10,000 bootstrap replicates, and 1,680 original-versus-alternative signature comparisons. `verification.json` records the checks actually completed.
 
-## Find the code and data
+## Repository folders
 
-| Material | Location |
+| Folder | Contents |
 | --- | --- |
-| Analysis steps, original commands and manuscript mapping | [WORKFLOW.md](WORKFLOW.md) |
-| Included data, identifiers and external inputs | [DATA.md](DATA.md) |
-| Current Supplementary Data S1–S3 | `data/` |
-| Cohort summaries, figures, revision statistics, sensitivity, clinical assessment and attention | `rev/` |
-| Model training, prediction and averaging | Root `run_full210_*` and `build_full210_*` scripts and their imported modules |
-| Slide preprocessing and feature extraction | `preprocessing/`, `extract_ctranspath_from_existing_cache_20260527.py`, `sigprofiler_improved_20260818/scripts/` |
-| Original SBS estimation and alternative estimates | `cptac_sigprof/`, `sigfit_poulos2018_20260726/`, `scripts/` |
-| Versions and software requirements | [ENVIRONMENT.md](ENVIRONMENT.md), `rev/environment.json`, `rev/runtime_versions.tsv` |
-| Original file locations and SHA-256 checksums | `source_manifest.tsv` |
+| `models/` | Model fitting, bag construction, prediction and fixed averaging |
+| `preprocessing/` | Slide processing and RetCCL/CTransPath feature extraction |
+| `signatures/` | deconstructSigs, sigfit and SigProfiler target estimation |
+| `data/` | Supplementary Data S1–S3 and the 56 alternative target tables |
+| `records/` | Original model protocols, selection records and signature-software versions |
+| `rev/` | Cohort summaries, statistics, figures, clinical and input-sensitivity analyses |
 
-Training driver names and import relationships are retained so that each reported analysis can be traced to its implementation. Cohort and figure code is grouped under `rev/`. Training drivers retain their original workspace paths. Read the path instructions in WORKFLOW.md before running extraction or training. Large WSI files, mutation files, feature caches and trained checkpoints must be obtained or generated separately. The result-level check above does not require them and does not rerun model training.
+[WORKFLOW.md](WORKFLOW.md) maps each manuscript analysis to its implementation. [DATA.md](DATA.md) describes included data and external inputs. [ENVIRONMENT.md](ENVIRONMENT.md) lists the recorded software environments. `source_manifest.tsv` maps distributed files to their original paths and checksums.
 
-Upstream code notices are retained in `Marugoto_LICENSE.txt`, `preprocessing/LICENSE`, the RetCCL license and `TransPath/LICENSE.md`.
+Training and preprocessing require the source mutation files, WSIs, feature caches and checkpoints described in WORKFLOW.md. The CPU result-level check uses the included derived data and does not rerun training.
+
+Upstream notices are retained in `Marugoto_LICENSE.txt`, `preprocessing/LICENSE`, `preprocessing/RetCCL_LICENSE.md` and `preprocessing/CTransPath_LICENSE.md`.
