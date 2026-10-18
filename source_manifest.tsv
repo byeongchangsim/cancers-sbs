@@ -1,5 +1,5 @@
 file	role	source	sha256	bytes
-rev/supp.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/supp.py	80046900e8a3293fa37cd7b1879af1b93a21865350b3e3581d1a9ee7a51c91d3	17469
+rev/supp.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/supp.py	0760193ee7979fb4d3d81e04bf36a89932172cceb8d9b6aaa1485b7b1237c8e7	17402
 rev/infer.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/infer.py	3fe205e96c002883708220c2e17885d36d84783b3b3b13e0f4022832a810c276	9149
 rev/analyze.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/analyze.py	e9f46765ffa77b4e2c2b897c8b11f7ca8566d9ff20bc3620238c82bb562f7443	22498
 rev/sbs6_probe.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/sbs6_probe.py	e53bf5de2e7a2fdeff43abe8619028665101cc48007e1aba0ae0b8acbb97fdba	7611
@@ -7,9 +7,7 @@ rev/sbs6_kread.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/s
 rev/fix_endpoint.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/fix_endpoint.py	04017742c4e0e7662787fa020030389ee6b196b69f6606d0ebad1951ed856985	5304
 rev/clinical_final.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/clinical_final.py	271566c771aba4d6fdb4e212ae259a7ecd0b1d34685d14378fb3116e408544bb	4244
 rev/clinical_fig.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/clinical_fig.py	51c58b54e646ae214c6c92cbf091ae6a2076ba498459a16a0bf0030b8e59065f	4004
-rev/refinement.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/refinement.py	907a2247336cba42c8b8ec7c6d7947fe6f661e5c62fe98ef3c37abdeb861abb3	3442
 rev/attention.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/attention.py	e57ff128f648bbf0489e58549e3d7536c78dde9e60924d0c4734b23210c580e7	11281
-rev/influence.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/influence.py	b43df658121cdf7c243f0ae12e21313e03d956f5b1d0445984f7522ad5670784	3040
 rev/wsi_cache_tiles.py	original analysis driver	/home/marugoto-1.0.0-regression/rev/wsi_cache_tiles.py	97975758b9710011485457e396b58611a588cec3b666edc1d1a84a306532a9dd	5866
 sigprofiler_improved_20260818/scripts/extract_end2end_retccl_qc_v1.py	original analysis driver	/home/marugoto-1.0.0-regression/sigprofiler_improved_20260818/scripts/extract_end2end_retccl_qc_v1.py	a05a5b248787c23a4cd8a59343470d425e1063abb94c3fa37585a9cb46b8ed31	17678
 sigprofiler_improved_20260818/scripts/aggregate_end2end_retccl_qc_v1.py	original analysis driver	/home/marugoto-1.0.0-regression/sigprofiler_improved_20260818/scripts/aggregate_end2end_retccl_qc_v1.py	2977765e2d50670f8b82ea167c2ea73211c1da90e392387b1be69e77aadd5c9a	12925
@@ -55,7 +53,6 @@ rev/readable_data.py	analysis source	/home/marugoto-1.0.0-regression/rev/readabl
 rev/data_published.py	analysis source	/home/marugoto-1.0.0-regression/rev/data_published.py	442752a08a0e3e404b2fb01c9c962a3a17a067f327deea56609a009c4c217cac	5794
 jpcr/cohorts.py	analysis source	/home/marugoto-1.0.0-regression/jpcr/cohorts.py	c87bb4dfc50f6eb6eb317076d4846d0f02ad9fd7c57a067299fb2f9c3042f703	9865
 jpcr/figure.py	analysis source	/home/marugoto-1.0.0-regression/jpcr/figure.py	fd3e56638662e6260a197b1968b0646fb01c1c7c49679f5616177842868dc67b	42250
-jpcr/fix_figure4.py	analysis source	/home/marugoto-1.0.0-regression/jpcr/fix_figure4.py	a06288a45a53f00089935043573fe6dfb76ec15130792c5e58cad24c59879d93	6088
 paper_ready_v2_46/reproducibility/build_v2_40_layout_figures.py	analysis source	/home/marugoto-1.0.0-regression/paper_ready_v2_46/reproducibility/build_v2_40_layout_figures.py	1741350f696a489b456ce07cbf9546d9aa243fdd8444395dd7c31fad4663a28d	41637
 paper_ready_v2_46/reproducibility/select_process_linked_clinical_scores.py	imported analysis helper	/home/marugoto-1.0.0-regression/paper_ready_v2_46/reproducibility/select_process_linked_clinical_scores.py	2e3da4ab05348b5e496b50d3cdec5e04242984cd46608479cc820eb71fc4e089	8294
 paper_ready_v2_46/reproducibility/recompute_clinical_endpoints.py	imported analysis helper	/home/marugoto-1.0.0-regression/paper_ready_v2_46/reproducibility/recompute_clinical_endpoints.py	8dccca6b402584b54c867b842b56ac1ae91cad20845272597a45a45bd694c725	12546
@@ -107,10 +104,6 @@ rev/kread6_cptac_scores.tsv	analysis provenance	/home/marugoto-1.0.0-regression/
 rev/environment.json	analysis provenance	/home/marugoto-1.0.0-regression/rev/environment.json	1429572699a389e4f5ced443d1385e9e7a5e6dea9f42390dc6a627b0183959c7	6079
 rev/runtime_versions.tsv	analysis provenance	/home/marugoto-1.0.0-regression/rev/runtime_versions.tsv	55849d9c0d0fb2b82a16834edef8aa36e1d877c83b9236d45e6bbf3205558347	3730
 rev/input_hashes.json	analysis provenance	/home/marugoto-1.0.0-regression/rev/input_hashes.json	078f5f39113e6702de50eb8aa46862c917cd5091869dbbe0dd69c8bbe8511b04	2112
-rev/refinement_metrics.tsv	analysis provenance	/home/marugoto-1.0.0-regression/rev/refinement_metrics.tsv	c90841e40989d46c9822e7e68cebddd5380faec3a3d02c17f3708706ca76d1f3	2615
-rev/refinement_patients.tsv	analysis provenance	/home/marugoto-1.0.0-regression/rev/refinement_patients.tsv	be377caf3b153c59cf3792e4db25674e84718b3c39067346a0d2f90251ea7930	132155
-rev/influence_summary.tsv	analysis provenance	/home/marugoto-1.0.0-regression/rev/influence_summary.tsv	6075cee0bf1563d40e2beef5c71d7e21b6f31c7397eed97dc556e25fdd36101e	4347
-rev/influence_patients.tsv	analysis provenance	/home/marugoto-1.0.0-regression/rev/influence_patients.tsv	fe5f9d82116fac8f46095c0e9ad73a28b0cabcc4ed52aad8d4b1e2b03f07f733	537365
 rev/kread6_0_protocol.json	SBS6 readout selection	/home/marugoto-1.0.0-regression/rev/kread6_0_protocol.json	a09457eb9cbb2472da13ed516077d2cfb06797bb2dacd60f8c1bec8bdc636e9f	5526
 rev/kread6_0_selection.tsv	SBS6 readout selection	/home/marugoto-1.0.0-regression/rev/kread6_0_selection.tsv	1439c97d82ce100e8100ff8708b5c0a8b38c9ad2ea771a9ad6f5befcc8a37f03	9037
 rev/kread6_1_protocol.json	SBS6 readout selection	/home/marugoto-1.0.0-regression/rev/kread6_1_protocol.json	9c88f30f25eb0771276ca4421c576d4f321bda3ae7222b1501703c94d2e4b4d8	5549

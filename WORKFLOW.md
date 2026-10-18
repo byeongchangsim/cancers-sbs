@@ -38,6 +38,4 @@ The original preprocessing path `/home/end2end-WSI-preprocessing-1.0.0-preproces
 
 The original `rev/signature_compare.py` also contains historical exploratory sources beyond the four alternatives in the final supplement. The portable entry point restricts its comparison to the four reported methods and the same patient matches. It does not refit image models or combine split signatures. The original source remains available to document the broader analysis history.
 
-`rev/refinement.py`, `rev/influence.py` and the unused fitting modes in helper modules are retained as supporting analysis history. They do not replace the final primary ensemble or final SBS6 clinical readout.
-
 Figure S5 weights describe one MIL component at sampled coordinates. They are not tissue labels or the contribution of a region to the full ensemble. Expert pathology review was not performed.
