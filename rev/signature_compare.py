@@ -7,7 +7,6 @@ from pathlib import Path
 import hashlib
 import json
 import re
-import zipfile
 
 import numpy as np
 import pandas as pd
@@ -74,60 +73,12 @@ def compare(method, cohort, cancer, targets, path, note, url=''):
         metrics.append(row)
 
 
-def local_method(name, template, note, mapping=LOCAL, cptac='CPTAC', corrected_brca=False):
-    for cohort in ['TCGA', 'CPTAC']:
-        for cancer in LOCAL:
-            p = template.format(cohort=cohort if cohort == 'TCGA' else cptac, local=mapping[cancer])
-            if corrected_brca and cohort == 'TCGA' and cancer == 'BRCA':
-                p = 'sigfit_poulos2018_20260726_corrected_nonpreferred/model_inputs/TCGA/Brca/sbs30_targets.tsv'
-            compare(name, cohort, cancer, read(p), p, note)
+for src in pd.read_csv(ROOT / 'data/alternative_sources.tsv', sep='\t').itertuples():
+    compare(src.method, src.cohort, src.cancer, read(src.file), src.file, src.note)
 
-
-local_method('deconstruct_exome2genome', 'deconstructsigs_legacy30_exome2genome_full_paper_20260828/process_endpoint_inputs_legacy30_min50_exome2genome/{cohort}/{local}/{cohort}_{local}_process_endpoints.xlsx',
-             'Saved legacy SBS1-30 targets; changes trinucleotide normalization to exome2genome; retain saved proportions and cutoff.')
-local_method('sigfit_legacy30', 'sigfit_poulos2018_20260726/fits/{cohort}/{local}/patient_weights.tsv',
-             'Local sigfit 1.2.0 reproduction using exome-corrected legacy30 reference; dense posterior means; input/sample rules also differ. TCGA BRCA uses verified 432-patient corrected model-input table only.', corrected_brca=True)
-local_method('SPA_v2', 'sigprofiler_mg_assignment_v2_sbs30_currentmaf_v2_27_20260904/labels/{cohort}/{local}/{cohort}_{local}_SBS1_30.tsv',
-             'Saved SPA1.1.5 COSMICv2 WES SBS1-30; MatrixGenerator1.3.6 catalogue. Catalogue and eligible sample changes mean this is not an algorithm-only comparison.')
-for version, directory in [('3.5', 'sigprofilerassignment_v35_currentmaf_v2_27_20260903'), ('3.6', 'sigprofilerassignment_v115_v36_currentmaf_v2_27_20260903')]:
-    local_method('SPA_v' + version, directory + '/labels/{cohort}/{local}/{cohort}_{local}_process_endpoints.xlsx',
-                 'Saved COSMICv' + version + ' WES proportions; same-name signatures only, not identical reference profiles; split legacy signatures not summed.')
-for caller in ['union', 'dual']:
-    for prefix, directory, filename in [('SPA_standardized', 'all_sbs_standardized_v35_20260729', 'all_sbs_proportions.tsv'), ('SPSS', 'all_sbs_spss_v35_20260729', 'spss_proportions.tsv')]:
-        # TCGA input is identical between caller branches; report it once.
-        for cohort in (['TCGA', 'CPTAC'] if caller == 'union' else ['CPTAC']):
-            for cancer in LOCAL:
-                branch = cohort if cohort == 'TCGA' else 'CPTAC_' + caller
-                p = f'{directory}/fits/{branch}/{SHORT[cancer]}/{filename}'
-                compare(prefix + '_v3.5_' + caller, cohort, cancer, read(p), p,
-                        'Saved GRCh38 WES catalogue; ' + ('TCGA GDC ensemble' if cohort == 'TCGA' else 'CPTAC caller ' + caller) + '. Full COSMICv3.5 reference; same-name comparisons only. Catalogue/sample definitions differ from manuscript.')
-
-public_path = 'rev/published_tcga_author.csv'
-public = read(public_path)
-public = public[public['Sample Names'].str[13:15].eq('01')].copy()
-public['PATIENT'] = public['Sample Names'].str[:12]
-assert public.PATIENT.is_unique
-public_cols = [c for c in public if re.fullmatch(r'SBS\d+[a-z]?', c)]
-assert len(public_cols) == 65
-public[public_cols] = public[public_cols].div(public[public_cols].sum(axis=1), axis=0)
-public_cancers = dict(BRCA='Breast-cancer', HNSC='Head-SCC', KIRC='Kidney-RCC', LUAD='Lung-AdenoCa', LUSC='Lung-SCC', OV='Ovary-AdenoCa', UCEC='Uterus-AdenoCa')
-for cancer, label in public_cancers.items():
-    compare('published_Alexandrov2020', 'TCGA', cancer, public[public['Cancer Types'].eq(label)], public_path,
-            'Published TCGA WES SigProfiler activities, downloaded from author repository; byte-identical second mirror. Primary01 sample only. Divide by all65 activities, no6%cutoff or split-signature summation.',
-            'https://www.nature.com/articles/s41586-020-1943-3 ; https://raw.githubusercontent.com/judithabk6/Clonesig_analysis/master/external_data/TCGA_WES_sigProfiler_SBS_signatures_in_samples.csv')
-
-with zipfile.ZipFile(OUT / 'published_poulos.zip') as z:
-    luad = pd.concat([pd.read_csv(z.open('SI Fig5a Underlying Data (LUAD ' + group + ').txt'), sep='\t') for group in ['mutant', 'wildtype']])
-luad = luad.rename(columns={'SampleID': 'PATIENT', 'Signature 4': 'SBS4'})
-luad['PATIENT'] = luad.PATIENT.str[:12]
-compare('published_Poulos2018_LUAD4', 'TCGA', 'LUAD', luad, 'rev/published_poulos.zip',
-        'Published patient-identified LUAD SBS4 proportions from Fig5a (both groups). Full30x7815 S2 matrix has cancer labels but no sample IDs; do not assign IDs by row/column order.',
-        'https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007779')
 
 data = pd.DataFrame(metrics)
 for (method, _), idx in data.groupby(['method', 'cohort']).groups.items():
-    if method == 'published_Poulos2018_LUAD4':
-        continue  # One available published target, not a full-panel screen.
     # Complete planned 210 pair family, including absent/nonestimable targets as p=1.
     for arm in ['original', 'alternative']:
         p = data.loc[idx, arm + '_p_one_sided'].fillna(1).to_numpy()
@@ -158,13 +109,9 @@ summary.to_csv(OUT / 'signature_summary.tsv', sep='\t', index=False)
     original14_source='rev/paired_metrics.tsv',
     original14_sha256=hashlib.sha256((OUT / 'paired_metrics.tsv').read_bytes()).hexdigest(),
     comparison='Fixed current manuscript scores; one-to-one patient matching within cohort and cancer; same matched patients for original and alternative targets.',
-    statistics='Pearson r; Fisher 95% CI; positive-direction raw P; BH within each source/cohort planned210 screen, NE treated as1 for adjustment and displayed missing. Single published LUAD4 comparison has raw P only.',
+    statistics='Pearson r; Fisher 95% CI; positive-direction raw P; BH within each source/cohort planned210 screen, NE treated as1 for adjustment and displayed missing.',
     reference_mapping='Only exact SBS names compared; changed profiles are not assumed identical. Missing/split signatures are not summed or filled with zero.',
     interpretation='These are target-source sensitivity comparisons, not retrained-model performance estimates. Source catalogues, eligibility, normalization and sparsity can differ.',
-    public_TCGA_mirror='https://raw.githubusercontent.com/xsliulab/Pan-cancer_CNA_signature/main/data/PCAWG/TCGA_WES_sigProfiler_SBS_signatures_in_samples.csv',
-    public_TCGA_mirrors_identical=(OUT/'published_tcga_author.csv').read_bytes()==(OUT/'published_tcga_mirror.csv').read_bytes(),
-    public_Poulos_download='https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=info:doi/10.1371/journal.pgen.1007779.s010',
-    published_CPTAC='Dou2020 method identified, but patient-level signature matrix not obtained/verified; no published CPTAC exposure comparison is claimed.',
 ), indent=2))
 with pd.ExcelWriter(OUT / 'Signature_compare.xlsx', engine='xlsxwriter') as writer:
     for sheet, frame in [('Summary', summary), ('Comparisons', data), ('Sources', pd.DataFrame(sources))]:

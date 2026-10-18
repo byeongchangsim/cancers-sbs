@@ -20,7 +20,7 @@
 | Figure 4 | `rev/clinical_fig.py` and its retained layout dependency | Final clinical scores and Data S2 |
 | Figure S1 | `rev/s1_rows.py` | All 210 associations in `rev/paired_metrics.tsv` |
 | Figures S2–S5 | `rev/supp.py`, `rev/legends.py` | Distributions, sensitivity, clinical and attention records |
-| Supplementary workbook presentation | `rev/readable_data.py`, `rev/data_published.py` | Published copies in `data/` |
+| Supplementary workbook presentation | `rev/readable_data.py` | Published copies in `data/` |
 
 ## Original execution paths
 
@@ -36,6 +36,6 @@ The original preprocessing path `/home/end2end-WSI-preprocessing-1.0.0-preproces
 4. For tumour-labelled sensitivity, run `rev/infer.py` for each cancer using the original checkpoints. For the clinical SBS6 readout, run `rev/sbs6_kread.py 0`, `1` and `2`, followed by `rev/sbs6_kread.py aggregate`. The kernel-ridge readout is evaluated against MSI labels after exposure-based fitting and selection. SBS10 remains the primary ensemble score.
 5. Use `python reproduce.py` to recalculate the reported result tables from included derived data. This is the supported self-contained entry point. The original revision scripts retain intermediate workbook dependencies and their historical output locations, so they should not be run indiscriminately against a submission folder.
 
-The original `rev/signature_compare.py` also contains historical exploratory sources beyond the four alternatives in the final supplement. The portable entry point restricts its comparison to the four reported methods and the same patient matches. It does not refit image models or combine split signatures. The original source remains available to document the broader analysis history.
+`rev/signature_compare.py` and its saved comparison table are restricted to the four alternatives reported in the final supplement. The comparison calculations and patient matching are unchanged. `source_manifest.tsv` records the source-file checksum in `source_sha256` and the distributed-file checksum in `sha256`. The comparison does not refit image models or combine split signatures.
 
 Figure S5 weights describe one MIL component at sampled coordinates. They are not tissue labels or the contribution of a region to the full ensemble. Expert pathology review was not performed.
