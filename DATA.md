@@ -10,7 +10,7 @@ Patient identifiers are the source repository identifiers used for matching. TCG
 | `rev/fold_assignments.tsv` | Train, inner-validation and outer-test roles in 105 cancer/seed/fold contexts |
 | `rev/slide_manifest.tsv` | 5,135 TCGA and 2,239 CPTAC source slides with patient links and specimen annotations |
 | `rev/tumour_scores.tsv` | Restricted-input scores for 570 CPTAC patients |
-| `rev/clinical_revision_scores.tsv` | Fixed clinical scores and endpoint labels for the revision comparisons. Rows repeat when a patient participates in both MANTIS definitions |
+| `rev/clinical_revision_scores.tsv` | Primary SBS6/SBS10 scores and endpoint labels for the revision comparisons. Rows repeat when a patient participates in both MANTIS definitions |
 | `rev/mutation_counts.tsv` | Genomic-sample substitution counts and eligibility indicators |
 | `data/alternative_sources.tsv` | The 56 method/cohort/cancer target tables used for four alternative signature comparisons |
 | `rev/attention_cases.tsv`, `rev/attention_tiles.tsv` | Eight displayed cases, selected source/model identifiers, sampled coordinates and attention weights |

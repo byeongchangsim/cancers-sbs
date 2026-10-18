@@ -26,7 +26,7 @@ The recorded check reproduced the 14 positive associations with nominal P < 0.05
 | Analysis steps, original commands and manuscript mapping | [WORKFLOW.md](WORKFLOW.md) |
 | Included data, identifiers and external inputs | [DATA.md](DATA.md) |
 | Current Supplementary Data S1–S3 | `data/` |
-| Revision statistics, sensitivity, SBS6 readout and attention | `rev/` |
+| Revision statistics, sensitivity, clinical assessment and attention | `rev/` |
 | Model training, prediction and averaging | Root `run_full210_*` and `build_full210_*` scripts and their imported modules |
 | Slide preprocessing and feature extraction | `preprocessing/`, `extract_ctranspath_from_existing_cache_20260527.py`, `sigprofiler_improved_20260818/scripts/` |
 | Original SBS estimation and alternative estimates | `cptac_sigprof/`, `sigfit_poulos2018_20260726/`, `scripts/` |

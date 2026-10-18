@@ -171,18 +171,18 @@ def genomic(pdf):
     for label, color, text in [(0, GREY, 'MANTIS-negative'), (1, TEAL, 'MANTIS-positive')]:
         values = sample.loc[sample.label == label, 'score']
         ax.hist(values, bins=18, density=True, alpha=.5, color=color, label=f'{text} (n={len(values)})')
-    ax.set_title('(c) TCGA final SBS6 clinical scores', loc='left')
-    ax.set_xlabel('Exposure-trained SBS6 regression score'); ax.set_ylabel('Density'); ax.legend(fontsize=8)
+    ax.set_title('(c) TCGA primary SBS6 scores', loc='left')
+    ax.set_xlabel('Primary SBS6 score'); ax.set_ylabel('Density'); ax.legend(fontsize=8)
     ax = axes[1, 1]
     for co, rule, color, text in [('TCGA', 'Original gray-zone exclusion', TEAL, 'TCGA primary MSI'), ('TCGA', 'Published 0.4 threshold', GOLD, 'TCGA MANTIS 0.4'), ('CPTAC', 'Source-published MSI-H versus MSS', GREY, 'CPTAC MSI')]:
         d = final_scores[(final_scores.cohort == co) & (final_scores.endpoint == 'MSI') & (final_scores.rule == rule)]
         fpr, tpr, _ = roc_curve(d.label, d.score)
         ax.plot(fpr, tpr, color=color, lw=1.4, label=f'{text}, AUC={roc_auc_score(d.label,d.score):.3f}')
     ax.plot([0,1],[0,1],'--',color='#b6bfc4',lw=.8);ax.set_xlim(0,1);ax.set_ylim(0,1)
-    ax.set_title('(d) Final MSI discrimination', loc='left');ax.set_xlabel('False positive rate');ax.set_ylabel('True positive rate');ax.legend(loc='lower right',fontsize=8)
+    ax.set_title('(d) MSI discrimination', loc='left');ax.set_xlabel('False positive rate');ax.set_ylabel('True positive rate');ax.legend(loc='lower right',fontsize=8)
     fig.suptitle('Figure S4. Exploratory genomic-feature associations and MANTIS sensitivity', fontsize=16, y=.98)
     finish(pdf, fig, 'supp4_genomic', 4,
-           'MSI is evaluated using the final continuous-SBS6-trained kernel regression readout; no MSI labels enter fitting or selection. The primary SBS10 score evaluates the original exact-list POLE OR POLD1 endpoint in the complete sequenced CPTAC profile: six positives (five P286R and one V411L) and 76 qualifying-list negatives. Panel b holds the clinical SBS6 score fixed while comparing the primary MANTIS rule and the 0.4 threshold. Panels c–d show the final MSI scores and ROC curves. Endpoint estimates and uncertainty are reported in Data S3; endpoint definitions remain in Data S2.')
+           'MSI is evaluated using the unchanged primary SBS6 score. The primary SBS10 score evaluates the original exact-list POLE OR POLD1 endpoint in the complete sequenced CPTAC profile: six positives (five P286R and one V411L) and 76 qualifying-list negatives. Panel b holds the primary SBS6 score fixed while comparing the primary MANTIS rule and the 0.4 threshold. Panels c–d show the primary SBS6 scores and ROC curves. Endpoint estimates and uncertainty are reported in Data S3; endpoint definitions remain in Data S2.')
 
 
 def attention(pdf):

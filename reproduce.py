@@ -107,9 +107,13 @@ def main():
 
     clinical = []
     for (co, endpoint, rule), d in read('clinical_revision_scores').groupby(['cohort', 'endpoint', 'rule']):
+        primary_scores = patients[(patients.cohort == co) & (patients.cancer == 'UCEC')].set_index('PATIENT')
+        signature = 'SBS6' if endpoint == 'MSI' else 'SBS10'
+        np.testing.assert_allclose(d.score, d.PATIENT.map(primary_scores['prediction_'+signature]), rtol=0, atol=1e-14)
         pos, neg = d.loc[d.label == 1, 'score'].to_numpy(), d.loc[d.label == 0, 'score'].to_numpy()
         wins = (pos[:,None] > neg).astype(float) + .5 * (pos[:,None] == neg)
-        rng = np.random.default_rng(20261013)
+        seed = 20261011 if co == 'TCGA' and endpoint == 'MSI' and rule == 'Original gray-zone exclusion' else 20261013
+        rng = np.random.default_rng(seed)
         draws = [wins[np.ix_(rng.integers(len(pos), size=len(pos)),
                             rng.integers(len(neg), size=len(neg)))].mean() for _ in range(10000)]
         lo, hi = np.quantile(draws, [.025, .975])

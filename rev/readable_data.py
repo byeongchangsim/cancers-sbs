@@ -194,9 +194,9 @@ def main():
     # Correct citation numbers against the current manuscript reference list.
     details=s1['cohort_details']
     for row in details:
-        if row[0].value=='TCGA clinical characteristics': row[6].value=row[6].value.replace('[37]','[38]')
-        if row[0].value=='TCGA slide interpretation': row[6].value=row[6].value.replace('[38]','[39]')
-        if row[0].value=='TCGA slide annotations': row[1].value=row[1].value.replace('[38]','[39]')
+        if row[0].value=='TCGA clinical characteristics': row[6].value=row[6].value.replace('[38]','[37]')
+        if row[0].value=='TCGA slide interpretation': row[6].value=row[6].value.replace('[39]','[38]')
+        if row[0].value=='TCGA slide annotations': row[1].value=row[1].value.replace('[39]','[38]')
     s1['model_settings']['A2'] = s1['model_settings']['A2'].value + ' Complete 210-pair association results are in Data S3 (paired_metrics).'
     s1['model_settings'].row_dimensions[2].height=80
     s1.save(OUT/'Supplementary_Data_S1.xlsx')
@@ -224,7 +224,7 @@ def main():
         'tumour_sensitivity':('Paired tumour-labelled-slide input sensitivity',
             'Across seven cancer types, 570 CPTAC patients were compared using both input conditions: 2,221 all-input slides versus 1,509 tumour-labelled slides. Ten patients lacking tumour-labelled inputs were excluded only here; the primary cohort remains 580. Restriction uses source-slide annotations. CI: 95% Fisher-z interval. P values are one-sided; BH adjustment covers all 210 restricted-input tests. Change in r = tumour-labelled minus all-slide r. The final column correlates the two sets of image scores. Blank statistics indicate constant values.'),
         'clinical_revision':('Exploratory external and MANTIS-sensitivity results',
-            'Figure S4. MSI uses the final continuous-SBS6-trained clinical score; polymerase status uses the primary SBS10 score and the same qualifying POLE OR POLD1 list as Data S2. The primary MANTIS rule is <0.4 negative/>0.6 positive (0.4–0.6 excluded); the alternative is ≤0.4 negative/>0.4 positive. CPTAC labels are source-published MSI-H/MSS. AUC: area under the ROC curve; CIs use 10,000 class-stratified patient-bootstrap replicates. P values are unadjusted two-sided Mann–Whitney U tests. All analyses are exploratory.'),
+            'Figure S4. MSI uses the unchanged primary SBS6 score; polymerase status uses the primary SBS10 score and the same qualifying POLE OR POLD1 list as Data S2. The primary MANTIS rule is <0.4 negative/>0.6 positive (0.4–0.6 excluded); the alternative is ≤0.4 negative/>0.4 positive. CPTAC labels are source-published MSI-H/MSS. AUC: area under the ROC curve; CIs use 10,000 class-stratified patient-bootstrap replicates. P values are unadjusted two-sided Mann–Whitney U tests. All analyses are exploratory.'),
         'distributions':('SBS exposure and model-score distributions',
             'Figure S2. Each row summarises one cohort, cancer type, SBS signature and measurement. Exposure is the observed genomic proportion (0–1); Score is the standardised image-derived score. Non-zero counts and zero percentages apply to the indicated measurement. Percentages are displayed from stored fractions (0–1). Quartiles and medians are patient-level summaries; standard deviations use the population definition (ddof=0).'),
         'mutation_summary':('Genomic sample eligibility and mutation counts',
@@ -274,7 +274,7 @@ def main():
         'source_fields_in_header_comments':True,
         'visible_sheet_titles_definitions_and_statistics':True,
         'numeric_precision_only_changes_display':True,
-        'source_citation_numbers_updated_to_manuscript':{'TCGA_CDR':38,'TCGA_pathology':39},
+        'source_citation_numbers_updated_to_manuscript':{'TCGA_CDR':37,'TCGA_pathology':38},
         'S3_repeated_metadata_moved_to_visible_notes':True,
     }
     (ROOT/'rev/xlsx_check.json').write_text(json.dumps(report,indent=2)+'\n')
@@ -297,12 +297,12 @@ def polish_sheets():
             'Inputs comprise 2,221 and 1,509 source slides, respectively. Restriction uses slide annotations. Change in r = tumour-labelled minus all-slide Pearson r.\n'
             'CI: Fisher-z 95% confidence interval. P values are one-sided. BH adjustment covers 210 restricted-input tests. Blank statistics indicate constant values.'),
         'clinical_revision': (
-            'Exploratory MSI and POLE/POLD1 analyses (Figure S4). MSI uses the exposure-trained SBS6 score. POLE/POLD1 uses the primary SBS10 score and the variant list in Data S2.\n'
+            'Exploratory MSI and POLE/POLD1 analyses (Figure S4) use the unchanged primary SBS6 and SBS10 scores, respectively. Qualifying polymerase variants are listed in Data S2.\n'
             'Primary MANTIS rule: <0.4 negative, >0.6 positive; 0.4–0.6 excluded. Alternative rule: ≤0.4 negative, >0.4 positive. CPTAC uses published MSI-H/MSS labels.\n'
             'AUC: area under the ROC curve. CIs use 10,000 class-stratified bootstrap replicates. P values are unadjusted, two-sided Mann–Whitney U tests.'),
         'distributions': (
             'Patient-level distributions of genomic SBS exposure (proportion) and standardised image-derived scores (Figure S2).\n'
-            'Non-zero counts and zero percentages refer to the measurement in each row. Standard deviations use the population definition.'),
+            'Non-zero exposure counts and zero-exposure percentages describe target sparsity and are reported only for exposure rows.'),
         'mutation_summary': (
             'SNV: single-nucleotide variant. Genomic eligibility requires >50 substitutions in at least one sample.\n'
             'Mutation counts describe included genomic samples; patients and samples are counted separately. Cohort selection is detailed in Data S1.'),
@@ -395,6 +395,15 @@ def compact_s3():
     """Keep the reported results and remove redundant or unused columns only."""
     path = OUT / 'Supplementary_Data_S3.xlsx'
     before = load_workbook(path)
+    distributions = before['distributions']
+    columns = {c.value: c.column for c in distributions[4]}
+    for old, new in [('Non-zero values (n)', 'Non-zero exposure (n)'),
+                     ('Zero values (%)', 'Zero exposure (%)')]:
+        column = columns.get(old, columns.get(new))
+        distributions.cell(4, column, new)
+        for row in range(5, distributions.max_row + 1):
+            if distributions.cell(row, columns['Measurement']).value == 'Score':
+                distributions.cell(row, column).value = None
     drop = {
         'paired_metrics': [co + '\n' + field for co in ('TCGA', 'CPTAC')
                            for field in ('Non-zero exposure (n)', 'Spearman P (two-sided)')],
