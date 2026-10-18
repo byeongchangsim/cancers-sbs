@@ -1,0 +1,16 @@
+{
+  "cancer": "LUSC",
+  "all_patients": 103,
+  "tumour_labelled_patients": 103,
+  "excluded_no_tumour_label": 0,
+  "all_slides": 453,
+  "tumour_slides": 288,
+  "baseline_max_absolute_error": 2.184224546120106e-05,
+  "original_bag_replay": true,
+  "original_checkpoint_hashes_verified": true,
+  "seconds": 75.43801767006516,
+  "MIL_training": false,
+  "ridge": "Original deterministic TCGA fit replay, verified against stored primary ensemble for every context",
+  "scaling": "Original inner-validation means and SD retained",
+  "scope": "CPTAC inference restriction; slide labels do not define pixel-level tumour regions"
+}

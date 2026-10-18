@@ -1,0 +1,16 @@
+{
+  "cancer": "UCEC",
+  "all_patients": 82,
+  "tumour_labelled_patients": 82,
+  "excluded_no_tumour_label": 0,
+  "all_slides": 322,
+  "tumour_slides": 208,
+  "baseline_max_absolute_error": 2.2313498149933997e-05,
+  "original_bag_replay": true,
+  "original_checkpoint_hashes_verified": true,
+  "seconds": 37.11832154355943,
+  "MIL_training": false,
+  "ridge": "Original deterministic TCGA fit replay, verified against stored primary ensemble for every context",
+  "scaling": "Original inner-validation means and SD retained",
+  "scope": "CPTAC inference restriction; slide labels do not define pixel-level tumour regions"
+}

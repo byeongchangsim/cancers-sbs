@@ -1,0 +1,16 @@
+{
+  "cancer": "HNSC",
+  "all_patients": 104,
+  "tumour_labelled_patients": 104,
+  "excluded_no_tumour_label": 0,
+  "all_slides": 359,
+  "tumour_slides": 246,
+  "baseline_max_absolute_error": 2.4525893865812165e-05,
+  "original_bag_replay": true,
+  "original_checkpoint_hashes_verified": true,
+  "seconds": 53.953422678634524,
+  "MIL_training": false,
+  "ridge": "Original deterministic TCGA fit replay, verified against stored primary ensemble for every context",
+  "scaling": "Original inner-validation means and SD retained",
+  "scope": "CPTAC inference restriction; slide labels do not define pixel-level tumour regions"
+}

@@ -1,0 +1,939 @@
+PATIENT	score	label	mantis	cohort	endpoint	rule	MSI_STATUS	pole_positive	pold1_positive	POLE_EVENT_DETAILS	POLD1_EVENT_DETAILS
+TCGA-2E-A9G8	0.5630855423011348	0	0.3234	TCGA	MSI	Original gray-zone exclusion					
+TCGA-4E-A92E	-0.2074961932278009	0	0.3396	TCGA	MSI	Original gray-zone exclusion					
+TCGA-5B-A90C	0.5510352280296126	0	0.3344	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0G5	0.0444733303137185	0	0.2625	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0G9	0.5983600667311912	1	0.6507	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GB	0.6645590515609311	1	1.0919	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GJ	1.9021613891495628	0	0.2959	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GM	-0.1077316515008281	0	0.2497	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GN	0.9394661218750168	0	0.2642	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GP	0.1647596000667252	0	0.2524	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GQ	0.0857339071869677	0	0.261	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GU	-0.6709167579001815	0	0.286	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GV	0.3102059610897492	0	0.263	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0GW	0.1349512476476608	1	0.6829	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0R6	-1.2910821265002914	0	0.2949	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0R7	0.8084548672356971	0	0.2748	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0R8	-0.3733870956307621	0	0.2859	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0R9	-0.0462580309312802	0	0.2815	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0RA	0.5060977217365368	0	0.2688	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A0VQ	1.115781306739532	1	0.6689	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A1OJ	0.567161695023855	0	0.2921	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A1OK	0.7818007622968665	0	0.2684	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A2K2	0.1077529509663249	0	0.2927	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A2K4	-1.399711365665513	0	0.2858	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A2K5	0.3585691382262754	0	0.2961	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A2K7	-0.2275536108070901	1	0.9748	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A3LP	-0.7786873573388036	0	0.3022	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-A7WK	-0.8580750819020947	0	0.3449	TCGA	MSI	Original gray-zone exclusion					
+TCGA-A5-AB3J	-0.2763141534048161	0	0.328	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A23M	-0.576177740626435	0	0.3253	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A23N	0.2188832537972939	0	0.328	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A23O	0.5667634418277133	1	0.8244	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A2QK	0.3777957443165705	0	0.2833	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A2QL	1.0457213792575817	0	0.3116	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A2QM	-1.4471057980751196	0	0.3159	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A2QN	-0.0874734394245026	0	0.2877	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3BG	0.1342288252284679	1	1.1057	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3BH	-0.4487391497944843	1	1.0149	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3BI	0.5722708712949652	0	0.2936	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3BK	0.2168042086521149	0	0.2952	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3EJ	-0.2247690291657633	0	0.2933	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3EL	0.2020965651786591	0	0.298	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3EM	-0.4946614736201177	0	0.3264	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3IA	0.440955386970874	0	0.3185	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3NG	-0.809223511820437	0	0.3693	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3OJ	0.5547664568019325	1	0.8896	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3OL	1.1572390619732265	1	0.7708	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A3QS	0.7137518271350941	0	0.2803	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A5DW	0.5369885865698322	0	0.3003	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A6NU	-0.4645223614380078	0	0.3416	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AJ-A8CW	0.2088448515965378	1	0.8784	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A051	0.4671634834868969	1	0.6799	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A052	-0.5472498828852438	0	0.2738	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A054	0.0831870561864473	1	1.04	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A056	1.4302331001853428	0	0.2881	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A059	0.8499150338619236	0	0.3351	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A05A	1.0733757664047174	0	0.2515	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A05H	0.8146176724671506	0	0.3134	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A05J	-0.8818427559370292	0	0.2622	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A05P	0.5065739802146162	0	0.2436	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0L8	0.7630386746402985	0	0.3118	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0L9	0.8438638616918066	0	0.3048	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LD	-0.4145025642489894	1	1.0367	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LE	-0.4880671814244281	1	0.9987	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LF	-1.1141747394803752	0	0.2706	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LG	0.4830021797221717	1	0.7979	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LI	-0.8457102235636212	0	0.27	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LJ	0.7311255734604751	0	0.2669	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LL	-0.8822103185150779	0	0.2821	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LM	0.4750704426028121	0	0.3086	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LN	0.6924885198928624	0	0.2415	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LQ	-0.2089691430781758	0	0.2808	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LS	0.2503940068591727	1	0.8371	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A0LT	1.0927007443242254	1	1.1312	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1DH	1.1004664506414783	1	0.7077	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1DM	0.1149093455655255	1	0.6163	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1DO	0.0895401555498532	1	0.8996	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1DP	-0.0591976596399745	1	0.8032	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1E0	1.2425461533286462	0	0.2856	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A1E3	1.850333863474237	0	0.2838	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AP-A5FX	0.3866191095561087	0	0.2855	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AW-A1PO	0.618585506363824	0	0.3268	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A05S	0.1809944699467465	1	0.846	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A05T	-0.3364706581756949	0	0.2436	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A05W	-0.1987972825785855	0	0.2715	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A05Z	-0.0019053517906747	0	0.2617	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A063	-0.0646846996010148	1	0.922	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A06B	-0.5762609068331218	0	0.2743	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A06F	1.6794343965624032	0	0.3375	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A06H	-0.1069349746774768	1	0.6159	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A06J	-0.1006780893937882	0	0.2922	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A06L	-0.8772806954427165	0	0.2699	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A0IS	-0.123975435514152	0	0.2846	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A0IU	-0.7017365039833532	0	0.289	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A0IW	-0.2045963167212158	0	0.2889	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A0J0	-0.3529980046740281	0	0.3	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A0J1	-0.4423253165446864	1	0.7195	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1C4	-1.385238948451077	1	1.0651	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1C5	1.1359157658894172	1	0.6802	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1C7	-1.0651646710163494	0	0.3124	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CA	-0.0712016770436597	0	0.3043	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CE	-0.1630078924358545	1	0.6541	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CF	0.8740614303849957	0	0.2825	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CI	-0.0498257615089709	0	0.333	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CJ	0.0957027870789688	0	0.2804	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A1CK	0.4817854429037682	0	0.2799	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2H2	-0.2150489965528441	0	0.292	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2H5	-0.4623413410073502	0	0.3194	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2HD	-0.7485636235346401	1	0.9828	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2HG	-1.347189374051301	1	0.9147	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2HJ	0.3756784605961008	1	1.1152	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2HK	-0.2475566265484188	0	0.3002	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2IN	0.1161567898516807	1	0.7682	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A2IO	0.1077685771505467	0	0.2914	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3FS	0.1784372285455678	1	1.0475	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3FT	0.7816051962961689	1	0.8254	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3FW	0.4153394069903329	0	0.3134	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3FX	-0.3276306715526723	0	0.2922	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3FZ	-0.769903895227928	0	0.336	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3G1	-0.6581960034929711	0	0.3099	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3G4	0.766099168796468	0	0.3004	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3G8	0.8663472565451856	1	0.9574	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3G9	1.3726650579057136	1	1.016	TCGA	MSI	Original gray-zone exclusion					
+TCGA-AX-A3GB	-1.107071425340859	0	0.3008	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JN	-0.0517571561041591	0	0.3115	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JR	0.8337946549344716	1	0.8081	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JT	-0.347963477304943	0	0.2672	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JU	0.0498766037395294	1	0.8228	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JV	-0.1164549430682845	1	0.6077	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JX	-0.4171183751822994	0	0.2686	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JY	0.4759815549464166	0	0.3015	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0JZ	0.457884503222304	1	0.7918	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K1	0.0408961474118518	0	0.2459	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K3	-0.2468143010983642	0	0.2639	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K4	-0.5105541406642417	0	0.2551	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K7	0.7286196649027827	0	0.2724	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K8	-0.927883223578604	0	0.3173	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A0K9	0.0575421063446975	1	0.7746	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11E	0.4157725156110951	0	0.3566	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11F	-0.3436099468163465	0	0.2879	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11G	0.7595779327342473	1	0.862	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11H	-0.2879188071499115	1	0.9954	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11I	-0.5750086634054449	0	0.2907	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11J	-0.0710852328114959	1	0.7092	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11L	-0.371383377907	0	0.3009	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11N	0.3484805272887988	0	0.259	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11O	-0.310004842929524	0	0.2876	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11Q	0.0389944053176613	0	0.2746	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11R	0.2935254623450834	0	0.2964	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11S	-0.1799545990724894	0	0.2571	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11U	-0.0338377257260577	1	0.7585	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11V	-0.1457678399624713	0	0.2837	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A11Z	-0.585735374444914	0	0.2746	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MR	-0.3277784472082946	0	0.3618	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MS	0.2720388510425555	0	0.3021	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MV	0.3863769011218361	0	0.3134	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MW	0.265340720744113	1	0.8113	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MX	-0.1670305610839532	1	0.8573	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MY	-1.1505519366904435	0	0.3174	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A1MZ	-0.8463117866561364	0	0.2827	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A3F9	-0.776344875834305	0	0.2781	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A3FB	-0.8985967505872058	0	0.2756	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A3FD	-0.1750307438987198	0	0.2815	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A3FH	0.27846607266314	0	0.2786	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A3S1	-0.5765554781164622	0	0.3135	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A5OC	-0.1654589244729549	1	0.6411	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A5OD	-0.485380622819624	0	0.3578	TCGA	MSI	Original gray-zone exclusion					
+TCGA-B5-A5OE	-0.8493371801476456	0	0.3429	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0LX	0.9878837623443903	1	0.8188	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0M3	-0.8285359125372297	0	0.277	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0M4	-1.1915378890581385	1	0.8536	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0M6	0.0811097874952928	0	0.3034	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0M7	-0.870044140706785	0	0.2483	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MC	-0.6015397068290899	0	0.2669	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MG	-0.5284597293795161	0	0.2676	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MI	0.1768853775033973	0	0.2475	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MK	-0.1677692324907854	0	0.3119	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MO	-1.070651467566591	0	0.237	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MQ	0.1892479755662609	1	0.8335	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0MU	-0.3537913924343518	0	0.2799	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0VX	0.0677636972943285	0	0.2605	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0VZ	0.1629722447999683	1	0.757	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0W1	0.2541700236588224	0	0.3122	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A0YV	-0.7117021514207393	0	0.2924	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A18A	-0.4741846239115519	0	0.2765	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A18B	-0.3537939517133354	1	0.8185	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A18C	0.5722649950513682	0	0.2796	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A222	1.623471735885909	1	1.1195	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A2AE	-0.6589855941014187	0	0.3042	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BG-A2L7	0.1574400605858214	1	0.8115	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A0CA	0.6000423230195077	0	0.3061	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A0CB	-0.1865574311075713	0	0.2778	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A0CC	-0.834369785486845	0	0.3195	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A139	-0.0602925729612508	0	0.2959	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A13B	0.7582842164007234	1	0.8641	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A13C	0.9777793497147892	0	0.2743	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A26L	-0.916591414212561	0	0.3083	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A4ZD	-0.7926767427164109	0	0.3226	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A56F	0.9205721168075724	0	0.297	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BK-A6W3	-0.9973840673544974	0	0.3435	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0T9	-0.5560071121297604	0	0.2737	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0TC	0.3985761297456997	0	0.2784	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0TG	-0.0155640859822675	0	0.2899	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0TI	0.8969945052955784	0	0.3761	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0TJ	0.6415761723757978	1	0.9925	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0U5	0.2228403081911624	0	0.2767	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0U7	0.4671678773343621	0	0.3873	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0U8	0.8372750504169907	1	0.8033	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0UF	-0.3672565320646768	0	0.3009	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0UJ	-0.3728864796332471	0	0.3517	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0UV	-0.3468115140739865	0	0.2839	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0V4	0.5733159177349015	1	0.6106	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0V6	0.555396496889207	0	0.2612	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0V7	0.3305079801854438	0	0.2599	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0V8	0.299201752872474	0	0.2631	TCGA	MSI	Original gray-zone exclusion					
+TCGA-BS-A0WQ	-0.1116049308931932	0	0.2671	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZN	0.2011270688959438	0	0.2645	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZO	0.4923381642708349	1	0.7496	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZQ	-0.6545530202755745	0	0.2599	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZR	0.6631264738837893	0	0.2979	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZS	1.1281990725325837	1	0.7448	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZV	0.466329910936787	0	0.2787	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A0ZZ	-0.4733858027365487	0	0.3019	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A102	0.3608321498245878	0	0.2975	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A15V	-0.019738065795395	0	0.2688	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A160	-0.2227082422279327	1	0.6785	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A163	-0.2132140259460357	1	0.9412	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A167	-0.6635047949346797	1	0.9382	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A168	0.2856659384293792	0	0.2875	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A169	0.0923373251328073	0	0.2669	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16B	-0.8252586073805026	0	0.2725	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16E	-0.6925867487415857	0	0.2678	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16G	-0.0350569523984297	0	0.2742	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16J	0.4772615711459622	0	0.2648	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16N	0.6626131023177368	0	0.3686	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16S	-1.0957870592619192	0	0.2503	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16V	0.4825483315957211	0	0.2571	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A16Y	0.0555501130506887	0	0.279	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A174	0.4584783899161782	1	0.9107	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A176	0.624368801157288	1	0.6796	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17C	0.3525670967401799	0	0.2689	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17D	0.266371622579665	1	0.6777	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17F	-0.2368793607059149	0	0.3968	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17H	0.419363784589312	1	0.8869	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17K	-0.1373113088303637	0	0.2804	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17L	-0.1742905188082539	0	0.2703	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17Q	0.7360193066421293	0	0.2907	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17S	-0.3108448212373423	0	0.265	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17T	0.3361125442465272	0	0.2691	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A17U	-0.3219993256817595	1	0.792	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1NU	-0.5836179727600349	0	0.3328	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1NX	-0.4773839867859457	0	0.3074	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1NY	0.0474657405993166	1	0.9023	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1NZ	0.2831672124158327	1	0.898	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1O0	0.1132509775271248	0	0.3044	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1O5	0.4208054852364606	0	0.2812	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A1O7	-0.2678695438884431	1	0.6161	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A2G0	0.6746412332004388	1	0.938	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A2G7	-0.6659621314402359	0	0.2867	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A3DA	-0.3406494417857059	0	0.3098	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A3DG	0.6498477598570217	0	0.2964	TCGA	MSI	Original gray-zone exclusion					
+TCGA-D1-A3JQ	-0.1876091250783872	0	0.3422	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2KN	0.5374066031392691	1	0.8466	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2KS	0.0179010476261329	0	0.3045	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2KU	0.2448923008192295	0	0.3546	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2KV	1.0509943492045928	0	0.288	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2KZ	-0.4994469687274163	1	0.715	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DF-A2L0	-0.3490266704661608	0	0.3109	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A0WH	0.4996097787642151	1	0.7904	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A1BU	0.3724609932382958	1	0.991	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A1BY	0.2353659286826535	0	0.2991	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A1C3	0.3578346343641527	0	0.2916	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A1NN	0.2345296613985341	0	0.3003	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A1NO	0.1517730143415147	0	0.3418	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A2QU	-0.1746955799646343	0	0.3052	TCGA	MSI	Original gray-zone exclusion					
+TCGA-DI-A2QY	-1.2791793080320015	0	0.301	TCGA	MSI	Original gray-zone exclusion					
+TCGA-E6-A1LX	-0.1577715567272779	0	0.3376	TCGA	MSI	Original gray-zone exclusion					
+TCGA-E6-A1LZ	-1.6665152391263114	0	0.3134	TCGA	MSI	Original gray-zone exclusion					
+TCGA-E6-A1M0	-0.5554423248488222	0	0.2895	TCGA	MSI	Original gray-zone exclusion					
+TCGA-E6-A2P8	-0.4029833794521535	1	0.6942	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EC-A1QX	0.560889578392913	1	0.6203	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A1Y5	-0.6447458207927252	0	0.3174	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A1Y7	-0.015818825211147	0	0.3284	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A1Y8	-0.8113096603928605	0	0.302	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A22R	-0.5439797571173374	0	0.3971	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A22S	0.832349770915227	1	0.9162	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A22T	-0.3655374695497804	1	0.7835	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A22X	0.6956486497466342	0	0.3086	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A2CG	-1.3083018818594248	0	0.2776	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A2CH	-1.2378768093386583	0	0.3164	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3AS	-0.8619033077500604	0	0.3139	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3AU	-0.1181361464529658	1	0.8955	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3AV	-0.1718357357474351	0	0.2853	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3AY	0.7564721054269944	0	0.2784	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3AZ	0.5359104914948273	1	0.6422	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3B0	0.6823944756428352	0	0.3052	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3B1	-0.5494952589731995	0	0.2923	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3KU	0.3248778271985622	0	0.3216	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3KW	-0.9963718605334114	0	0.3047	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EO-A3L0	0.6875359769740778	0	0.2865	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GC	-0.5257402649825288	0	0.2988	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GD	0.19487292901532	0	0.2816	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GF	0.6091648586114573	1	0.7116	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GH	1.0643599878640555	0	0.2897	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GI	-0.4760138881394256	0	0.2889	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GJ	-0.5861282591541949	0	0.2833	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GL	-0.3313712615341765	0	0.2939	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GM	0.4497442896880797	0	0.2797	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GP	1.4931308777071333	0	0.3006	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GQ	0.0898678726887834	1	0.6634	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GR	-0.6664170795555578	0	0.281	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GS	-0.362369461519559	0	0.3141	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GU	-0.6512936245557743	1	0.9342	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GV	-0.6999475269366536	0	0.2862	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1GX	-0.2068338023447209	0	0.3021	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A1H0	-0.0268311808354529	1	0.941	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A210	-1.585118468034807	0	0.2829	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A212	-0.8985362226047634	0	0.3103	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A214	-1.3353593190864694	0	0.2972	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A215	-0.0299838257109754	1	0.8962	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A2OM	-1.5135923558635198	1	0.9415	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A2ON	-0.1681515881605865	0	0.2803	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A2OO	-0.2114052231443785	0	0.3071	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A2OP	-0.346971064105749	1	0.7773	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A2OQ	-0.917795471951312	0	0.3004	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A3L3	0.0456316315364359	0	0.2962	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A3QX	-0.2579345581623944	0	0.3143	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A4KR	-0.5925958465299471	0	0.2999	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A548	-0.6605298645725269	1	0.8116	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A549	0.7747962397572836	1	0.8695	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A54A	1.5355086627213117	0	0.3081	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A5W2	0.5185985921725165	1	0.9861	TCGA	MSI	Original gray-zone exclusion					
+TCGA-EY-A72D	-0.7228928477680268	0	0.3729	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2CY	-0.6427919376973721	0	0.2839	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2D0	0.3887140449392037	1	0.6227	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2D4	0.9988981254117104	1	0.814	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2D5	0.1473567219932816	0	0.3854	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2D6	0.5739963474319237	1	1.1265	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2EU	-0.1328864523957186	0	0.3271	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2EW	-0.8857701695122455	0	0.322	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2EX	0.0261806744425715	0	0.3055	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2EY	-1.0369905086032425	0	0.3239	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2F4	-0.3467803418012945	1	0.7492	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2F8	0.2333890647029172	0	0.3111	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A2F9	-0.2499513556644165	0	0.3153	TCGA	MSI	Original gray-zone exclusion					
+TCGA-FI-A3PV	-1.4787172119921133	0	0.2839	TCGA	MSI	Original gray-zone exclusion					
+TCGA-H5-A2HR	-0.2147176451623059	0	0.2896	TCGA	MSI	Original gray-zone exclusion					
+TCGA-JU-AAVI	0.9115556332679998	0	0.3208	TCGA	MSI	Original gray-zone exclusion					
+TCGA-K6-A3WQ	-0.144670818678008	0	0.3158	TCGA	MSI	Original gray-zone exclusion					
+TCGA-KP-A3VZ	-1.62141266065398	0	0.3111	TCGA	MSI	Original gray-zone exclusion					
+TCGA-KP-A3W1	-1.1362418495167674	0	0.2968	TCGA	MSI	Original gray-zone exclusion					
+TCGA-KP-A3W4	-0.8258013572201387	0	0.3573	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A5BC	-1.0248648963921976	0	0.3104	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A6IB	0.130425492005509	1	0.6358	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A7D5	0.2592270414959607	0	0.3506	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A914	-0.285236600594304	0	0.3571	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A916	-0.0173255754727734	0	0.3407	TCGA	MSI	Original gray-zone exclusion					
+TCGA-PG-A917	1.4806526528961512	1	0.809	TCGA	MSI	Original gray-zone exclusion					
+TCGA-QF-A5YS	-1.3540069724002992	0	0.323	TCGA	MSI	Original gray-zone exclusion					
+TCGA-QS-A5YQ	-0.1847246921863055	0	0.348	TCGA	MSI	Original gray-zone exclusion					
+TCGA-QS-A744	0.8253392247961617	0	0.3346	TCGA	MSI	Original gray-zone exclusion					
+TCGA-QS-A8F1	1.1310559709291836	0	0.3647	TCGA	MSI	Original gray-zone exclusion					
+TCGA-SJ-A6ZI	0.8924402580868089	1	0.6138	TCGA	MSI	Original gray-zone exclusion					
+TCGA-SL-A6J9	0.1063258900555928	0	0.3503	TCGA	MSI	Original gray-zone exclusion					
+TCGA-SL-A6JA	-0.6503854317112352	1	0.9515	TCGA	MSI	Original gray-zone exclusion					
+TCGA-2E-A9G8	0.5630855423011348	0	0.3234	TCGA	MSI	Published 0.4 threshold					
+TCGA-4E-A92E	-0.2074961932278009	0	0.3396	TCGA	MSI	Published 0.4 threshold					
+TCGA-5B-A90C	0.5510352280296126	0	0.3344	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0G2	-0.3702102636387933	1	0.4003	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0G5	0.0444733303137185	0	0.2625	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0G9	0.5983600667311912	1	0.6507	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GA	1.405984407391503	1	0.5237	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GB	0.6645590515609311	1	1.0919	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GI	0.7803267178082836	1	0.5646	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GJ	1.9021613891495628	0	0.2959	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GM	-0.1077316515008281	0	0.2497	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GN	0.9394661218750168	0	0.2642	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GP	0.1647596000667252	0	0.2524	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GQ	0.0857339071869677	0	0.261	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GU	-0.6709167579001815	0	0.286	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GV	0.3102059610897492	0	0.263	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0GW	0.1349512476476608	1	0.6829	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0R6	-1.2910821265002914	0	0.2949	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0R7	0.8084548672356971	0	0.2748	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0R8	-0.3733870956307621	0	0.2859	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0R9	-0.0462580309312802	0	0.2815	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0RA	0.5060977217365368	0	0.2688	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0VP	-0.6750082034278962	1	0.5739	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A0VQ	1.115781306739532	1	0.6689	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A1OF	0.3673977936689558	1	0.4126	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A1OJ	0.567161695023855	0	0.2921	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A1OK	0.7818007622968665	0	0.2684	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A2K2	0.1077529509663249	0	0.2927	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A2K3	-0.4427880726963629	1	0.4541	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A2K4	-1.399711365665513	0	0.2858	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A2K5	0.3585691382262754	0	0.2961	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A2K7	-0.2275536108070901	1	0.9748	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A3LP	-0.7786873573388036	0	0.3022	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-A7WK	-0.8580750819020947	0	0.3449	TCGA	MSI	Published 0.4 threshold					
+TCGA-A5-AB3J	-0.2763141534048161	0	0.328	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A23M	-0.576177740626435	0	0.3253	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A23N	0.2188832537972939	0	0.328	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A23O	0.5667634418277133	1	0.8244	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A2QK	0.3777957443165705	0	0.2833	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A2QL	1.0457213792575817	0	0.3116	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A2QM	-1.4471057980751196	0	0.3159	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A2QN	-0.0874734394245026	0	0.2877	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3BG	0.1342288252284679	1	1.1057	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3BH	-0.4487391497944843	1	1.0149	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3BI	0.5722708712949652	0	0.2936	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3BK	0.2168042086521149	0	0.2952	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3EJ	-0.2247690291657633	0	0.2933	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3EK	0.390955500663102	1	0.4287	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3EL	0.2020965651786591	0	0.298	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3EM	-0.4946614736201177	0	0.3264	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3IA	0.440955386970874	0	0.3185	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3NG	-0.809223511820437	0	0.3693	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3OJ	0.5547664568019325	1	0.8896	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3OK	1.2002663820079535	1	0.4056	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3OL	1.1572390619732265	1	0.7708	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3QS	0.7137518271350941	0	0.2803	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A3TW	-0.5829105835547583	1	0.4195	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A5DW	0.5369885865698322	0	0.3003	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A6NU	-0.4645223614380078	0	0.3416	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A8CT	-0.6513104688073054	1	0.503	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A8CV	-0.0468332723994736	1	0.5694	TCGA	MSI	Published 0.4 threshold					
+TCGA-AJ-A8CW	0.2088448515965378	1	0.8784	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A051	0.4671634834868969	1	0.6799	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A052	-0.5472498828852438	0	0.2738	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A054	0.0831870561864473	1	1.04	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A056	1.4302331001853428	0	0.2881	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A059	0.8499150338619236	0	0.3351	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A05A	1.0733757664047174	0	0.2515	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A05H	0.8146176724671506	0	0.3134	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A05J	-0.8818427559370292	0	0.2622	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A05N	0.6028672004888151	1	0.5364	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A05P	0.5065739802146162	0	0.2436	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0L8	0.7630386746402985	0	0.3118	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0L9	0.8438638616918066	0	0.3048	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LD	-0.4145025642489894	1	1.0367	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LE	-0.4880671814244281	1	0.9987	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LF	-1.1141747394803752	0	0.2706	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LG	0.4830021797221717	1	0.7979	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LI	-0.8457102235636212	0	0.27	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LJ	0.7311255734604751	0	0.2669	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LL	-0.8822103185150779	0	0.2821	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LM	0.4750704426028121	0	0.3086	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LN	0.6924885198928624	0	0.2415	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LP	-0.4350741437145655	1	0.5949	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LQ	-0.2089691430781758	0	0.2808	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LS	0.2503940068591727	1	0.8371	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A0LT	1.0927007443242254	1	1.1312	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1DH	1.1004664506414783	1	0.7077	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1DM	0.1149093455655255	1	0.6163	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1DO	0.0895401555498532	1	0.8996	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1DP	-0.0591976596399745	1	0.8032	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1E0	1.2425461533286462	0	0.2856	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A1E3	1.850333863474237	0	0.2838	TCGA	MSI	Published 0.4 threshold					
+TCGA-AP-A5FX	0.3866191095561087	0	0.2855	TCGA	MSI	Published 0.4 threshold					
+TCGA-AW-A1PO	0.618585506363824	0	0.3268	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A05S	0.1809944699467465	1	0.846	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A05T	-0.3364706581756949	0	0.2436	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A05W	-0.1987972825785855	0	0.2715	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A05Y	-1.1043214759850604	1	0.5212	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A05Z	-0.0019053517906747	0	0.2617	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A063	-0.0646846996010148	1	0.922	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A064	-0.9134181734807846	1	0.5467	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A06B	-0.5762609068331218	0	0.2743	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A06F	1.6794343965624032	0	0.3375	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A06H	-0.1069349746774768	1	0.6159	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A06J	-0.1006780893937882	0	0.2922	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A06L	-0.8772806954427165	0	0.2699	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A0IS	-0.123975435514152	0	0.2846	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A0IU	-0.7017365039833532	0	0.289	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A0IW	-0.2045963167212158	0	0.2889	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A0J0	-0.3529980046740281	0	0.3	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A0J1	-0.4423253165446864	1	0.7195	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1C4	-1.385238948451077	1	1.0651	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1C5	1.1359157658894172	1	0.6802	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1C7	-1.0651646710163494	0	0.3124	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1C9	-0.4749387892322032	1	0.5573	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CA	-0.0712016770436597	0	0.3043	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CE	-0.1630078924358545	1	0.6541	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CF	0.8740614303849957	0	0.2825	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CI	-0.0498257615089709	0	0.333	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CJ	0.0957027870789688	0	0.2804	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A1CK	0.4817854429037682	0	0.2799	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2H2	-0.2150489965528441	0	0.292	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2H5	-0.4623413410073502	0	0.3194	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2HC	0.4614316811578761	1	0.5408	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2HD	-0.7485636235346401	1	0.9828	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2HG	-1.347189374051301	1	0.9147	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2HJ	0.3756784605961008	1	1.1152	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2HK	-0.2475566265484188	0	0.3002	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2IN	0.1161567898516807	1	0.7682	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A2IO	0.1077685771505467	0	0.2914	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3FS	0.1784372285455678	1	1.0475	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3FT	0.7816051962961689	1	0.8254	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3FW	0.4153394069903329	0	0.3134	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3FX	-0.3276306715526723	0	0.2922	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3FZ	-0.769903895227928	0	0.336	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3G1	-0.6581960034929711	0	0.3099	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3G4	0.766099168796468	0	0.3004	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3G8	0.8663472565451856	1	0.9574	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3G9	1.3726650579057136	1	1.016	TCGA	MSI	Published 0.4 threshold					
+TCGA-AX-A3GB	-1.107071425340859	0	0.3008	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JN	-0.0517571561041591	0	0.3115	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JR	0.8337946549344716	1	0.8081	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JT	-0.347963477304943	0	0.2672	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JU	0.0498766037395294	1	0.8228	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JV	-0.1164549430682845	1	0.6077	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JX	-0.4171183751822994	0	0.2686	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JY	0.4759815549464166	0	0.3015	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0JZ	0.457884503222304	1	0.7918	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K1	0.0408961474118518	0	0.2459	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K2	0.0046662886313966	1	0.522	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K3	-0.2468143010983642	0	0.2639	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K4	-0.5105541406642417	0	0.2551	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K6	0.0600552921101408	1	0.5327	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K7	0.7286196649027827	0	0.2724	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K8	-0.927883223578604	0	0.3173	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A0K9	0.0575421063446975	1	0.7746	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11E	0.4157725156110951	0	0.3566	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11F	-0.3436099468163465	0	0.2879	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11G	0.7595779327342473	1	0.862	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11H	-0.2879188071499115	1	0.9954	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11I	-0.5750086634054449	0	0.2907	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11J	-0.0710852328114959	1	0.7092	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11L	-0.371383377907	0	0.3009	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11N	0.3484805272887988	0	0.259	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11O	-0.310004842929524	0	0.2876	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11Q	0.0389944053176613	0	0.2746	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11R	0.2935254623450834	0	0.2964	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11S	-0.1799545990724894	0	0.2571	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11U	-0.0338377257260577	1	0.7585	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11V	-0.1457678399624713	0	0.2837	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11Y	-0.0065720383436187	1	0.4514	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A11Z	-0.585735374444914	0	0.2746	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MR	-0.3277784472082946	0	0.3618	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MS	0.2720388510425555	0	0.3021	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MV	0.3863769011218361	0	0.3134	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MW	0.265340720744113	1	0.8113	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MX	-0.1670305610839532	1	0.8573	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MY	-1.1505519366904435	0	0.3174	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A1MZ	-0.8463117866561364	0	0.2827	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A3F9	-0.776344875834305	0	0.2781	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A3FB	-0.8985967505872058	0	0.2756	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A3FD	-0.1750307438987198	0	0.2815	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A3FH	0.27846607266314	0	0.2786	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A3S1	-0.5765554781164622	0	0.3135	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A5OC	-0.1654589244729549	1	0.6411	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A5OD	-0.485380622819624	0	0.3578	TCGA	MSI	Published 0.4 threshold					
+TCGA-B5-A5OE	-0.8493371801476456	0	0.3429	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0LX	0.9878837623443903	1	0.8188	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0M0	-0.5797760892807197	1	0.4648	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0M3	-0.8285359125372297	0	0.277	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0M4	-1.1915378890581385	1	0.8536	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0M6	0.0811097874952928	0	0.3034	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0M7	-0.870044140706785	0	0.2483	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MC	-0.6015397068290899	0	0.2669	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MG	-0.5284597293795161	0	0.2676	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MI	0.1768853775033973	0	0.2475	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MK	-0.1677692324907854	0	0.3119	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MO	-1.070651467566591	0	0.237	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MQ	0.1892479755662609	1	0.8335	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0MU	-0.3537913924343518	0	0.2799	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0VW	0.4005796350508719	1	0.5605	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0VX	0.0677636972943285	0	0.2605	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0VZ	0.1629722447999683	1	0.757	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0W1	0.2541700236588224	0	0.3122	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A0YV	-0.7117021514207393	0	0.2924	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A18A	-0.4741846239115519	0	0.2765	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A18B	-0.3537939517133354	1	0.8185	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A18C	0.5722649950513682	0	0.2796	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A222	1.623471735885909	1	1.1195	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A2AE	-0.6589855941014187	0	0.3042	TCGA	MSI	Published 0.4 threshold					
+TCGA-BG-A2L7	0.1574400605858214	1	0.8115	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A0C9	-0.816315067924753	1	0.5893	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A0CA	0.6000423230195077	0	0.3061	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A0CB	-0.1865574311075713	0	0.2778	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A0CC	-0.834369785486845	0	0.3195	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A139	-0.0602925729612508	0	0.2959	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A13B	0.7582842164007234	1	0.8641	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A13C	0.9777793497147892	0	0.2743	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A26L	-0.916591414212561	0	0.3083	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A4ZD	-0.7926767427164109	0	0.3226	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A56F	0.9205721168075724	0	0.297	TCGA	MSI	Published 0.4 threshold					
+TCGA-BK-A6W3	-0.9973840673544974	0	0.3435	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0T9	-0.5560071121297604	0	0.2737	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TA	0.9454948786044902	1	0.5657	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TC	0.3985761297456997	0	0.2784	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TE	0.695451200966284	1	0.4882	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TG	-0.0155640859822675	0	0.2899	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TI	0.8969945052955784	0	0.3761	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0TJ	0.6415761723757978	1	0.9925	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0U5	0.2228403081911624	0	0.2767	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0U7	0.4671678773343621	0	0.3873	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0U8	0.8372750504169907	1	0.8033	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0UA	0.0687747127896644	1	0.5364	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0UF	-0.3672565320646768	0	0.3009	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0UJ	-0.3728864796332471	0	0.3517	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0UL	0.0722596902656418	1	0.4699	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0UV	-0.3468115140739865	0	0.2839	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0V4	0.5733159177349015	1	0.6106	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0V6	0.555396496889207	0	0.2612	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0V7	0.3305079801854438	0	0.2599	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0V8	0.299201752872474	0	0.2631	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0VI	-0.0469866319368537	1	0.5701	TCGA	MSI	Published 0.4 threshold					
+TCGA-BS-A0WQ	-0.1116049308931932	0	0.2671	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZN	0.2011270688959438	0	0.2645	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZO	0.4923381642708349	1	0.7496	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZQ	-0.6545530202755745	0	0.2599	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZR	0.6631264738837893	0	0.2979	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZS	1.1281990725325837	1	0.7448	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZV	0.466329910936787	0	0.2787	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A0ZZ	-0.4733858027365487	0	0.3019	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A101	1.03572239617658	1	0.5438	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A102	0.3608321498245878	0	0.2975	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A103	-0.1283385866595038	1	0.4066	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A15V	-0.019738065795395	0	0.2688	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A15X	0.0589662299999044	1	0.4476	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A160	-0.2227082422279327	1	0.6785	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A163	-0.2132140259460357	1	0.9412	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A167	-0.6635047949346797	1	0.9382	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A168	0.2856659384293792	0	0.2875	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A169	0.0923373251328073	0	0.2669	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16B	-0.8252586073805026	0	0.2725	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16E	-0.6925867487415857	0	0.2678	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16G	-0.0350569523984297	0	0.2742	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16J	0.4772615711459622	0	0.2648	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16N	0.6626131023177368	0	0.3686	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16S	-1.0957870592619192	0	0.2503	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16V	0.4825483315957211	0	0.2571	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A16Y	0.0555501130506887	0	0.279	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A174	0.4584783899161782	1	0.9107	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A176	0.624368801157288	1	0.6796	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17A	-0.920213282030566	1	0.5402	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17B	0.7323731371471096	1	0.436	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17C	0.3525670967401799	0	0.2689	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17D	0.266371622579665	1	0.6777	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17F	-0.2368793607059149	0	0.3968	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17H	0.419363784589312	1	0.8869	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17K	-0.1373113088303637	0	0.2804	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17L	-0.1742905188082539	0	0.2703	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17M	-0.3822473526148881	1	0.53	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17Q	0.7360193066421293	0	0.2907	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17R	0.4875255920429908	1	0.4451	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17S	-0.3108448212373423	0	0.265	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17T	0.3361125442465272	0	0.2691	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A17U	-0.3219993256817595	1	0.792	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1NS	0.9440754812631488	1	0.5021	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1NU	-0.5836179727600349	0	0.3328	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1NX	-0.4773839867859457	0	0.3074	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1NY	0.0474657405993166	1	0.9023	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1NZ	0.2831672124158327	1	0.898	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1O0	0.1132509775271248	0	0.3044	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1O5	0.4208054852364606	0	0.2812	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A1O7	-0.2678695438884431	1	0.6161	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A2G0	0.6746412332004388	1	0.938	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A2G5	0.9018214556429544	1	0.4585	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A2G7	-0.6659621314402359	0	0.2867	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A3DA	-0.3406494417857059	0	0.3098	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A3DG	0.6498477598570217	0	0.2964	TCGA	MSI	Published 0.4 threshold					
+TCGA-D1-A3JQ	-0.1876091250783872	0	0.3422	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2KN	0.5374066031392691	1	0.8466	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2KS	0.0179010476261329	0	0.3045	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2KU	0.2448923008192295	0	0.3546	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2KV	1.0509943492045928	0	0.288	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2KZ	-0.4994469687274163	1	0.715	TCGA	MSI	Published 0.4 threshold					
+TCGA-DF-A2L0	-0.3490266704661608	0	0.3109	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A0WH	0.4996097787642151	1	0.7904	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A1BU	0.3724609932382958	1	0.991	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A1BY	0.2353659286826535	0	0.2991	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A1C3	0.3578346343641527	0	0.2916	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A1NN	0.2345296613985341	0	0.3003	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A1NO	0.1517730143415147	0	0.3418	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A2QU	-0.1746955799646343	0	0.3052	TCGA	MSI	Published 0.4 threshold					
+TCGA-DI-A2QY	-1.2791793080320015	0	0.301	TCGA	MSI	Published 0.4 threshold					
+TCGA-E6-A1LX	-0.1577715567272779	0	0.3376	TCGA	MSI	Published 0.4 threshold					
+TCGA-E6-A1LZ	-1.6665152391263114	0	0.3134	TCGA	MSI	Published 0.4 threshold					
+TCGA-E6-A1M0	-0.5554423248488222	0	0.2895	TCGA	MSI	Published 0.4 threshold					
+TCGA-E6-A2P8	-0.4029833794521535	1	0.6942	TCGA	MSI	Published 0.4 threshold					
+TCGA-EC-A1NJ	-0.7834037123988359	1	0.4662	TCGA	MSI	Published 0.4 threshold					
+TCGA-EC-A1QX	0.560889578392913	1	0.6203	TCGA	MSI	Published 0.4 threshold					
+TCGA-EC-A24G	0.0689648343090565	1	0.5199	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A1Y5	-0.6447458207927252	0	0.3174	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A1Y7	-0.015818825211147	0	0.3284	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A1Y8	-0.8113096603928605	0	0.302	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A22R	-0.5439797571173374	0	0.3971	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A22S	0.832349770915227	1	0.9162	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A22T	-0.3655374695497804	1	0.7835	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A22U	-0.6395424767310708	1	0.4032	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A22X	0.6956486497466342	0	0.3086	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A2CG	-1.3083018818594248	0	0.2776	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A2CH	-1.2378768093386583	0	0.3164	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3AS	-0.8619033077500604	0	0.3139	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3AU	-0.1181361464529658	1	0.8955	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3AV	-0.1718357357474351	0	0.2853	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3AY	0.7564721054269944	0	0.2784	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3AZ	0.5359104914948273	1	0.6422	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3B0	0.6823944756428352	0	0.3052	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3B1	-0.5494952589731995	0	0.2923	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3KU	0.3248778271985622	0	0.3216	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3KW	-0.9963718605334114	0	0.3047	TCGA	MSI	Published 0.4 threshold					
+TCGA-EO-A3L0	0.6875359769740778	0	0.2865	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GC	-0.5257402649825288	0	0.2988	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GD	0.19487292901532	0	0.2816	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GF	0.6091648586114573	1	0.7116	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GH	1.0643599878640555	0	0.2897	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GI	-0.4760138881394256	0	0.2889	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GJ	-0.5861282591541949	0	0.2833	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GL	-0.3313712615341765	0	0.2939	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GM	0.4497442896880797	0	0.2797	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GO	-0.0234101293367365	1	0.4959	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GP	1.4931308777071333	0	0.3006	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GQ	0.0898678726887834	1	0.6634	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GR	-0.6664170795555578	0	0.281	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GS	-0.362369461519559	0	0.3141	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GU	-0.6512936245557743	1	0.9342	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GV	-0.6999475269366536	0	0.2862	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1GX	-0.2068338023447209	0	0.3021	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A1H0	-0.0268311808354529	1	0.941	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A210	-1.585118468034807	0	0.2829	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A212	-0.8985362226047634	0	0.3103	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A214	-1.3353593190864694	0	0.2972	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A215	-0.0299838257109754	1	0.8962	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A2OM	-1.5135923558635198	1	0.9415	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A2ON	-0.1681515881605865	0	0.2803	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A2OO	-0.2114052231443785	0	0.3071	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A2OP	-0.346971064105749	1	0.7773	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A2OQ	-0.917795471951312	0	0.3004	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A3L3	0.0456316315364359	0	0.2962	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A3QX	-0.2579345581623944	0	0.3143	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A4KR	-0.5925958465299471	0	0.2999	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A547	-0.1577182764598456	1	0.4834	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A548	-0.6605298645725269	1	0.8116	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A549	0.7747962397572836	1	0.8695	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A54A	1.5355086627213117	0	0.3081	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A5W2	0.5185985921725165	1	0.9861	TCGA	MSI	Published 0.4 threshold					
+TCGA-EY-A72D	-0.7228928477680268	0	0.3729	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2CY	-0.6427919376973721	0	0.2839	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2D0	0.3887140449392037	1	0.6227	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2D4	0.9988981254117104	1	0.814	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2D5	0.1473567219932816	0	0.3854	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2D6	0.5739963474319237	1	1.1265	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2EU	-0.1328864523957186	0	0.3271	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2EW	-0.8857701695122455	0	0.322	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2EX	0.0261806744425715	0	0.3055	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2EY	-1.0369905086032425	0	0.3239	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2F4	-0.3467803418012945	1	0.7492	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2F8	0.2333890647029172	0	0.3111	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A2F9	-0.2499513556644165	0	0.3153	TCGA	MSI	Published 0.4 threshold					
+TCGA-FI-A3PV	-1.4787172119921133	0	0.2839	TCGA	MSI	Published 0.4 threshold					
+TCGA-H5-A2HR	-0.2147176451623059	0	0.2896	TCGA	MSI	Published 0.4 threshold					
+TCGA-JU-AAVI	0.9115556332679998	0	0.3208	TCGA	MSI	Published 0.4 threshold					
+TCGA-K6-A3WQ	-0.144670818678008	0	0.3158	TCGA	MSI	Published 0.4 threshold					
+TCGA-KP-A3VZ	-1.62141266065398	0	0.3111	TCGA	MSI	Published 0.4 threshold					
+TCGA-KP-A3W1	-1.1362418495167674	0	0.2968	TCGA	MSI	Published 0.4 threshold					
+TCGA-KP-A3W3	-0.5008772112763444	1	0.4075	TCGA	MSI	Published 0.4 threshold					
+TCGA-KP-A3W4	-0.8258013572201387	0	0.3573	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A5BC	-1.0248648963921976	0	0.3104	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A6IB	0.130425492005509	1	0.6358	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A7D5	0.2592270414959607	0	0.3506	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A914	-0.285236600594304	0	0.3571	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A916	-0.0173255754727734	0	0.3407	TCGA	MSI	Published 0.4 threshold					
+TCGA-PG-A917	1.4806526528961512	1	0.809	TCGA	MSI	Published 0.4 threshold					
+TCGA-QF-A5YS	-1.3540069724002992	0	0.323	TCGA	MSI	Published 0.4 threshold					
+TCGA-QS-A5YQ	-0.1847246921863055	0	0.348	TCGA	MSI	Published 0.4 threshold					
+TCGA-QS-A5YR	0.5925162610412303	1	0.5106	TCGA	MSI	Published 0.4 threshold					
+TCGA-QS-A744	0.8253392247961617	0	0.3346	TCGA	MSI	Published 0.4 threshold					
+TCGA-QS-A8F1	1.1310559709291836	0	0.3647	TCGA	MSI	Published 0.4 threshold					
+TCGA-SJ-A6ZI	0.8924402580868089	1	0.6138	TCGA	MSI	Published 0.4 threshold					
+TCGA-SL-A6J9	0.1063258900555928	0	0.3503	TCGA	MSI	Published 0.4 threshold					
+TCGA-SL-A6JA	-0.6503854317112352	1	0.9515	TCGA	MSI	Published 0.4 threshold					
+C3L-00006	-0.0856268117277141	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00008	1.1141537853582764	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00032	0.3876997400073325	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00090	0.6770292677686812	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00098	-0.6975109916402243	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00136	0.4599112842874421	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00139	-0.8225325612358734	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00143	0.403130339508325	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00145	0.8040972515265088	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00156	0.2859344385566534	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00161	0.6551629216326923	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00358	-0.5238626931930457	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00361	0.1886185722951291	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00413	0.2339203082897696	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00449	0.288981047493736	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00563	-0.405510398952641	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00586	0.0400108103833516	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00601	0.6352928599214439	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00605	0.7359960795872328	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00767	0.4440852239257683	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00769	1.137775569574335	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00770	1.0922780772477472	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00771	0.4529292436698273	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00780	0.7642221999670957	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00781	1.4050849351103765	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00905	0.0211036078562703	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00918	-0.4841091497354766	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00921	-0.0232755337641932	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00932	0.9651145131676516	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00942	0.233996420745854	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00946	-0.0404360714415009	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-00947	1.2279840933054698	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00949	-0.177581295630496	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00961	1.0208526823544994	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00963	0.5894649497043669	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01246	0.3947792675108627	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01249	0.8734815205523675	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01252	0.3628709150521866	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01256	0.4215494161970565	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01257	1.2909042175345449	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-01275	1.197126571426911	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-01282	1.0860004372676657	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3L-01304	0.2854462649611521	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01311	0.5921453086753544	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01312	0.965070363195296	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-01744	0.5240154512228983	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00151	0.4161299371404158	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00200	-0.6299538229526312	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00321	-0.5015008378611212	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00322	-0.2974262475384565	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00323	-0.5202498139850582	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00324	-0.7647036399355366	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00328	-0.1272211129484829	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00333	-0.1378412598785989	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00334	-0.4970293924546824	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00335	0.0064045464044465	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00337	-0.3581866272821696	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00339	0.2558606092559879	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00340	-0.7301123101432317	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00377	-0.376011915782186	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00379	0.3814408932639337	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00383	-0.2433287024349134	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00388	0.0919932892791581	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00389	-0.2390335134554829	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00729	-0.7934526084800437	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00743	0.3453240026895085	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00836	-0.5356100412643644	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00847	-0.0090862000062039	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00848	-0.2398791960800535	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00850	-0.1513342468504361	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-00858	0.0133623111736678	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00866	0.2430488544819734	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-00880	0.0895567802279129	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-01003	-0.2542395283295241	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-01211	0.3507960912262812	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-01212	-0.126644133600438	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-01219	0.7778502930143929	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-01346	0.3050198736590589	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-01349	-0.7489779188357534	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-01510	0.8644505517460607	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3N-01520	1.595958829876932	1		CPTAC	MSI	Source-published MSI-H versus MSS	MSI-H				
+C3N-01802	-1.0401937274315982	0		CPTAC	MSI	Source-published MSI-H versus MSS	MSS				
+C3L-00006	-0.1259035173948879	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00008	-0.4792025246634585	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00032	-0.2948317451442461	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00090	-0.2831587949686326	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00098	-0.2123795607361031	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00136	-0.1904936994857229	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00139	-0.6610309145037441	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00143	-0.3371091874323415	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00145	-0.4724166472275933	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00156	-0.7139483790790933	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	V411L|Missense_Mutation	
+C3L-00161	-0.4822026627076167	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00358	-0.0163982529985787	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00361	-0.642598185485316	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		P116Hfs*53|Frame_Shift_Del
+C3L-00413	-0.577306258036861	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00449	-0.5905357758315932	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00563	-0.4993878270782932	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00586	-0.1946216513725423	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	D2172E|Missense_Mutation;F1366L|Missense_Mutation;S1051Y|Missense_Mutation;P286R|Missense_Mutation	
+C3L-00601	-0.1535545311995234	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0	F367C|Missense_Mutation	
+C3L-00605	-0.353006102504746	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0	R765H|Missense_Mutation	
+C3L-00767	-0.1443163554725391	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00769	-0.1699650117543131	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00770	-0.4834086588905629	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	P286R|Missense_Mutation	
+C3L-00771	-0.5452339544383886	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00780	-0.6555903586784827	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00781	-0.1144844673807835	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00905	-0.2698859042227374	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00918	-0.5000804080749829	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00921	-0.6814624814178636	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00932	-0.3576933427034902	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		X987_splice|Splice_Site
+C3L-00942	-0.5266365836724167	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		X987_splice|Splice_Site
+C3L-00946	-0.6204030996864863	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00947	-0.4829855425637758	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00949	0.3556359865101043	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00961	0.1958663281867111	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-00963	-0.3033129574026217	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01246	-0.1946853091346626	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01249	-0.6153503241700806	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01252	-0.6429195912653392	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0	X453_splice|Splice_Site	
+C3L-01256	-0.2755155789045344	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01257	-0.2070168332455516	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01275	-0.594977118382914	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		X987_splice|Splice_Site;R180Gfs*3|Frame_Shift_Del
+C3L-01282	-0.5871830391602627	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01304	-0.0236019704060564	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01311	-0.2148773219933763	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	P286R|Missense_Mutation	
+C3L-01312	-0.3276836778187642	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3L-01744	-0.4325549221764287	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		P116Hfs*53|Frame_Shift_Del
+C3N-00151	0.6111358803188124	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	F320V|Missense_Mutation;P286R|Missense_Mutation	
+C3N-00200	-0.6341648023116611	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00321	-0.776385271756061	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		A46V|Missense_Mutation
+C3N-00322	-0.9060693720978584	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00323	-0.7533590922036931	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00324	-0.6727780981451328	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00328	-0.4849487600376976	1		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		1.0	0.0	P286R|Missense_Mutation	
+C3N-00333	-0.8530113360205388	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00334	-0.8143349713417052	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00335	-0.7444248995547099	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00337	-0.7441394263876281	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00339	-0.8156801697352302	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00340	-0.5908598030235687	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00377	-0.7474782532787931	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00379	-0.8286221291200572	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00383	-0.8678036756479756	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00388	-0.8764223308352064	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00389	-0.6928612020461703	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00729	-0.5890776844808087	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00743	-0.7326858631588015	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00836	-0.7037339379946378	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00847	-0.9073352164279348	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00848	-0.8777644983686445	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00850	-0.8199612842686208	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00858	-0.8554852603878371	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00866	-0.8209212862355402	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-00880	-0.8581931840044262	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01003	-0.802963685037096	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01211	-0.5743842881797366	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01212	-0.7660881125913842	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01219	0.0060464183897614	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01346	-0.5100563832204092	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01349	-0.5602542056492624	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01510	-0.0626244419296808	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		
+C3N-01520	-0.4788868243116211	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		X987_splice|Splice_Site
+C3N-01802	0.0758524227641938	0		CPTAC	POLE/POLD1	Same exact proofreading-domain missense list		0.0	0.0		

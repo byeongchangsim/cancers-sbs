@@ -1,0 +1,15 @@
+{
+  "targets": [
+    "UCEC-SBS13",
+    "UCEC-SBS3",
+    "BRCA-SBS3",
+    "LUAD-SBS4"
+  ],
+  "patients": 8,
+  "component": "Original selected 1024-tile MIL; seed0; TCGA held-out fold / CPTAC fixed fold0",
+  "selection_rule": "Lower-median positive exposure among tumour-labelled eligible patients; no selection by image score or appearance",
+  "display": "Actual sampled coordinates, no spatial interpolation; raw resampled H&E; within-patient attention percentile",
+  "ensemble_attribution": false,
+  "expert_review": false,
+  "bag_replay": true
+}

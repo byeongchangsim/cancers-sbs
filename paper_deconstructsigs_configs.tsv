@@ -1,0 +1,11 @@
+config_id	ref_name	tri_counts_method	associated_mode	min_mutations	signature_cutoff
+legacy30_default	legacy30	default	none	0	0.06
+legacy30_min50	legacy30	default	none	50	0.06
+g67_default_none_m0	genome67	default	none	0	0.06
+g67_default_none_m50	genome67	default	none	50	0.06
+g67_default_assoc_m0	genome67	default	cancer_specific	0	0.06
+g67_default_assoc_m50	genome67	default	cancer_specific	50	0.06
+g67_exome2genome_none_m0	genome67	exome2genome	none	0	0.06
+g67_exome2genome_none_m50	genome67	exome2genome	none	50	0.06
+g67_exome2genome_assoc_m0	genome67	exome2genome	cancer_specific	0	0.06
+g67_exome2genome_assoc_m50	genome67	exome2genome	cancer_specific	50	0.06

@@ -1,0 +1,164 @@
+{
+  "method": "sklearn KernelRidge: squared loss + L2; RBF kernel",
+  "publication": "Saunders, Gammerman & Vovk. ICML 1998, pp.515-521",
+  "publication_url": "https://eprints.soton.ac.uk/258942/1/Dualrr_ICML98.pdf",
+  "implementation_url": "https://scikit-learn.org/stable/modules/generated/sklearn.kernel_ridge.KernelRidge.html",
+  "target": "Original continuous SBS6 exposure",
+  "alpha_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "gamma_multiplier_grid": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "gamma_rule": "multiplier / 256",
+  "selection": "Maximum original TCGA inner-validation SBS6 Pearson r",
+  "feature_scaling": "StandardScaler fitted only on original train patients",
+  "target_centering": "Subtract train SBS6 mean for fitting; add it for prediction",
+  "component_scaling": "Original inner-validation prediction mean/population SD",
+  "aggregation": "Fixed 1:1 bag-scale mean; TCGA 3 OOF seeds; CPTAC 15 contexts",
+  "MSI_labels_read": false,
+  "TCGA_outer_targets_used_for_selection": false,
+  "CPTAC_outcomes_read": false,
+  "linear_RBF_selection_or_mixing": false,
+  "seed": 2,
+  "feature_cache": "kread6_features_2.npz",
+  "selected_contexts": [
+    {
+      "seed": 2,
+      "fold": 0,
+      "scales": [
+        {
+          "scale": 1024,
+          "alpha": 1.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.12511721466543954,
+          "train_target_mean": 0.20608586411524163,
+          "validation_mean": 0.20386629242984688,
+          "validation_sd": 0.19973908297696166,
+          "checkpoint_sha256": "1b9157a5ab3f5d37a6e599a4f2da97d2dd746c4b78d5258555c544b75e0758e5"
+        },
+        {
+          "scale": 2048,
+          "alpha": 1.0,
+          "gamma": 0.00390625,
+          "validation_r": 0.2828992590710452,
+          "train_target_mean": 0.20608586411524163,
+          "validation_mean": 0.20959351664579137,
+          "validation_sd": 0.15540841390834756,
+          "checkpoint_sha256": "0d729306727b61ede601fbd7f0c1ddf658caff01168b7dc6fba2e704e1091798"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "scales": [
+        {
+          "scale": 1024,
+          "alpha": 0.1,
+          "gamma": 0.0009765625,
+          "validation_r": 0.24662223839934058,
+          "train_target_mean": 0.21558666779182156,
+          "validation_mean": 0.22250442797387587,
+          "validation_sd": 0.38021337652041065,
+          "checkpoint_sha256": "32db16cb8538971a2c4e6b589ba61a82a51aac8ebe5047afafdce781a35d1acb"
+        },
+        {
+          "scale": 2048,
+          "alpha": 1.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.06734688795388664,
+          "train_target_mean": 0.21558666779182156,
+          "validation_mean": 0.2290168861276345,
+          "validation_sd": 0.12951518418601543,
+          "checkpoint_sha256": "90f75b5cb4e7809dd11c25b314ceeb03f93cffeed98b139eda32f3752603ab0b"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "scales": [
+        {
+          "scale": 1024,
+          "alpha": 0.1,
+          "gamma": 0.00390625,
+          "validation_r": 0.062445411719480315,
+          "train_target_mean": 0.2353711279333333,
+          "validation_mean": 0.15364670630430086,
+          "validation_sd": 0.8088144052875776,
+          "checkpoint_sha256": "3bcd8e4e1331325d03a88b0e57d9c7d1838406c9d5edbb8d04e97916a8122299"
+        },
+        {
+          "scale": 2048,
+          "alpha": 1000.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.012664115972299267,
+          "train_target_mean": 0.2353711279333333,
+          "validation_mean": 0.23633814195940955,
+          "validation_sd": 0.0014032843351198263,
+          "checkpoint_sha256": "7ba20215b73a874ea6755a939c9955f99d5636461127119792a28edb95104af7"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "fold": 3,
+      "scales": [
+        {
+          "scale": 1024,
+          "alpha": 0.1,
+          "gamma": 0.0009765625,
+          "validation_r": 0.053777932383713214,
+          "train_target_mean": 0.22213007583703703,
+          "validation_mean": 0.2677318257940499,
+          "validation_sd": 0.5764679746959167,
+          "checkpoint_sha256": "b5df78d2af918e2dc8fff6b0c073f812f3b400613cbef47cb3ce828f6d81e30b"
+        },
+        {
+          "scale": 2048,
+          "alpha": 10.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.09552486082103033,
+          "train_target_mean": 0.22213007583703703,
+          "validation_mean": 0.2245834494475618,
+          "validation_sd": 0.02914849772099599,
+          "checkpoint_sha256": "9b525d9db4e79b625bdbcc5c5d41807d4d4a4165f537f7a813b868968927f90f"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "fold": 4,
+      "scales": [
+        {
+          "scale": 1024,
+          "alpha": 1000.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.23697806073184463,
+          "train_target_mean": 0.21977493910370371,
+          "validation_mean": 0.22025890142056567,
+          "validation_sd": 0.0005457270299516587,
+          "checkpoint_sha256": "b042db63a3abba5155f9d921e206ee7ebf1548967f4306d0561b00d58d07140d"
+        },
+        {
+          "scale": 2048,
+          "alpha": 1000.0,
+          "gamma": 0.0009765625,
+          "validation_r": 0.1789458503780398,
+          "train_target_mean": 0.21977493910370371,
+          "validation_mean": 0.21992431788491712,
+          "validation_sd": 0.0005045811479479093,
+          "checkpoint_sha256": "47d740a9f46f5c712efae3ee1c200adf102e5dd5fa1a33f3ab074fb4244e27b8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "analysis": "standard model averaging of three TCGA-developed component models",
+  "combination": "component predictions standardized with inner-validation mean and population SD, followed by an unweighted 1:1:1 arithmetic mean",
+  "components": {
+    "mil_1024": "inner-validation-selected multi-output gated-attention MIL using a 1,024-tile bag",
+    "mil_2048": "inner-validation-selected multi-output gated-attention MIL using a 2,048-tile bag",
+    "retccl_pca_ridge": "RetCCL patient-mean features; fold-internal standardization; PCA16; ridge alpha 100"
+  },
+  "cptac_aggregation": "unweighted mean of 15 seed-fold predictions",
+  "cptac_outcome_used_for_combination": false,
+  "fitted_ensemble_weights": false,
+  "outer_test_used_for_combination": false,
+  "scope": "seven cancers x SBS1-SBS30 = 210 pairs",
+  "shared_stack_or_super_learner": false,
+  "tcga_aggregation": "unweighted mean of three seed-specific outer-fold predictions"
+}

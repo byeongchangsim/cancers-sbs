@@ -1,0 +1,28 @@
+name: cptac-sigprof-r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  - r-essentials
+  - r-optparse
+  - r-data.table
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-readxl
+  - r-writexl
+  - r-stringr
+  - r-ggplot2
+  - r-pheatmap
+  - r-patchwork
+  - r-devtools
+  - r-remotes
+  - bioconductor-maftools
+  - bioconductor-mutationalpatterns
+  - bioconductor-bsgenome.hsapiens.ucsc.hg38
+  - bioconductor-genomicranges
+  - bioconductor-genomeinfodb
+  - bioconductor-iranges
+  - bioconductor-s4vectors

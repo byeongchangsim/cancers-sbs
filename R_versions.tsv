@@ -1,0 +1,8 @@
+package	version
+R	4.3.3
+deconstructSigs	1.9.0
+BSgenome.Hsapiens.UCSC.hg19	1.4.3
+BSgenome.Hsapiens.UCSC.hg38	1.4.5
+data.table	1.17.8
+optparse	1.7.5
+writexl	1.5.4

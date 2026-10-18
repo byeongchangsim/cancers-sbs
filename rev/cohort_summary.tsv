@@ -1,0 +1,15 @@
+cohort	cancer	patients	age_median	age_Q1	age_Q3	age_min	age_max	age_missing	female	male	sex_missing	stage_I	stage_II	stage_III	stage_IV	stage_other_unknown	diagnosis_year_min	diagnosis_year_max	diagnosis_year_missing	age_definition	stage_source_field
+TCGA	BRCA	530	59.0	50.0	68.0	26.0	90.0	0	523	7	0	82	309	120	10	9	1988.0	2013.0	1	At diagnosis	ajcc_pathologic_tumor_stage
+TCGA	HNSC	368	61.5	54.75	69.0	19.0	90.0	0	102	266	0	14	53	63	203	35	1992.0	2013.0	0	At diagnosis	ajcc_pathologic_tumor_stage
+TCGA	KIRC	258	62.0	54.0	71.75	35.0	90.0	0	101	157	0	122	28	67	39	2	1998.0	2013.0	0	At diagnosis	ajcc_pathologic_tumor_stage
+TCGA	LUAD	406	66.0	59.0	72.0	33.0	88.0	10	211	195	0	218	92	67	24	5	1991.0	2013.0	4	At diagnosis	ajcc_pathologic_tumor_stage
+TCGA	LUSC	418	68.0	62.0	73.0	40.0	90.0	9	110	308	0	201	133	74	6	4	1992.0	2013.0	15	At diagnosis	ajcc_pathologic_tumor_stage
+TCGA	OV	339	59.0	51.0	69.0	37.0	89.0	0	339	0	0	14	20	257	46	2	1992.0	2013.0	0	At diagnosis	clinical_stage
+TCGA	UCEC	422	64.0	57.0	72.0	31.0	90.0	3	422	0	0	264	43	93	22	0	1995.0	2013.0	6	At diagnosis	clinical_stage
+CPTAC	BRCA	77	60.0	48.0	71.0	30.0	95.0	0	77	0	0	2	48	18	0	9			77	At consent	baseline/tumor_stage_pathological
+CPTAC	HNSC	104	62.0	56.0	67.0	23.0	81.0	0	14	90	0	6	24	28	46	0			104	At consent	baseline/tumor_stage_pathological
+CPTAC	KIRC	83	64.0	56.25	69.75	33.0	89.0	1	23	60	0	35	8	30	10	0			83	At consent	baseline/tumor_stage_pathological
+CPTAC	LUAD	86	63.5	57.0	69.75	40.0	81.0	0	29	57	0	46	23	16	1	0			86	At consent	baseline/tumor_stage_pathological
+CPTAC	LUSC	103	67.0	61.5	72.0	44.0	88.0	0	19	84	0	39	42	19	1	2			103	At consent	baseline/tumor_stage_pathological
+CPTAC	OV	45	58.0	53.0	66.0	37.0	85.0	0	45	0	0	1	0	34	7	3			45	At consent	baseline/tumor_stage_pathological
+CPTAC	UCEC	82	64.0	59.0	69.0	41.0	86.0	1	82	0	0	63	7	11	1	0			82	At consent	baseline/tumor_stage_pathological

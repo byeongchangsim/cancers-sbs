@@ -1,0 +1,4419 @@
+cohort	cancer	PATIENT	maximum_sample_SNV_count	status
+TCGA	BRCA	TCGA-3C-AAAU	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-3C-AALI	816	Included
+TCGA	BRCA	TCGA-3C-AALJ	66	Included
+TCGA	BRCA	TCGA-3C-AALK	65	Included
+TCGA	BRCA	TCGA-4H-AAAK	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-5L-AAT0	280	Included
+TCGA	BRCA	TCGA-5T-A9QA	92	No matched usable feature bag
+TCGA	BRCA	TCGA-A1-A0SB	17	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SD	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SE	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SF	66	Included
+TCGA	BRCA	TCGA-A1-A0SG	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SH	140	Included
+TCGA	BRCA	TCGA-A1-A0SI	278	Included
+TCGA	BRCA	TCGA-A1-A0SJ	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SK	84	Included
+TCGA	BRCA	TCGA-A1-A0SM	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A1-A0SN	78	Included
+TCGA	BRCA	TCGA-A1-A0SO	360	Included
+TCGA	BRCA	TCGA-A1-A0SP	70	Included
+TCGA	BRCA	TCGA-A1-A0SQ	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A04N	53	Included
+TCGA	BRCA	TCGA-A2-A04P	169	Included
+TCGA	BRCA	TCGA-A2-A04Q	69	Included
+TCGA	BRCA	TCGA-A2-A04R	104	Included
+TCGA	BRCA	TCGA-A2-A04T	114	Included
+TCGA	BRCA	TCGA-A2-A04U	68	Included
+TCGA	BRCA	TCGA-A2-A04V	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A04W	189	Included
+TCGA	BRCA	TCGA-A2-A04X	51	Included
+TCGA	BRCA	TCGA-A2-A04Y	60	Included
+TCGA	BRCA	TCGA-A2-A0CK	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0CL	205	Included
+TCGA	BRCA	TCGA-A2-A0CM	70	Included
+TCGA	BRCA	TCGA-A2-A0CP	51	Included
+TCGA	BRCA	TCGA-A2-A0CQ	51	Included
+TCGA	BRCA	TCGA-A2-A0CR	220	Included
+TCGA	BRCA	TCGA-A2-A0CS	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0CT	123	Included
+TCGA	BRCA	TCGA-A2-A0CU	60	Included
+TCGA	BRCA	TCGA-A2-A0CV	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0CW	88	Included
+TCGA	BRCA	TCGA-A2-A0CX	368	Included
+TCGA	BRCA	TCGA-A2-A0D0	107	Included
+TCGA	BRCA	TCGA-A2-A0D1	75	Included
+TCGA	BRCA	TCGA-A2-A0D2	109	No matched usable feature bag
+TCGA	BRCA	TCGA-A2-A0D3	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0D4	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EM	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EN	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EO	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EQ	318	Included
+TCGA	BRCA	TCGA-A2-A0ER	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0ES	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0ET	71	Included
+TCGA	BRCA	TCGA-A2-A0EU	55	Included
+TCGA	BRCA	TCGA-A2-A0EV	80	Included
+TCGA	BRCA	TCGA-A2-A0EW	21	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EX	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0EY	292	Included
+TCGA	BRCA	TCGA-A2-A0SU	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0SV	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0SW	67	Included
+TCGA	BRCA	TCGA-A2-A0SX	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0SY	177	No matched usable feature bag
+TCGA	BRCA	TCGA-A2-A0T0	218	Included
+TCGA	BRCA	TCGA-A2-A0T1	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T2	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T3	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T4	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T5	13	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T6	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0T7	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YC	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YD	90	Included
+TCGA	BRCA	TCGA-A2-A0YE	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YF	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YG	78	Included
+TCGA	BRCA	TCGA-A2-A0YH	103	Included
+TCGA	BRCA	TCGA-A2-A0YI	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YJ	100	Included
+TCGA	BRCA	TCGA-A2-A0YK	488	Included
+TCGA	BRCA	TCGA-A2-A0YL	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A0YM	111	Included
+TCGA	BRCA	TCGA-A2-A0YT	83	No matched usable feature bag
+TCGA	BRCA	TCGA-A2-A1FV	51	Included
+TCGA	BRCA	TCGA-A2-A1FW	96	Included
+TCGA	BRCA	TCGA-A2-A1FX	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A1FZ	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A1G0	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A1G1	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A1G4	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A259	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A25A	411	Included
+TCGA	BRCA	TCGA-A2-A25C	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A25D	65	Included
+TCGA	BRCA	TCGA-A2-A25E	65	No matched usable feature bag
+TCGA	BRCA	TCGA-A2-A3KD	18	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A3XT	126	Included
+TCGA	BRCA	TCGA-A2-A3XU	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A3XV	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A3XX	53	Included
+TCGA	BRCA	TCGA-A2-A3XZ	56	Included
+TCGA	BRCA	TCGA-A2-A3Y0	246	Included
+TCGA	BRCA	TCGA-A2-A4S1	100	Included
+TCGA	BRCA	TCGA-A2-A4S2	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A2-A4S3	111	No matched usable feature bag
+TCGA	BRCA	TCGA-A7-A0CD	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A0CE	270	Included
+TCGA	BRCA	TCGA-A7-A0CG	77	Included
+TCGA	BRCA	TCGA-A7-A0CH	76	Included
+TCGA	BRCA	TCGA-A7-A0CJ	74	Included
+TCGA	BRCA	TCGA-A7-A0D9	61	Included
+TCGA	BRCA	TCGA-A7-A0DA	193	Included
+TCGA	BRCA	TCGA-A7-A0DB	58	Included
+TCGA	BRCA	TCGA-A7-A13D	145	Included
+TCGA	BRCA	TCGA-A7-A13E	142	Included
+TCGA	BRCA	TCGA-A7-A13F	89	Included
+TCGA	BRCA	TCGA-A7-A13G	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A26E	68	Included
+TCGA	BRCA	TCGA-A7-A26F	53	Included
+TCGA	BRCA	TCGA-A7-A26G	69	Included
+TCGA	BRCA	TCGA-A7-A26H	152	Included
+TCGA	BRCA	TCGA-A7-A26I	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A26J	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A2KD	60	Included
+TCGA	BRCA	TCGA-A7-A425	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A4SD	136	Included
+TCGA	BRCA	TCGA-A7-A4SE	298	Included
+TCGA	BRCA	TCGA-A7-A56D	463	Included
+TCGA	BRCA	TCGA-A7-A5ZV	269	Included
+TCGA	BRCA	TCGA-A7-A5ZW	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A7-A5ZX	90	Included
+TCGA	BRCA	TCGA-A7-A6VV	67	Included
+TCGA	BRCA	TCGA-A7-A6VW	96	Included
+TCGA	BRCA	TCGA-A7-A6VX	184	Included
+TCGA	BRCA	TCGA-A7-A6VY	148	Included
+TCGA	BRCA	TCGA-A8-A06N	51	Included
+TCGA	BRCA	TCGA-A8-A06O	82	Included
+TCGA	BRCA	TCGA-A8-A06P	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A06Q	318	Included
+TCGA	BRCA	TCGA-A8-A06R	80	Included
+TCGA	BRCA	TCGA-A8-A06T	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A06U	95	Included
+TCGA	BRCA	TCGA-A8-A06X	265	Included
+TCGA	BRCA	TCGA-A8-A06Y	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A06Z	105	Included
+TCGA	BRCA	TCGA-A8-A075	101	Included
+TCGA	BRCA	TCGA-A8-A076	96	Included
+TCGA	BRCA	TCGA-A8-A079	97	Included
+TCGA	BRCA	TCGA-A8-A07B	87	Included
+TCGA	BRCA	TCGA-A8-A07E	75	Included
+TCGA	BRCA	TCGA-A8-A07F	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A07G	80	Included
+TCGA	BRCA	TCGA-A8-A07I	58	Included
+TCGA	BRCA	TCGA-A8-A07J	51	Included
+TCGA	BRCA	TCGA-A8-A07L	102	Included
+TCGA	BRCA	TCGA-A8-A07O	54	Included
+TCGA	BRCA	TCGA-A8-A07P	65	Included
+TCGA	BRCA	TCGA-A8-A07U	87	Included
+TCGA	BRCA	TCGA-A8-A07W	178	No matched usable feature bag
+TCGA	BRCA	TCGA-A8-A07Z	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A081	154	Included
+TCGA	BRCA	TCGA-A8-A082	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A083	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A084	85	Included
+TCGA	BRCA	TCGA-A8-A085	82	Included
+TCGA	BRCA	TCGA-A8-A086	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08A	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08B	72	Included
+TCGA	BRCA	TCGA-A8-A08F	176	Included
+TCGA	BRCA	TCGA-A8-A08G	61	Included
+TCGA	BRCA	TCGA-A8-A08H	174	Included
+TCGA	BRCA	TCGA-A8-A08I	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08J	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08L	276	Included
+TCGA	BRCA	TCGA-A8-A08O	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08R	333	Included
+TCGA	BRCA	TCGA-A8-A08T	59	Included
+TCGA	BRCA	TCGA-A8-A08X	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A08Z	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A090	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A091	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A092	93	Included
+TCGA	BRCA	TCGA-A8-A093	141	Included
+TCGA	BRCA	TCGA-A8-A094	240	Included
+TCGA	BRCA	TCGA-A8-A095	212	Included
+TCGA	BRCA	TCGA-A8-A096	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A097	131	Included
+TCGA	BRCA	TCGA-A8-A099	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A09A	287	Included
+TCGA	BRCA	TCGA-A8-A09B	59	Included
+TCGA	BRCA	TCGA-A8-A09C	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A09D	60	Included
+TCGA	BRCA	TCGA-A8-A09E	77	Included
+TCGA	BRCA	TCGA-A8-A09G	357	Included
+TCGA	BRCA	TCGA-A8-A09I	190	Included
+TCGA	BRCA	TCGA-A8-A09M	182	Included
+TCGA	BRCA	TCGA-A8-A09N	102	Included
+TCGA	BRCA	TCGA-A8-A09Q	199	Included
+TCGA	BRCA	TCGA-A8-A09R	80	Included
+TCGA	BRCA	TCGA-A8-A09T	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A09V	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A09W	114	Included
+TCGA	BRCA	TCGA-A8-A09X	71	Included
+TCGA	BRCA	TCGA-A8-A09Z	1478	Included
+TCGA	BRCA	TCGA-A8-A0A1	58	Included
+TCGA	BRCA	TCGA-A8-A0A2	54	Included
+TCGA	BRCA	TCGA-A8-A0A4	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A0A6	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A0A7	302	Included
+TCGA	BRCA	TCGA-A8-A0A9	66	Included
+TCGA	BRCA	TCGA-A8-A0AB	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-A8-A0AD	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A23C	146	Included
+TCGA	BRCA	TCGA-AC-A23E	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A23H	6392	Included
+TCGA	BRCA	TCGA-AC-A2B8	130	Included
+TCGA	BRCA	TCGA-AC-A2BK	116	Included
+TCGA	BRCA	TCGA-AC-A2BM	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2FB	17	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2FF	16	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2FG	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2FK	3	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2FO	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A2QH	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3HN	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3OD	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3QP	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3QQ	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3W5	223	Included
+TCGA	BRCA	TCGA-AC-A3YI	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A3YJ	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A4ZE	75	Included
+TCGA	BRCA	TCGA-AC-A5EH	207	Included
+TCGA	BRCA	TCGA-AC-A5EI	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A5XS	1438	No matched usable feature bag
+TCGA	BRCA	TCGA-AC-A5XU	114	Included
+TCGA	BRCA	TCGA-AC-A62V	107	Included
+TCGA	BRCA	TCGA-AC-A62X	88	Included
+TCGA	BRCA	TCGA-AC-A62Y	90	Included
+TCGA	BRCA	TCGA-AC-A6IV	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A6IW	245	No matched usable feature bag
+TCGA	BRCA	TCGA-AC-A6IX	73	Included
+TCGA	BRCA	TCGA-AC-A6NO	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A7VB	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A7VC	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AC-A8OP	252	Included
+TCGA	BRCA	TCGA-AC-A8OQ	142	Included
+TCGA	BRCA	TCGA-AC-A8OR	91	Included
+TCGA	BRCA	TCGA-AC-A8OS	81	Included
+TCGA	BRCA	TCGA-AN-A03X	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A03Y	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A041	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A046	7565	Included
+TCGA	BRCA	TCGA-AN-A049	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A04A	60	Included
+TCGA	BRCA	TCGA-AN-A04C	99	Included
+TCGA	BRCA	TCGA-AN-A04D	116	Included
+TCGA	BRCA	TCGA-AN-A0AJ	112	Included
+TCGA	BRCA	TCGA-AN-A0AK	1469	Included
+TCGA	BRCA	TCGA-AN-A0AL	103	Included
+TCGA	BRCA	TCGA-AN-A0AM	124	Included
+TCGA	BRCA	TCGA-AN-A0AR	147	Included
+TCGA	BRCA	TCGA-AN-A0AS	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0AT	144	Included
+TCGA	BRCA	TCGA-AN-A0FD	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0FF	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0FJ	124	Included
+TCGA	BRCA	TCGA-AN-A0FK	58	Included
+TCGA	BRCA	TCGA-AN-A0FL	207	Included
+TCGA	BRCA	TCGA-AN-A0FN	53	Included
+TCGA	BRCA	TCGA-AN-A0FS	94	Included
+TCGA	BRCA	TCGA-AN-A0FT	130	Included
+TCGA	BRCA	TCGA-AN-A0FV	118	Included
+TCGA	BRCA	TCGA-AN-A0FW	154	Included
+TCGA	BRCA	TCGA-AN-A0FX	150	Included
+TCGA	BRCA	TCGA-AN-A0FY	63	Included
+TCGA	BRCA	TCGA-AN-A0FZ	95	Included
+TCGA	BRCA	TCGA-AN-A0XL	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XN	181	Included
+TCGA	BRCA	TCGA-AN-A0XO	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XP	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XR	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XS	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XT	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XU	139	Included
+TCGA	BRCA	TCGA-AN-A0XV	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AN-A0XW	427	Included
+TCGA	BRCA	TCGA-AO-A03L	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A03M	1150	Included
+TCGA	BRCA	TCGA-AO-A03N	135	Included
+TCGA	BRCA	TCGA-AO-A03O	99	Included
+TCGA	BRCA	TCGA-AO-A03P	64	Included
+TCGA	BRCA	TCGA-AO-A03R	57	Included
+TCGA	BRCA	TCGA-AO-A03T	120	Included
+TCGA	BRCA	TCGA-AO-A03U	5	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A03V	73	No matched usable feature bag
+TCGA	BRCA	TCGA-AO-A0J2	82	Included
+TCGA	BRCA	TCGA-AO-A0J3	102	Included
+TCGA	BRCA	TCGA-AO-A0J4	146	Included
+TCGA	BRCA	TCGA-AO-A0J5	83	Included
+TCGA	BRCA	TCGA-AO-A0J6	132	Included
+TCGA	BRCA	TCGA-AO-A0J7	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0J8	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0J9	163	Included
+TCGA	BRCA	TCGA-AO-A0JA	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0JB	130	Included
+TCGA	BRCA	TCGA-AO-A0JD	139	Included
+TCGA	BRCA	TCGA-AO-A0JE	60	Included
+TCGA	BRCA	TCGA-AO-A0JF	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0JG	21	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0JI	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0JJ	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A0JM	52	No matched usable feature bag
+TCGA	BRCA	TCGA-AO-A124	181	Included
+TCGA	BRCA	TCGA-AO-A125	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A126	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A128	1221	Included
+TCGA	BRCA	TCGA-AO-A129	149	Included
+TCGA	BRCA	TCGA-AO-A12A	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A12B	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A12D	73	Included
+TCGA	BRCA	TCGA-AO-A12E	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A12F	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A12G	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A12H	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A1KP	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AO-A1KR	90	Included
+TCGA	BRCA	TCGA-AO-A1KS	57	Included
+TCGA	BRCA	TCGA-AO-A1KT	52	Included
+TCGA	BRCA	TCGA-AQ-A04H	84	Included
+TCGA	BRCA	TCGA-AQ-A04J	101	Included
+TCGA	BRCA	TCGA-AQ-A0Y5	71	Included
+TCGA	BRCA	TCGA-AQ-A1H2	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AQ-A1H3	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AQ-A54O	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AQ-A7U7	104	Included
+TCGA	BRCA	TCGA-AR-A0TP	72	Included
+TCGA	BRCA	TCGA-AR-A0TQ	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A0TR	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A0TS	95	Included
+TCGA	BRCA	TCGA-AR-A0TT	77	Included
+TCGA	BRCA	TCGA-AR-A0TV	79	Included
+TCGA	BRCA	TCGA-AR-A0TW	67	Included
+TCGA	BRCA	TCGA-AR-A0TX	410	Included
+TCGA	BRCA	TCGA-AR-A0TY	114	Included
+TCGA	BRCA	TCGA-AR-A0TZ	68	Included
+TCGA	BRCA	TCGA-AR-A0U0	51	Included
+TCGA	BRCA	TCGA-AR-A0U1	110	Included
+TCGA	BRCA	TCGA-AR-A0U2	57	Included
+TCGA	BRCA	TCGA-AR-A0U3	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A0U4	205	No matched usable feature bag
+TCGA	BRCA	TCGA-AR-A1AH	123	Included
+TCGA	BRCA	TCGA-AR-A1AJ	55	Included
+TCGA	BRCA	TCGA-AR-A1AK	82	No matched usable feature bag
+TCGA	BRCA	TCGA-AR-A1AL	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AN	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AO	123	Included
+TCGA	BRCA	TCGA-AR-A1AP	54	Included
+TCGA	BRCA	TCGA-AR-A1AQ	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AR	65	Included
+TCGA	BRCA	TCGA-AR-A1AS	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AU	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AV	51	Included
+TCGA	BRCA	TCGA-AR-A1AW	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AX	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A1AY	74	Included
+TCGA	BRCA	TCGA-AR-A24H	156	Included
+TCGA	BRCA	TCGA-AR-A24K	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24L	57	Included
+TCGA	BRCA	TCGA-AR-A24M	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24N	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24O	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24P	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24Q	236	Included
+TCGA	BRCA	TCGA-AR-A24R	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24S	60	Included
+TCGA	BRCA	TCGA-AR-A24U	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24V	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24W	18	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24X	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A24Z	59	No matched usable feature bag
+TCGA	BRCA	TCGA-AR-A250	157	Included
+TCGA	BRCA	TCGA-AR-A251	205	Included
+TCGA	BRCA	TCGA-AR-A252	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A254	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A255	93	Included
+TCGA	BRCA	TCGA-AR-A256	225	Included
+TCGA	BRCA	TCGA-AR-A2LE	398	Included
+TCGA	BRCA	TCGA-AR-A2LH	73	Included
+TCGA	BRCA	TCGA-AR-A2LK	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A2LL	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A2LM	17	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A2LN	58	Included
+TCGA	BRCA	TCGA-AR-A2LO	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A2LQ	16	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A2LR	72	Included
+TCGA	BRCA	TCGA-AR-A5QM	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A5QN	52	No matched usable feature bag
+TCGA	BRCA	TCGA-AR-A5QP	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-AR-A5QQ	100	Included
+TCGA	BRCA	TCGA-B6-A0I1	83	Included
+TCGA	BRCA	TCGA-B6-A0I2	79	Included
+TCGA	BRCA	TCGA-B6-A0I5	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0I9	112	Included
+TCGA	BRCA	TCGA-B6-A0IA	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IB	95	Included
+TCGA	BRCA	TCGA-B6-A0IC	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IE	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IG	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IH	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IJ	172	Included
+TCGA	BRCA	TCGA-B6-A0IK	204	Included
+TCGA	BRCA	TCGA-B6-A0IM	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IN	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0IO	90	Included
+TCGA	BRCA	TCGA-B6-A0IP	53	Included
+TCGA	BRCA	TCGA-B6-A0IQ	82	Included
+TCGA	BRCA	TCGA-B6-A0RE	203	Included
+TCGA	BRCA	TCGA-B6-A0RG	88	Included
+TCGA	BRCA	TCGA-B6-A0RH	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RI	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RL	73	Included
+TCGA	BRCA	TCGA-B6-A0RM	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RN	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RO	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RP	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0RS	197	Included
+TCGA	BRCA	TCGA-B6-A0RT	72	Included
+TCGA	BRCA	TCGA-B6-A0RU	61	Included
+TCGA	BRCA	TCGA-B6-A0RV	68	Included
+TCGA	BRCA	TCGA-B6-A0WS	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WT	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WV	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WW	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WX	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WY	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0WZ	97	Included
+TCGA	BRCA	TCGA-B6-A0X0	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0X1	92	Included
+TCGA	BRCA	TCGA-B6-A0X4	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0X5	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A0X7	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A1KC	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A1KF	79	Included
+TCGA	BRCA	TCGA-B6-A1KI	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A1KN	75	No matched usable feature bag
+TCGA	BRCA	TCGA-B6-A2IU	55	Included
+TCGA	BRCA	TCGA-B6-A401	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-B6-A409	56	No matched usable feature bag
+TCGA	BRCA	TCGA-B6-A40B	68	No matched usable feature bag
+TCGA	BRCA	TCGA-B6-A40C	54	Included
+TCGA	BRCA	TCGA-BH-A0AU	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0AV	87	Included
+TCGA	BRCA	TCGA-BH-A0AW	208	Included
+TCGA	BRCA	TCGA-BH-A0AY	153	Included
+TCGA	BRCA	TCGA-BH-A0AZ	71	Included
+TCGA	BRCA	TCGA-BH-A0B0	101	Included
+TCGA	BRCA	TCGA-BH-A0B3	107	Included
+TCGA	BRCA	TCGA-BH-A0B4	78	Included
+TCGA	BRCA	TCGA-BH-A0B5	90	Included
+TCGA	BRCA	TCGA-BH-A0B6	1291	Included
+TCGA	BRCA	TCGA-BH-A0B7	95	Included
+TCGA	BRCA	TCGA-BH-A0B9	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BA	102	Included
+TCGA	BRCA	TCGA-BH-A0BC	90	Included
+TCGA	BRCA	TCGA-BH-A0BD	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BF	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BG	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BJ	70	Included
+TCGA	BRCA	TCGA-BH-A0BL	136	Included
+TCGA	BRCA	TCGA-BH-A0BM	71	Included
+TCGA	BRCA	TCGA-BH-A0BO	60	Included
+TCGA	BRCA	TCGA-BH-A0BP	200	Included
+TCGA	BRCA	TCGA-BH-A0BQ	63	Included
+TCGA	BRCA	TCGA-BH-A0BR	75	Included
+TCGA	BRCA	TCGA-BH-A0BS	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BT	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0BV	74	Included
+TCGA	BRCA	TCGA-BH-A0BW	195	Included
+TCGA	BRCA	TCGA-BH-A0BZ	296	Included
+TCGA	BRCA	TCGA-BH-A0C0	230	Included
+TCGA	BRCA	TCGA-BH-A0C1	51	Included
+TCGA	BRCA	TCGA-BH-A0C3	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0C7	62	Included
+TCGA	BRCA	TCGA-BH-A0DD	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0DE	74	Included
+TCGA	BRCA	TCGA-BH-A0DG	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0DH	100	Included
+TCGA	BRCA	TCGA-BH-A0DI	62	Included
+TCGA	BRCA	TCGA-BH-A0DK	241	Included
+TCGA	BRCA	TCGA-BH-A0DL	133	Included
+TCGA	BRCA	TCGA-BH-A0DO	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0DP	71	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A0DQ	71	Included
+TCGA	BRCA	TCGA-BH-A0DS	59	Included
+TCGA	BRCA	TCGA-BH-A0DT	16	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0DV	17	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0DX	78	Included
+TCGA	BRCA	TCGA-BH-A0DZ	776	Included
+TCGA	BRCA	TCGA-BH-A0E0	88	Included
+TCGA	BRCA	TCGA-BH-A0E1	70	Included
+TCGA	BRCA	TCGA-BH-A0E2	61	Included
+TCGA	BRCA	TCGA-BH-A0E6	96	Included
+TCGA	BRCA	TCGA-BH-A0E7	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0E9	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0EA	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0EB	59	Included
+TCGA	BRCA	TCGA-BH-A0EE	179	Included
+TCGA	BRCA	TCGA-BH-A0EI	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0GY	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0GZ	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0H0	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0H3	18	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0H5	334	Included
+TCGA	BRCA	TCGA-BH-A0H6	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0H7	117	Included
+TCGA	BRCA	TCGA-BH-A0H9	101	Included
+TCGA	BRCA	TCGA-BH-A0HA	392	Included
+TCGA	BRCA	TCGA-BH-A0HB	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HI	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HK	278	Included
+TCGA	BRCA	TCGA-BH-A0HO	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HP	362	Included
+TCGA	BRCA	TCGA-BH-A0HQ	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HU	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HW	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0HX	89	Included
+TCGA	BRCA	TCGA-BH-A0HY	86	Included
+TCGA	BRCA	TCGA-BH-A0W3	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0W4	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0W5	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A0W7	265	Included
+TCGA	BRCA	TCGA-BH-A0WA	116	Included
+TCGA	BRCA	TCGA-BH-A18F	68	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A18G	1690	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A18H	57	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A18I	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A18J	112	Included
+TCGA	BRCA	TCGA-BH-A18K	73	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A18L	71	Included
+TCGA	BRCA	TCGA-BH-A18M	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A18N	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A18P	440	Included
+TCGA	BRCA	TCGA-BH-A18Q	110	Included
+TCGA	BRCA	TCGA-BH-A18R	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A18S	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A18T	108	Included
+TCGA	BRCA	TCGA-BH-A18U	181	Included
+TCGA	BRCA	TCGA-BH-A18V	289	Included
+TCGA	BRCA	TCGA-BH-A1EN	85	Included
+TCGA	BRCA	TCGA-BH-A1EO	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1ET	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1EU	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1EV	130	Included
+TCGA	BRCA	TCGA-BH-A1EW	22	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1EX	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1EY	56	Included
+TCGA	BRCA	TCGA-BH-A1F0	100	Included
+TCGA	BRCA	TCGA-BH-A1F2	72	Included
+TCGA	BRCA	TCGA-BH-A1F5	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1F6	53	Included
+TCGA	BRCA	TCGA-BH-A1F8	193	Included
+TCGA	BRCA	TCGA-BH-A1FC	131	Included
+TCGA	BRCA	TCGA-BH-A1FD	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1FE	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1FG	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1FJ	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1FL	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A1FM	66	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A1FN	149	Included
+TCGA	BRCA	TCGA-BH-A1FU	119	Included
+TCGA	BRCA	TCGA-BH-A201	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A202	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A203	104	Included
+TCGA	BRCA	TCGA-BH-A204	54	Included
+TCGA	BRCA	TCGA-BH-A208	86	Included
+TCGA	BRCA	TCGA-BH-A209	129	Included
+TCGA	BRCA	TCGA-BH-A28Q	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A2L8	636	Included
+TCGA	BRCA	TCGA-BH-A42V	59	Included
+TCGA	BRCA	TCGA-BH-A5IZ	192	Included
+TCGA	BRCA	TCGA-BH-A5J0	104	Included
+TCGA	BRCA	TCGA-BH-A6R8	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A6R9	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-A8FY	61	No matched usable feature bag
+TCGA	BRCA	TCGA-BH-A8FZ	96	Included
+TCGA	BRCA	TCGA-BH-A8G0	21	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-BH-AB28	90	No matched usable feature bag
+TCGA	BRCA	TCGA-C8-A12K	177	Included
+TCGA	BRCA	TCGA-C8-A12L	90	No matched usable feature bag
+TCGA	BRCA	TCGA-C8-A12M	85	Included
+TCGA	BRCA	TCGA-C8-A12N	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A12O	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A12P	203	Included
+TCGA	BRCA	TCGA-C8-A12Q	141	Included
+TCGA	BRCA	TCGA-C8-A12T	214	Included
+TCGA	BRCA	TCGA-C8-A12U	62	Included
+TCGA	BRCA	TCGA-C8-A12W	81	Included
+TCGA	BRCA	TCGA-C8-A12X	70	Included
+TCGA	BRCA	TCGA-C8-A12Y	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A12Z	62	Included
+TCGA	BRCA	TCGA-C8-A130	55	Included
+TCGA	BRCA	TCGA-C8-A131	76	Included
+TCGA	BRCA	TCGA-C8-A132	86	Included
+TCGA	BRCA	TCGA-C8-A133	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A134	117	Included
+TCGA	BRCA	TCGA-C8-A135	81	Included
+TCGA	BRCA	TCGA-C8-A137	63	Included
+TCGA	BRCA	TCGA-C8-A138	56	Included
+TCGA	BRCA	TCGA-C8-A1HE	57	Included
+TCGA	BRCA	TCGA-C8-A1HF	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A1HG	71	Included
+TCGA	BRCA	TCGA-C8-A1HI	74	Included
+TCGA	BRCA	TCGA-C8-A1HJ	126	Included
+TCGA	BRCA	TCGA-C8-A1HK	73	Included
+TCGA	BRCA	TCGA-C8-A1HL	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A1HM	459	No matched usable feature bag
+TCGA	BRCA	TCGA-C8-A1HN	71	Included
+TCGA	BRCA	TCGA-C8-A1HO	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A26V	98	Included
+TCGA	BRCA	TCGA-C8-A26W	72	Included
+TCGA	BRCA	TCGA-C8-A26X	81	Included
+TCGA	BRCA	TCGA-C8-A26Y	917	Included
+TCGA	BRCA	TCGA-C8-A26Z	59	Included
+TCGA	BRCA	TCGA-C8-A273	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A274	289	Included
+TCGA	BRCA	TCGA-C8-A275	145	Included
+TCGA	BRCA	TCGA-C8-A278	56	Included
+TCGA	BRCA	TCGA-C8-A27A	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-C8-A27B	162	Included
+TCGA	BRCA	TCGA-C8-A3M7	227	Included
+TCGA	BRCA	TCGA-C8-A3M8	62	No matched usable feature bag
+TCGA	BRCA	TCGA-C8-A8HP	274	Included
+TCGA	BRCA	TCGA-C8-A8HQ	375	No matched usable feature bag
+TCGA	BRCA	TCGA-C8-A8HR	62	Included
+TCGA	BRCA	TCGA-C8-A9FZ	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A13Y	83	Included
+TCGA	BRCA	TCGA-D8-A13Z	108	Included
+TCGA	BRCA	TCGA-D8-A140	139	Included
+TCGA	BRCA	TCGA-D8-A141	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A143	62	Included
+TCGA	BRCA	TCGA-D8-A145	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A146	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A147	204	Included
+TCGA	BRCA	TCGA-D8-A1J8	970	Included
+TCGA	BRCA	TCGA-D8-A1J9	278	Included
+TCGA	BRCA	TCGA-D8-A1JA	1190	Included
+TCGA	BRCA	TCGA-D8-A1JB	66	Included
+TCGA	BRCA	TCGA-D8-A1JC	122	Included
+TCGA	BRCA	TCGA-D8-A1JD	128	Included
+TCGA	BRCA	TCGA-D8-A1JE	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JF	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JG	178	No matched usable feature bag
+TCGA	BRCA	TCGA-D8-A1JH	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JI	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JJ	102	Included
+TCGA	BRCA	TCGA-D8-A1JK	254	No matched usable feature bag
+TCGA	BRCA	TCGA-D8-A1JL	132	Included
+TCGA	BRCA	TCGA-D8-A1JM	56	Included
+TCGA	BRCA	TCGA-D8-A1JN	208	Included
+TCGA	BRCA	TCGA-D8-A1JP	140	Included
+TCGA	BRCA	TCGA-D8-A1JS	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JT	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1JU	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1X5	69	Included
+TCGA	BRCA	TCGA-D8-A1X6	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1X7	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1X8	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1X9	105	Included
+TCGA	BRCA	TCGA-D8-A1XA	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XB	51	Included
+TCGA	BRCA	TCGA-D8-A1XC	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XF	52	Included
+TCGA	BRCA	TCGA-D8-A1XG	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XJ	115	Included
+TCGA	BRCA	TCGA-D8-A1XK	1310	Included
+TCGA	BRCA	TCGA-D8-A1XL	110	Included
+TCGA	BRCA	TCGA-D8-A1XM	66	Included
+TCGA	BRCA	TCGA-D8-A1XO	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XQ	1047	Included
+TCGA	BRCA	TCGA-D8-A1XR	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XS	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XT	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XU	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XV	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1XW	124	Included
+TCGA	BRCA	TCGA-D8-A1XY	64	Included
+TCGA	BRCA	TCGA-D8-A1XZ	100	Included
+TCGA	BRCA	TCGA-D8-A1Y0	82	Included
+TCGA	BRCA	TCGA-D8-A1Y1	244	Included
+TCGA	BRCA	TCGA-D8-A1Y2	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A1Y3	68	Included
+TCGA	BRCA	TCGA-D8-A27E	11	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27F	76	Included
+TCGA	BRCA	TCGA-D8-A27G	1183	Included
+TCGA	BRCA	TCGA-D8-A27H	166	Included
+TCGA	BRCA	TCGA-D8-A27I	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27K	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27L	55	Included
+TCGA	BRCA	TCGA-D8-A27M	97	Included
+TCGA	BRCA	TCGA-D8-A27N	61	Included
+TCGA	BRCA	TCGA-D8-A27P	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27R	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27T	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A27V	236	Included
+TCGA	BRCA	TCGA-D8-A27W	59	Included
+TCGA	BRCA	TCGA-D8-A3Z6	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A4Z1	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-D8-A73U	213	Included
+TCGA	BRCA	TCGA-D8-A73W	55	Included
+TCGA	BRCA	TCGA-D8-A73X	54	Included
+TCGA	BRCA	TCGA-E2-A105	69	No matched usable feature bag
+TCGA	BRCA	TCGA-E2-A107	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A108	192	Included
+TCGA	BRCA	TCGA-E2-A109	88	Included
+TCGA	BRCA	TCGA-E2-A10A	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A10B	73	Included
+TCGA	BRCA	TCGA-E2-A10C	521	Included
+TCGA	BRCA	TCGA-E2-A10F	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A14N	112	Included
+TCGA	BRCA	TCGA-E2-A14O	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A14P	114	Included
+TCGA	BRCA	TCGA-E2-A14Q	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A14R	144	Included
+TCGA	BRCA	TCGA-E2-A14T	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A14V	145	Included
+TCGA	BRCA	TCGA-E2-A14W	104	Included
+TCGA	BRCA	TCGA-E2-A14X	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A14Y	107	Included
+TCGA	BRCA	TCGA-E2-A14Z	98	Included
+TCGA	BRCA	TCGA-E2-A150	94	Included
+TCGA	BRCA	TCGA-E2-A152	174	Included
+TCGA	BRCA	TCGA-E2-A153	55	No matched usable feature bag
+TCGA	BRCA	TCGA-E2-A154	58	Included
+TCGA	BRCA	TCGA-E2-A155	82	Included
+TCGA	BRCA	TCGA-E2-A156	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A158	125	Included
+TCGA	BRCA	TCGA-E2-A159	202	Included
+TCGA	BRCA	TCGA-E2-A15A	64	Included
+TCGA	BRCA	TCGA-E2-A15C	51	Included
+TCGA	BRCA	TCGA-E2-A15D	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15E	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15F	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15G	73	No matched usable feature bag
+TCGA	BRCA	TCGA-E2-A15H	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15I	91	Included
+TCGA	BRCA	TCGA-E2-A15J	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15K	109	Included
+TCGA	BRCA	TCGA-E2-A15L	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15M	219	Included
+TCGA	BRCA	TCGA-E2-A15O	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15P	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15R	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A15S	70	Included
+TCGA	BRCA	TCGA-E2-A15T	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1AZ	81	Included
+TCGA	BRCA	TCGA-E2-A1B0	62	Included
+TCGA	BRCA	TCGA-E2-A1B1	71	Included
+TCGA	BRCA	TCGA-E2-A1B4	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1B5	95	Included
+TCGA	BRCA	TCGA-E2-A1BC	89	Included
+TCGA	BRCA	TCGA-E2-A1BD	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IE	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IF	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IG	59	Included
+TCGA	BRCA	TCGA-E2-A1IH	86	Included
+TCGA	BRCA	TCGA-E2-A1II	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IJ	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IK	20	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IL	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IN	251	Included
+TCGA	BRCA	TCGA-E2-A1IO	16	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1IU	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1L6	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1L7	81	Included
+TCGA	BRCA	TCGA-E2-A1L8	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1L9	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1LA	109	Included
+TCGA	BRCA	TCGA-E2-A1LB	59	Included
+TCGA	BRCA	TCGA-E2-A1LG	220	Included
+TCGA	BRCA	TCGA-E2-A1LH	231	Included
+TCGA	BRCA	TCGA-E2-A1LI	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A1LK	57	Included
+TCGA	BRCA	TCGA-E2-A1LL	63	Included
+TCGA	BRCA	TCGA-E2-A2P6	192	Included
+TCGA	BRCA	TCGA-E2-A56Z	63	Included
+TCGA	BRCA	TCGA-E2-A570	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E2-A573	75	Included
+TCGA	BRCA	TCGA-E2-A574	159	Included
+TCGA	BRCA	TCGA-E2-A576	74	Included
+TCGA	BRCA	TCGA-E2-A9RU	110	Included
+TCGA	BRCA	TCGA-E9-A1N3	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1N4	35	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1N5	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1N8	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1N9	73	Included
+TCGA	BRCA	TCGA-E9-A1NA	118	Included
+TCGA	BRCA	TCGA-E9-A1NC	87	Included
+TCGA	BRCA	TCGA-E9-A1ND	108	Included
+TCGA	BRCA	TCGA-E9-A1NE	62	Included
+TCGA	BRCA	TCGA-E9-A1NF	66	Included
+TCGA	BRCA	TCGA-E9-A1NG	24	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1NH	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1NI	33	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1QZ	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1R0	38	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1R2	67	Included
+TCGA	BRCA	TCGA-E9-A1R3	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1R4	158	No matched usable feature bag
+TCGA	BRCA	TCGA-E9-A1R5	53	Included
+TCGA	BRCA	TCGA-E9-A1R6	36	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1R7	64	Included
+TCGA	BRCA	TCGA-E9-A1RA	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1RB	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1RC	56	Included
+TCGA	BRCA	TCGA-E9-A1RD	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1RE	67	No matched usable feature bag
+TCGA	BRCA	TCGA-E9-A1RF	177	Included
+TCGA	BRCA	TCGA-E9-A1RG	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A1RH	115	Included
+TCGA	BRCA	TCGA-E9-A1RI	30	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A226	81	Included
+TCGA	BRCA	TCGA-E9-A227	19	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A228	55	Included
+TCGA	BRCA	TCGA-E9-A229	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A22A	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A22B	77	Included
+TCGA	BRCA	TCGA-E9-A22D	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A22E	153	Included
+TCGA	BRCA	TCGA-E9-A22G	119	Included
+TCGA	BRCA	TCGA-E9-A22H	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A243	92	Included
+TCGA	BRCA	TCGA-E9-A244	127	Included
+TCGA	BRCA	TCGA-E9-A245	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A247	52	Included
+TCGA	BRCA	TCGA-E9-A248	31	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A249	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A24A	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A295	115	No matched usable feature bag
+TCGA	BRCA	TCGA-E9-A2JS	93	Included
+TCGA	BRCA	TCGA-E9-A2JT	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A3HO	76	Included
+TCGA	BRCA	TCGA-E9-A3QA	66	Included
+TCGA	BRCA	TCGA-E9-A3X8	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A54Y	63	Included
+TCGA	BRCA	TCGA-E9-A5FL	138	Included
+TCGA	BRCA	TCGA-E9-A5UO	41	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-E9-A6HE	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1IW	129	Included
+TCGA	BRCA	TCGA-EW-A1IX	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1IY	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1IZ	441	Included
+TCGA	BRCA	TCGA-EW-A1J1	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1J2	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1J3	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1J5	541	Included
+TCGA	BRCA	TCGA-EW-A1J6	44	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1OV	141	Included
+TCGA	BRCA	TCGA-EW-A1OX	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1OY	81	Included
+TCGA	BRCA	TCGA-EW-A1OZ	77	Included
+TCGA	BRCA	TCGA-EW-A1P0	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P1	3	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P3	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P4	79	Included
+TCGA	BRCA	TCGA-EW-A1P5	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P6	27	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P7	25	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1P8	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1PA	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1PB	183	Included
+TCGA	BRCA	TCGA-EW-A1PD	95	Included
+TCGA	BRCA	TCGA-EW-A1PE	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1PG	12	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A1PH	66	Included
+TCGA	BRCA	TCGA-EW-A2FR	57	Included
+TCGA	BRCA	TCGA-EW-A2FS	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A2FV	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A2FW	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A423	91	Included
+TCGA	BRCA	TCGA-EW-A6S9	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A6SA	125	Included
+TCGA	BRCA	TCGA-EW-A6SB	90	No matched usable feature bag
+TCGA	BRCA	TCGA-EW-A6SC	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-EW-A6SD	77	Included
+TCGA	BRCA	TCGA-GI-A2C8	151	Included
+TCGA	BRCA	TCGA-GM-A2D9	657	Included
+TCGA	BRCA	TCGA-GM-A2DA	47	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A2DB	134	Included
+TCGA	BRCA	TCGA-GM-A2DC	29	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A2DD	75	No matched usable feature bag
+TCGA	BRCA	TCGA-GM-A2DF	54	Included
+TCGA	BRCA	TCGA-GM-A2DH	232	Included
+TCGA	BRCA	TCGA-GM-A2DI	93	Included
+TCGA	BRCA	TCGA-GM-A2DK	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A2DL	54	Included
+TCGA	BRCA	TCGA-GM-A2DM	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A2DN	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A2DO	220	Included
+TCGA	BRCA	TCGA-GM-A3NW	98	Included
+TCGA	BRCA	TCGA-GM-A3XL	145	Included
+TCGA	BRCA	TCGA-GM-A4E0	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A5PV	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-GM-A5PX	42	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-HN-A2NL	94	Included
+TCGA	BRCA	TCGA-HN-A2OB	23	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-JL-A3YX	52	No matched usable feature bag
+TCGA	BRCA	TCGA-LD-A66U	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LD-A74U	358	No matched usable feature bag
+TCGA	BRCA	TCGA-LD-A7W5	68	Included
+TCGA	BRCA	TCGA-LD-A7W6	49	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LL-A440	9	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LL-A50Y	45	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LL-A5YL	95	Included
+TCGA	BRCA	TCGA-LL-A5YM	40	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LL-A5YN	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-LL-A5YP	110	Included
+TCGA	BRCA	TCGA-LL-A6FP	77	Included
+TCGA	BRCA	TCGA-LL-A6FQ	69	Included
+TCGA	BRCA	TCGA-LL-A6FR	66	Included
+TCGA	BRCA	TCGA-LL-A73Y	196	Included
+TCGA	BRCA	TCGA-LL-A73Z	55	Included
+TCGA	BRCA	TCGA-LL-A740	71	Included
+TCGA	BRCA	TCGA-LL-A7SZ	130	Included
+TCGA	BRCA	TCGA-LL-A7T0	78	Included
+TCGA	BRCA	TCGA-LL-A8F5	202	Included
+TCGA	BRCA	TCGA-LL-A9Q3	69	Included
+TCGA	BRCA	TCGA-OK-A5Q2	43	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5D6	58	Included
+TCGA	BRCA	TCGA-OL-A5D7	81	Included
+TCGA	BRCA	TCGA-OL-A5D8	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5DA	117	Included
+TCGA	BRCA	TCGA-OL-A5RU	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5RV	18	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5RW	254	No matched usable feature bag
+TCGA	BRCA	TCGA-OL-A5RX	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5RY	16	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A5RZ	158	No matched usable feature bag
+TCGA	BRCA	TCGA-OL-A5S0	46	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A66H	28	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A66I	56	Included
+TCGA	BRCA	TCGA-OL-A66J	70	Included
+TCGA	BRCA	TCGA-OL-A66K	50	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A66L	96	Included
+TCGA	BRCA	TCGA-OL-A66N	58	Included
+TCGA	BRCA	TCGA-OL-A66O	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A66P	126	Included
+TCGA	BRCA	TCGA-OL-A6VO	59	Included
+TCGA	BRCA	TCGA-OL-A6VQ	132	Included
+TCGA	BRCA	TCGA-OL-A6VR	39	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-OL-A97C	73	Included
+TCGA	BRCA	TCGA-PE-A5DD	87	Included
+TCGA	BRCA	TCGA-PE-A5DE	703	Included
+TCGA	BRCA	TCGA-S3-A6ZF	56	Included
+TCGA	BRCA	TCGA-S3-A6ZG	60	Included
+TCGA	BRCA	TCGA-S3-A6ZH	48	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-S3-AA0Z	77	No matched usable feature bag
+TCGA	BRCA	TCGA-S3-AA10	216	Included
+TCGA	BRCA	TCGA-S3-AA11	103	Included
+TCGA	BRCA	TCGA-S3-AA12	65	Included
+TCGA	BRCA	TCGA-S3-AA14	26	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-S3-AA17	149	Included
+TCGA	BRCA	TCGA-UL-AAZ6	144	Included
+TCGA	BRCA	TCGA-UU-A93S	229	Included
+TCGA	BRCA	TCGA-V7-A7HQ	32	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-W8-A86G	37	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-WT-AB41	64	Included
+TCGA	BRCA	TCGA-WT-AB44	61	No matched usable feature bag
+TCGA	BRCA	TCGA-XX-A899	128	Included
+TCGA	BRCA	TCGA-XX-A89A	267	Included
+TCGA	BRCA	TCGA-Z7-A8R5	34	No sample with >50 observed substitutions
+TCGA	BRCA	TCGA-Z7-A8R6	110	Included
+TCGA	HNSC	TCGA-4P-AA8J	157	Included
+TCGA	HNSC	TCGA-BA-4074	172	Included
+TCGA	HNSC	TCGA-BA-4075	210	Included
+TCGA	HNSC	TCGA-BA-4076	425	Included
+TCGA	HNSC	TCGA-BA-4077	400	Included
+TCGA	HNSC	TCGA-BA-4078	595	Included
+TCGA	HNSC	TCGA-BA-5149	145	Included
+TCGA	HNSC	TCGA-BA-5151	104	Included
+TCGA	HNSC	TCGA-BA-5152	652	Included
+TCGA	HNSC	TCGA-BA-5153	50	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-BA-5555	169	Included
+TCGA	HNSC	TCGA-BA-5556	177	Included
+TCGA	HNSC	TCGA-BA-5557	57	Included
+TCGA	HNSC	TCGA-BA-5558	208	Included
+TCGA	HNSC	TCGA-BA-5559	95	Included
+TCGA	HNSC	TCGA-BA-6868	198	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-6869	605	Included
+TCGA	HNSC	TCGA-BA-6870	107	Included
+TCGA	HNSC	TCGA-BA-6871	167	Included
+TCGA	HNSC	TCGA-BA-6872	207	Included
+TCGA	HNSC	TCGA-BA-6873	76	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-7269	109	Included
+TCGA	HNSC	TCGA-BA-A4IF	115	Included
+TCGA	HNSC	TCGA-BA-A4IG	170	Included
+TCGA	HNSC	TCGA-BA-A4IH	57	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-A4II	129	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-A6D8	149	Included
+TCGA	HNSC	TCGA-BA-A6DA	876	Included
+TCGA	HNSC	TCGA-BA-A6DB	24	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-BA-A6DD	72	Included
+TCGA	HNSC	TCGA-BA-A6DE	152	Included
+TCGA	HNSC	TCGA-BA-A6DF	182	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-A6DG	39	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-BA-A6DI	125	No matched usable feature bag
+TCGA	HNSC	TCGA-BA-A6DJ	340	Included
+TCGA	HNSC	TCGA-BA-A6DL	111	Included
+TCGA	HNSC	TCGA-BA-A8YP	199	Included
+TCGA	HNSC	TCGA-BB-4217	40	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-BB-4223	276	Included
+TCGA	HNSC	TCGA-BB-4224	103	Included
+TCGA	HNSC	TCGA-BB-4225	91	Included
+TCGA	HNSC	TCGA-BB-4227	335	Included
+TCGA	HNSC	TCGA-BB-4228	56	Included
+TCGA	HNSC	TCGA-BB-7870	356	Included
+TCGA	HNSC	TCGA-BB-8596	119	Included
+TCGA	HNSC	TCGA-BB-8601	78	Included
+TCGA	HNSC	TCGA-BB-A5HU	248	Included
+TCGA	HNSC	TCGA-BB-A5HY	269	Included
+TCGA	HNSC	TCGA-BB-A5HZ	90	Included
+TCGA	HNSC	TCGA-BB-A6UM	89	Included
+TCGA	HNSC	TCGA-BB-A6UO	142	No matched usable feature bag
+TCGA	HNSC	TCGA-C9-A47Z	135	Included
+TCGA	HNSC	TCGA-C9-A480	65	Included
+TCGA	HNSC	TCGA-CN-4723	1100	Included
+TCGA	HNSC	TCGA-CN-4725	66	Included
+TCGA	HNSC	TCGA-CN-4726	87	Included
+TCGA	HNSC	TCGA-CN-4727	526	Included
+TCGA	HNSC	TCGA-CN-4728	156	Included
+TCGA	HNSC	TCGA-CN-4729	185	Included
+TCGA	HNSC	TCGA-CN-4730	208	Included
+TCGA	HNSC	TCGA-CN-4731	141	Included
+TCGA	HNSC	TCGA-CN-4733	33	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CN-4735	184	Included
+TCGA	HNSC	TCGA-CN-4736	115	Included
+TCGA	HNSC	TCGA-CN-4737	56	Included
+TCGA	HNSC	TCGA-CN-4738	128	Included
+TCGA	HNSC	TCGA-CN-4739	278	Included
+TCGA	HNSC	TCGA-CN-4740	180	Included
+TCGA	HNSC	TCGA-CN-4741	174	Included
+TCGA	HNSC	TCGA-CN-4742	94	Included
+TCGA	HNSC	TCGA-CN-5355	132	Included
+TCGA	HNSC	TCGA-CN-5356	442	Included
+TCGA	HNSC	TCGA-CN-5358	49	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CN-5359	190	Included
+TCGA	HNSC	TCGA-CN-5360	641	Included
+TCGA	HNSC	TCGA-CN-5363	233	Included
+TCGA	HNSC	TCGA-CN-5364	165	Included
+TCGA	HNSC	TCGA-CN-5365	96	Included
+TCGA	HNSC	TCGA-CN-5366	122	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-5367	127	Included
+TCGA	HNSC	TCGA-CN-5369	556	Included
+TCGA	HNSC	TCGA-CN-5370	126	Included
+TCGA	HNSC	TCGA-CN-5373	194	Included
+TCGA	HNSC	TCGA-CN-5374	218	Included
+TCGA	HNSC	TCGA-CN-6010	2446	Included
+TCGA	HNSC	TCGA-CN-6011	463	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-6012	146	Included
+TCGA	HNSC	TCGA-CN-6013	242	Included
+TCGA	HNSC	TCGA-CN-6016	153	Included
+TCGA	HNSC	TCGA-CN-6017	4	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CN-6018	134	Included
+TCGA	HNSC	TCGA-CN-6019	162	Included
+TCGA	HNSC	TCGA-CN-6020	191	Included
+TCGA	HNSC	TCGA-CN-6021	351	Included
+TCGA	HNSC	TCGA-CN-6022	95	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-6023	136	Included
+TCGA	HNSC	TCGA-CN-6024	208	Included
+TCGA	HNSC	TCGA-CN-6988	259	Included
+TCGA	HNSC	TCGA-CN-6989	131	Included
+TCGA	HNSC	TCGA-CN-6992	467	Included
+TCGA	HNSC	TCGA-CN-6994	155	Included
+TCGA	HNSC	TCGA-CN-6995	279	Included
+TCGA	HNSC	TCGA-CN-6996	67	Included
+TCGA	HNSC	TCGA-CN-6997	272	Included
+TCGA	HNSC	TCGA-CN-6998	114	Included
+TCGA	HNSC	TCGA-CN-A497	436	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-A498	153	Included
+TCGA	HNSC	TCGA-CN-A499	53	Included
+TCGA	HNSC	TCGA-CN-A49A	155	Included
+TCGA	HNSC	TCGA-CN-A49B	138	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-A49C	74	Included
+TCGA	HNSC	TCGA-CN-A63T	331	Included
+TCGA	HNSC	TCGA-CN-A63U	672	Included
+TCGA	HNSC	TCGA-CN-A63V	99	Included
+TCGA	HNSC	TCGA-CN-A63W	503	Included
+TCGA	HNSC	TCGA-CN-A63Y	214	Included
+TCGA	HNSC	TCGA-CN-A640	77	Included
+TCGA	HNSC	TCGA-CN-A641	262	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-A642	96	Included
+TCGA	HNSC	TCGA-CN-A6UY	50	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CN-A6V1	369	Included
+TCGA	HNSC	TCGA-CN-A6V3	293	Included
+TCGA	HNSC	TCGA-CN-A6V6	95	No matched usable feature bag
+TCGA	HNSC	TCGA-CN-A6V7	64	Included
+TCGA	HNSC	TCGA-CQ-5323	76	Included
+TCGA	HNSC	TCGA-CQ-5324	78	Included
+TCGA	HNSC	TCGA-CQ-5325	68	Included
+TCGA	HNSC	TCGA-CQ-5326	287	Included
+TCGA	HNSC	TCGA-CQ-5327	289	Included
+TCGA	HNSC	TCGA-CQ-5329	35	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CQ-5330	80	Included
+TCGA	HNSC	TCGA-CQ-5331	189	Included
+TCGA	HNSC	TCGA-CQ-5332	180	Included
+TCGA	HNSC	TCGA-CQ-5333	262	Included
+TCGA	HNSC	TCGA-CQ-5334	220	Included
+TCGA	HNSC	TCGA-CQ-6218	183	Included
+TCGA	HNSC	TCGA-CQ-6220	142	Included
+TCGA	HNSC	TCGA-CQ-6221	141	No matched usable feature bag
+TCGA	HNSC	TCGA-CQ-6223	136	Included
+TCGA	HNSC	TCGA-CQ-6224	84	Included
+TCGA	HNSC	TCGA-CQ-6225	181	Included
+TCGA	HNSC	TCGA-CQ-6227	71	Included
+TCGA	HNSC	TCGA-CQ-6228	139	Included
+TCGA	HNSC	TCGA-CQ-6229	38	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CQ-7063	173	Included
+TCGA	HNSC	TCGA-CQ-7064	137	Included
+TCGA	HNSC	TCGA-CQ-7065	44	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CQ-7068	137	Included
+TCGA	HNSC	TCGA-CQ-7069	112	No matched usable feature bag
+TCGA	HNSC	TCGA-CQ-7071	563	Included
+TCGA	HNSC	TCGA-CQ-7072	146	Included
+TCGA	HNSC	TCGA-CQ-A4C6	141	Included
+TCGA	HNSC	TCGA-CQ-A4C7	75	Included
+TCGA	HNSC	TCGA-CQ-A4C9	118	Included
+TCGA	HNSC	TCGA-CQ-A4CB	109	Included
+TCGA	HNSC	TCGA-CQ-A4CD	187	Included
+TCGA	HNSC	TCGA-CQ-A4CE	88	Included
+TCGA	HNSC	TCGA-CQ-A4CG	97	Included
+TCGA	HNSC	TCGA-CQ-A4CI	126	Included
+TCGA	HNSC	TCGA-CR-6467	57	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6470	44	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CR-6471	162	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6472	593	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6474	127	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6477	103	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6478	158	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6480	137	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6481	629	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6482	52	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6487	160	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6488	51	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6491	169	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-6493	43	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CR-7365	213	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7367	215	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7368	267	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7369	89	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7370	697	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7371	410	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7372	56	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7373	151	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7374	442	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7376	68	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7377	158	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7380	105	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7382	102	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7383	152	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7385	175	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7386	241	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7388	982	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7389	154	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7390	227	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7392	32	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CR-7394	206	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7395	219	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7397	56	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7398	497	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7399	400	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7401	114	No matched usable feature bag
+TCGA	HNSC	TCGA-CR-7402	1264	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-5430	366	Included
+TCGA	HNSC	TCGA-CV-5432	713	Included
+TCGA	HNSC	TCGA-CV-5434	333	Included
+TCGA	HNSC	TCGA-CV-5435	287	Included
+TCGA	HNSC	TCGA-CV-5436	245	Included
+TCGA	HNSC	TCGA-CV-5439	143	Included
+TCGA	HNSC	TCGA-CV-5440	156	Included
+TCGA	HNSC	TCGA-CV-5441	485	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-5442	325	Included
+TCGA	HNSC	TCGA-CV-5443	76	Included
+TCGA	HNSC	TCGA-CV-5444	181	Included
+TCGA	HNSC	TCGA-CV-5966	287	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-5970	511	Included
+TCGA	HNSC	TCGA-CV-5971	30	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-5973	75	Included
+TCGA	HNSC	TCGA-CV-5976	97	Included
+TCGA	HNSC	TCGA-CV-5977	111	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-5978	219	Included
+TCGA	HNSC	TCGA-CV-5979	42	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-6003	123	Included
+TCGA	HNSC	TCGA-CV-6433	60	Included
+TCGA	HNSC	TCGA-CV-6436	100	Included
+TCGA	HNSC	TCGA-CV-6441	300	Included
+TCGA	HNSC	TCGA-CV-6933	401	Included
+TCGA	HNSC	TCGA-CV-6934	226	Included
+TCGA	HNSC	TCGA-CV-6935	543	Included
+TCGA	HNSC	TCGA-CV-6936	740	Included
+TCGA	HNSC	TCGA-CV-6937	203	Included
+TCGA	HNSC	TCGA-CV-6938	333	Included
+TCGA	HNSC	TCGA-CV-6939	95	Included
+TCGA	HNSC	TCGA-CV-6940	177	Included
+TCGA	HNSC	TCGA-CV-6941	225	Included
+TCGA	HNSC	TCGA-CV-6942	296	Included
+TCGA	HNSC	TCGA-CV-6943	195	Included
+TCGA	HNSC	TCGA-CV-6945	185	Included
+TCGA	HNSC	TCGA-CV-6948	251	Included
+TCGA	HNSC	TCGA-CV-6950	82	Included
+TCGA	HNSC	TCGA-CV-6951	381	Included
+TCGA	HNSC	TCGA-CV-6952	417	Included
+TCGA	HNSC	TCGA-CV-6953	396	Included
+TCGA	HNSC	TCGA-CV-6954	339	Included
+TCGA	HNSC	TCGA-CV-6955	227	Included
+TCGA	HNSC	TCGA-CV-6956	488	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-6959	152	Included
+TCGA	HNSC	TCGA-CV-6960	426	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-6961	1507	Included
+TCGA	HNSC	TCGA-CV-6962	305	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-7089	450	Included
+TCGA	HNSC	TCGA-CV-7090	116	Included
+TCGA	HNSC	TCGA-CV-7091	410	Included
+TCGA	HNSC	TCGA-CV-7095	602	Included
+TCGA	HNSC	TCGA-CV-7097	286	Included
+TCGA	HNSC	TCGA-CV-7099	386	Included
+TCGA	HNSC	TCGA-CV-7100	44	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-7101	529	Included
+TCGA	HNSC	TCGA-CV-7102	244	Included
+TCGA	HNSC	TCGA-CV-7103	204	Included
+TCGA	HNSC	TCGA-CV-7104	170	Included
+TCGA	HNSC	TCGA-CV-7177	254	Included
+TCGA	HNSC	TCGA-CV-7178	313	Included
+TCGA	HNSC	TCGA-CV-7180	72	Included
+TCGA	HNSC	TCGA-CV-7183	140	Included
+TCGA	HNSC	TCGA-CV-7235	339	Included
+TCGA	HNSC	TCGA-CV-7236	59	Included
+TCGA	HNSC	TCGA-CV-7238	401	Included
+TCGA	HNSC	TCGA-CV-7242	782	Included
+TCGA	HNSC	TCGA-CV-7243	139	Included
+TCGA	HNSC	TCGA-CV-7245	1333	Included
+TCGA	HNSC	TCGA-CV-7247	218	Included
+TCGA	HNSC	TCGA-CV-7248	738	Included
+TCGA	HNSC	TCGA-CV-7250	699	Included
+TCGA	HNSC	TCGA-CV-7252	667	Included
+TCGA	HNSC	TCGA-CV-7253	220	Included
+TCGA	HNSC	TCGA-CV-7254	350	Included
+TCGA	HNSC	TCGA-CV-7255	253	Included
+TCGA	HNSC	TCGA-CV-7261	484	Included
+TCGA	HNSC	TCGA-CV-7263	332	Included
+TCGA	HNSC	TCGA-CV-7406	493	Included
+TCGA	HNSC	TCGA-CV-7407	153	Included
+TCGA	HNSC	TCGA-CV-7410	51	Included
+TCGA	HNSC	TCGA-CV-7411	147	Included
+TCGA	HNSC	TCGA-CV-7413	189	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-7414	338	Included
+TCGA	HNSC	TCGA-CV-7415	319	Included
+TCGA	HNSC	TCGA-CV-7416	189	Included
+TCGA	HNSC	TCGA-CV-7418	411	Included
+TCGA	HNSC	TCGA-CV-7421	246	Included
+TCGA	HNSC	TCGA-CV-7422	175	Included
+TCGA	HNSC	TCGA-CV-7423	168	Included
+TCGA	HNSC	TCGA-CV-7424	468	No matched usable feature bag
+TCGA	HNSC	TCGA-CV-7425	222	Included
+TCGA	HNSC	TCGA-CV-7427	577	Included
+TCGA	HNSC	TCGA-CV-7429	69	Included
+TCGA	HNSC	TCGA-CV-7430	281	Included
+TCGA	HNSC	TCGA-CV-7432	397	Included
+TCGA	HNSC	TCGA-CV-7433	152	Included
+TCGA	HNSC	TCGA-CV-7434	244	Included
+TCGA	HNSC	TCGA-CV-7435	205	Included
+TCGA	HNSC	TCGA-CV-7437	323	Included
+TCGA	HNSC	TCGA-CV-7438	181	Included
+TCGA	HNSC	TCGA-CV-7440	497	Included
+TCGA	HNSC	TCGA-CV-A45O	185	Included
+TCGA	HNSC	TCGA-CV-A45P	215	Included
+TCGA	HNSC	TCGA-CV-A45Q	377	Included
+TCGA	HNSC	TCGA-CV-A45R	110	Included
+TCGA	HNSC	TCGA-CV-A45T	17	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-A45U	273	Included
+TCGA	HNSC	TCGA-CV-A45V	135	Included
+TCGA	HNSC	TCGA-CV-A45W	760	Included
+TCGA	HNSC	TCGA-CV-A45X	146	Included
+TCGA	HNSC	TCGA-CV-A45Y	90	Included
+TCGA	HNSC	TCGA-CV-A45Z	880	Included
+TCGA	HNSC	TCGA-CV-A460	83	Included
+TCGA	HNSC	TCGA-CV-A461	744	Included
+TCGA	HNSC	TCGA-CV-A463	281	Included
+TCGA	HNSC	TCGA-CV-A464	36	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-A465	43	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-A6JD	106	Included
+TCGA	HNSC	TCGA-CV-A6JE	173	Included
+TCGA	HNSC	TCGA-CV-A6JM	383	Included
+TCGA	HNSC	TCGA-CV-A6JN	101	Included
+TCGA	HNSC	TCGA-CV-A6JO	84	Included
+TCGA	HNSC	TCGA-CV-A6JT	65	Included
+TCGA	HNSC	TCGA-CV-A6JU	160	Included
+TCGA	HNSC	TCGA-CV-A6JY	111	Included
+TCGA	HNSC	TCGA-CV-A6JZ	132	Included
+TCGA	HNSC	TCGA-CV-A6K0	23	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-CV-A6K1	574	Included
+TCGA	HNSC	TCGA-CV-A6K2	879	Included
+TCGA	HNSC	TCGA-CX-7082	178	Included
+TCGA	HNSC	TCGA-CX-7085	198	No matched usable feature bag
+TCGA	HNSC	TCGA-CX-7086	295	Included
+TCGA	HNSC	TCGA-CX-7219	172	Included
+TCGA	HNSC	TCGA-CX-A4AQ	130	Included
+TCGA	HNSC	TCGA-D6-6515	60	No matched usable feature bag
+TCGA	HNSC	TCGA-D6-6516	2609	Included
+TCGA	HNSC	TCGA-D6-6517	91	Included
+TCGA	HNSC	TCGA-D6-6823	201	Included
+TCGA	HNSC	TCGA-D6-6824	64	Included
+TCGA	HNSC	TCGA-D6-6825	98	Included
+TCGA	HNSC	TCGA-D6-6826	125	Included
+TCGA	HNSC	TCGA-D6-6827	18	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-D6-8568	128	Included
+TCGA	HNSC	TCGA-D6-8569	163	Included
+TCGA	HNSC	TCGA-D6-A4Z9	116	No matched usable feature bag
+TCGA	HNSC	TCGA-D6-A4ZB	228	Included
+TCGA	HNSC	TCGA-D6-A6EK	207	Included
+TCGA	HNSC	TCGA-D6-A6EM	115	Included
+TCGA	HNSC	TCGA-D6-A6EN	120	Included
+TCGA	HNSC	TCGA-D6-A6EO	108	Included
+TCGA	HNSC	TCGA-D6-A6EP	158	Included
+TCGA	HNSC	TCGA-D6-A6EQ	113	Included
+TCGA	HNSC	TCGA-D6-A6ES	254	Included
+TCGA	HNSC	TCGA-D6-A74Q	549	Included
+TCGA	HNSC	TCGA-DQ-5624	121	Included
+TCGA	HNSC	TCGA-DQ-5625	240	Included
+TCGA	HNSC	TCGA-DQ-5629	420	Included
+TCGA	HNSC	TCGA-DQ-5630	85	Included
+TCGA	HNSC	TCGA-DQ-5631	118	Included
+TCGA	HNSC	TCGA-DQ-7588	128	No matched usable feature bag
+TCGA	HNSC	TCGA-DQ-7591	48	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-DQ-7592	99	Included
+TCGA	HNSC	TCGA-DQ-7593	32	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-DQ-7596	38	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-F7-7848	414	Included
+TCGA	HNSC	TCGA-F7-8298	120	Included
+TCGA	HNSC	TCGA-F7-A50G	128	Included
+TCGA	HNSC	TCGA-F7-A50I	183	Included
+TCGA	HNSC	TCGA-F7-A50J	219	Included
+TCGA	HNSC	TCGA-F7-A61S	134	Included
+TCGA	HNSC	TCGA-F7-A61V	124	Included
+TCGA	HNSC	TCGA-F7-A61W	89	Included
+TCGA	HNSC	TCGA-F7-A620	78	Included
+TCGA	HNSC	TCGA-F7-A622	73	Included
+TCGA	HNSC	TCGA-F7-A623	251	No matched usable feature bag
+TCGA	HNSC	TCGA-F7-A624	3776	Included
+TCGA	HNSC	TCGA-H7-7774	177	Included
+TCGA	HNSC	TCGA-H7-8501	194	Included
+TCGA	HNSC	TCGA-H7-A6C4	46	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-H7-A6C5	127	Included
+TCGA	HNSC	TCGA-H7-A76A	102	Included
+TCGA	HNSC	TCGA-HD-7754	78	Included
+TCGA	HNSC	TCGA-HD-7831	45	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-HD-7832	125	Included
+TCGA	HNSC	TCGA-HD-8224	95	Included
+TCGA	HNSC	TCGA-HD-8314	92	Included
+TCGA	HNSC	TCGA-HD-8634	87	Included
+TCGA	HNSC	TCGA-HD-8635	546	Included
+TCGA	HNSC	TCGA-HD-A4C1	256	Included
+TCGA	HNSC	TCGA-HD-A633	165	Included
+TCGA	HNSC	TCGA-HD-A634	55	Included
+TCGA	HNSC	TCGA-HD-A6HZ	105	Included
+TCGA	HNSC	TCGA-HD-A6I0	97	No matched usable feature bag
+TCGA	HNSC	TCGA-IQ-7630	170	Included
+TCGA	HNSC	TCGA-IQ-7631	41	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-IQ-7632	73	Included
+TCGA	HNSC	TCGA-IQ-A61E	238	Included
+TCGA	HNSC	TCGA-IQ-A61G	168	Included
+TCGA	HNSC	TCGA-IQ-A61H	189	Included
+TCGA	HNSC	TCGA-IQ-A61I	186	Included
+TCGA	HNSC	TCGA-IQ-A61J	51	Included
+TCGA	HNSC	TCGA-IQ-A61K	84	Included
+TCGA	HNSC	TCGA-IQ-A61L	107	Included
+TCGA	HNSC	TCGA-IQ-A61O	53	Included
+TCGA	HNSC	TCGA-IQ-A6SG	125	Included
+TCGA	HNSC	TCGA-IQ-A6SH	104	No matched usable feature bag
+TCGA	HNSC	TCGA-KU-A66S	635	Included
+TCGA	HNSC	TCGA-KU-A66T	141	Included
+TCGA	HNSC	TCGA-KU-A6H7	194	Included
+TCGA	HNSC	TCGA-KU-A6H8	27	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-MT-A51W	91	No matched usable feature bag
+TCGA	HNSC	TCGA-MT-A51X	72	Included
+TCGA	HNSC	TCGA-MT-A67A	132	Included
+TCGA	HNSC	TCGA-MT-A67D	127	Included
+TCGA	HNSC	TCGA-MT-A67F	396	Included
+TCGA	HNSC	TCGA-MT-A67G	80	No matched usable feature bag
+TCGA	HNSC	TCGA-MT-A7BN	76	Included
+TCGA	HNSC	TCGA-MZ-A5BI	46	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-MZ-A6I9	50	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-MZ-A7D7	203	Included
+TCGA	HNSC	TCGA-P3-A5Q5	355	Included
+TCGA	HNSC	TCGA-P3-A5Q6	164	Included
+TCGA	HNSC	TCGA-P3-A5QA	86	Included
+TCGA	HNSC	TCGA-P3-A5QE	50	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-P3-A5QF	531	No matched usable feature bag
+TCGA	HNSC	TCGA-P3-A6SW	112	Included
+TCGA	HNSC	TCGA-P3-A6SX	221	Included
+TCGA	HNSC	TCGA-P3-A6T0	108	Included
+TCGA	HNSC	TCGA-P3-A6T2	86	No matched usable feature bag
+TCGA	HNSC	TCGA-P3-A6T3	138	Included
+TCGA	HNSC	TCGA-P3-A6T4	187	No matched usable feature bag
+TCGA	HNSC	TCGA-P3-A6T5	299	No matched usable feature bag
+TCGA	HNSC	TCGA-P3-A6T6	160	Included
+TCGA	HNSC	TCGA-P3-A6T7	175	Included
+TCGA	HNSC	TCGA-P3-A6T8	104	Included
+TCGA	HNSC	TCGA-QK-A64Z	106	Included
+TCGA	HNSC	TCGA-QK-A652	57	Included
+TCGA	HNSC	TCGA-QK-A6IF	37	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-QK-A6IG	155	No matched usable feature bag
+TCGA	HNSC	TCGA-QK-A6IH	83	Included
+TCGA	HNSC	TCGA-QK-A6II	221	Included
+TCGA	HNSC	TCGA-QK-A6IJ	82	Included
+TCGA	HNSC	TCGA-QK-A6V9	98	Included
+TCGA	HNSC	TCGA-QK-A6VB	514	Included
+TCGA	HNSC	TCGA-QK-A6VC	249	Included
+TCGA	HNSC	TCGA-QK-A8Z7	174	Included
+TCGA	HNSC	TCGA-QK-A8Z8	492	Included
+TCGA	HNSC	TCGA-QK-A8Z9	166	Included
+TCGA	HNSC	TCGA-QK-A8ZA	154	Included
+TCGA	HNSC	TCGA-QK-A8ZB	128	Included
+TCGA	HNSC	TCGA-QK-AA3J	158	Included
+TCGA	HNSC	TCGA-QK-AA3K	121	Included
+TCGA	HNSC	TCGA-RS-A6TO	212	Included
+TCGA	HNSC	TCGA-RS-A6TP	169	Included
+TCGA	HNSC	TCGA-T2-A6WX	249	Included
+TCGA	HNSC	TCGA-T2-A6WZ	129	Included
+TCGA	HNSC	TCGA-T2-A6X0	78	No matched usable feature bag
+TCGA	HNSC	TCGA-T2-A6X2	467	Included
+TCGA	HNSC	TCGA-T3-A92M	453	Included
+TCGA	HNSC	TCGA-T3-A92N	204	Included
+TCGA	HNSC	TCGA-TN-A7HI	73	Included
+TCGA	HNSC	TCGA-TN-A7HJ	145	No matched usable feature bag
+TCGA	HNSC	TCGA-TN-A7HL	835	No matched usable feature bag
+TCGA	HNSC	TCGA-UF-A718	76	Included
+TCGA	HNSC	TCGA-UF-A71A	257	Included
+TCGA	HNSC	TCGA-UF-A71B	186	Included
+TCGA	HNSC	TCGA-UF-A71D	567	No matched usable feature bag
+TCGA	HNSC	TCGA-UF-A71E	220	Included
+TCGA	HNSC	TCGA-UF-A7J9	313	Included
+TCGA	HNSC	TCGA-UF-A7JA	267	Included
+TCGA	HNSC	TCGA-UF-A7JC	65	Included
+TCGA	HNSC	TCGA-UF-A7JD	135	Included
+TCGA	HNSC	TCGA-UF-A7JF	148	Included
+TCGA	HNSC	TCGA-UF-A7JH	96	Included
+TCGA	HNSC	TCGA-UF-A7JJ	96	Included
+TCGA	HNSC	TCGA-UF-A7JK	140	Included
+TCGA	HNSC	TCGA-UF-A7JO	218	No matched usable feature bag
+TCGA	HNSC	TCGA-UF-A7JS	83	Included
+TCGA	HNSC	TCGA-UF-A7JT	240	Included
+TCGA	HNSC	TCGA-UF-A7JV	99	Included
+TCGA	HNSC	TCGA-UP-A6WW	48	No sample with >50 observed substitutions
+TCGA	HNSC	TCGA-WA-A7GZ	262	Included
+TCGA	HNSC	TCGA-WA-A7H4	86	Included
+TCGA	KIRC	TCGA-3Z-A93Z	106	Included
+TCGA	KIRC	TCGA-6D-AA2E	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3308	87	No matched usable feature bag
+TCGA	KIRC	TCGA-A3-3311	63	Included
+TCGA	KIRC	TCGA-A3-3313	112	Included
+TCGA	KIRC	TCGA-A3-3316	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3317	93	Included
+TCGA	KIRC	TCGA-A3-3319	98	Included
+TCGA	KIRC	TCGA-A3-3320	103	Included
+TCGA	KIRC	TCGA-A3-3322	63	Included
+TCGA	KIRC	TCGA-A3-3323	54	Included
+TCGA	KIRC	TCGA-A3-3326	65	Included
+TCGA	KIRC	TCGA-A3-3331	113	Included
+TCGA	KIRC	TCGA-A3-3346	106	Included
+TCGA	KIRC	TCGA-A3-3347	44	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3357	116	No matched usable feature bag
+TCGA	KIRC	TCGA-A3-3358	91	No matched usable feature bag
+TCGA	KIRC	TCGA-A3-3363	58	Included
+TCGA	KIRC	TCGA-A3-3367	82	Included
+TCGA	KIRC	TCGA-A3-3370	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3373	70	Included
+TCGA	KIRC	TCGA-A3-3374	23	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3376	69	Included
+TCGA	KIRC	TCGA-A3-3378	82	Included
+TCGA	KIRC	TCGA-A3-3380	38	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-3382	111	No matched usable feature bag
+TCGA	KIRC	TCGA-A3-3383	55	Included
+TCGA	KIRC	TCGA-A3-3385	70	Included
+TCGA	KIRC	TCGA-A3-3387	101	Included
+TCGA	KIRC	TCGA-A3-A6NI	85	Included
+TCGA	KIRC	TCGA-A3-A6NJ	131	Included
+TCGA	KIRC	TCGA-A3-A6NL	1244	Included
+TCGA	KIRC	TCGA-A3-A6NN	119	Included
+TCGA	KIRC	TCGA-A3-A8CQ	66	Included
+TCGA	KIRC	TCGA-A3-A8OU	102	Included
+TCGA	KIRC	TCGA-A3-A8OV	180	Included
+TCGA	KIRC	TCGA-A3-A8OW	39	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-A3-A8OX	65	No matched usable feature bag
+TCGA	KIRC	TCGA-AK-3426	37	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3427	20	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3430	84	Included
+TCGA	KIRC	TCGA-AK-3436	58	Included
+TCGA	KIRC	TCGA-AK-3440	26	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3443	16	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3444	115	Included
+TCGA	KIRC	TCGA-AK-3451	86	No matched usable feature bag
+TCGA	KIRC	TCGA-AK-3453	27	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3455	63	Included
+TCGA	KIRC	TCGA-AK-3456	43	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3458	38	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AK-3465	34	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AS-3777	30	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-AS-3778	82	Included
+TCGA	KIRC	TCGA-B0-4698	568	Included
+TCGA	KIRC	TCGA-B0-4700	39	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-4706	56	Included
+TCGA	KIRC	TCGA-B0-4710	97	Included
+TCGA	KIRC	TCGA-B0-4712	127	Included
+TCGA	KIRC	TCGA-B0-4810	72	Included
+TCGA	KIRC	TCGA-B0-4811	124	Included
+TCGA	KIRC	TCGA-B0-4815	90	Included
+TCGA	KIRC	TCGA-B0-4816	68	Included
+TCGA	KIRC	TCGA-B0-4818	82	Included
+TCGA	KIRC	TCGA-B0-4821	86	Included
+TCGA	KIRC	TCGA-B0-4823	126	Included
+TCGA	KIRC	TCGA-B0-4827	99	Included
+TCGA	KIRC	TCGA-B0-4842	65	Included
+TCGA	KIRC	TCGA-B0-4852	102	Included
+TCGA	KIRC	TCGA-B0-4945	51	Included
+TCGA	KIRC	TCGA-B0-5075	104	Included
+TCGA	KIRC	TCGA-B0-5077	62	Included
+TCGA	KIRC	TCGA-B0-5080	76	Included
+TCGA	KIRC	TCGA-B0-5081	57	Included
+TCGA	KIRC	TCGA-B0-5084	63	No matched usable feature bag
+TCGA	KIRC	TCGA-B0-5085	90	Included
+TCGA	KIRC	TCGA-B0-5088	82	Included
+TCGA	KIRC	TCGA-B0-5092	96	Included
+TCGA	KIRC	TCGA-B0-5094	93	Included
+TCGA	KIRC	TCGA-B0-5095	90	Included
+TCGA	KIRC	TCGA-B0-5096	106	Included
+TCGA	KIRC	TCGA-B0-5097	73	Included
+TCGA	KIRC	TCGA-B0-5098	720	Included
+TCGA	KIRC	TCGA-B0-5099	82	Included
+TCGA	KIRC	TCGA-B0-5100	37	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5102	50	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5104	75	Included
+TCGA	KIRC	TCGA-B0-5106	90	Included
+TCGA	KIRC	TCGA-B0-5107	68	Included
+TCGA	KIRC	TCGA-B0-5108	48	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5109	58	Included
+TCGA	KIRC	TCGA-B0-5110	71	Included
+TCGA	KIRC	TCGA-B0-5113	45	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5115	55	Included
+TCGA	KIRC	TCGA-B0-5116	66	Included
+TCGA	KIRC	TCGA-B0-5117	21	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5119	97	Included
+TCGA	KIRC	TCGA-B0-5120	76	Included
+TCGA	KIRC	TCGA-B0-5121	55	Included
+TCGA	KIRC	TCGA-B0-5400	47	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5402	58	Included
+TCGA	KIRC	TCGA-B0-5690	77	Included
+TCGA	KIRC	TCGA-B0-5691	62	Included
+TCGA	KIRC	TCGA-B0-5692	71	Included
+TCGA	KIRC	TCGA-B0-5693	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5694	69	Included
+TCGA	KIRC	TCGA-B0-5695	81	Included
+TCGA	KIRC	TCGA-B0-5696	62	Included
+TCGA	KIRC	TCGA-B0-5697	77	Included
+TCGA	KIRC	TCGA-B0-5698	79	Included
+TCGA	KIRC	TCGA-B0-5699	63	Included
+TCGA	KIRC	TCGA-B0-5701	121	Included
+TCGA	KIRC	TCGA-B0-5703	88	Included
+TCGA	KIRC	TCGA-B0-5705	89	Included
+TCGA	KIRC	TCGA-B0-5709	91	Included
+TCGA	KIRC	TCGA-B0-5710	45	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5711	34	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B0-5712	113	Included
+TCGA	KIRC	TCGA-B0-5713	115	Included
+TCGA	KIRC	TCGA-B0-5812	56	Included
+TCGA	KIRC	TCGA-B2-3923	56	Included
+TCGA	KIRC	TCGA-B2-4098	139	Included
+TCGA	KIRC	TCGA-B2-4099	149	Included
+TCGA	KIRC	TCGA-B2-4101	55	Included
+TCGA	KIRC	TCGA-B2-4102	87	Included
+TCGA	KIRC	TCGA-B2-5633	133	Included
+TCGA	KIRC	TCGA-B2-5635	146	Included
+TCGA	KIRC	TCGA-B2-5639	133	Included
+TCGA	KIRC	TCGA-B2-5641	179	Included
+TCGA	KIRC	TCGA-B2-A4SR	112	Included
+TCGA	KIRC	TCGA-B4-5377	66	Included
+TCGA	KIRC	TCGA-B4-5832	84	Included
+TCGA	KIRC	TCGA-B4-5834	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B4-5835	78	Included
+TCGA	KIRC	TCGA-B4-5836	84	Included
+TCGA	KIRC	TCGA-B4-5838	86	Included
+TCGA	KIRC	TCGA-B4-5843	50	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B4-5844	77	Included
+TCGA	KIRC	TCGA-B8-4143	87	Included
+TCGA	KIRC	TCGA-B8-4146	45	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-4148	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-4151	64	Included
+TCGA	KIRC	TCGA-B8-4153	91	Included
+TCGA	KIRC	TCGA-B8-4154	65	Included
+TCGA	KIRC	TCGA-B8-4619	47	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-4620	113	Included
+TCGA	KIRC	TCGA-B8-4621	95	Included
+TCGA	KIRC	TCGA-B8-5158	71	Included
+TCGA	KIRC	TCGA-B8-5159	63	Included
+TCGA	KIRC	TCGA-B8-5162	79	Included
+TCGA	KIRC	TCGA-B8-5163	83	Included
+TCGA	KIRC	TCGA-B8-5164	92	Included
+TCGA	KIRC	TCGA-B8-5165	26	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-5545	31	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-5546	38	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-5549	133	Included
+TCGA	KIRC	TCGA-B8-5550	128	Included
+TCGA	KIRC	TCGA-B8-5551	144	Included
+TCGA	KIRC	TCGA-B8-5552	64	Included
+TCGA	KIRC	TCGA-B8-5553	69	Included
+TCGA	KIRC	TCGA-B8-A54D	77	Included
+TCGA	KIRC	TCGA-B8-A54E	56	No matched usable feature bag
+TCGA	KIRC	TCGA-B8-A54F	40	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-B8-A54G	61	Included
+TCGA	KIRC	TCGA-B8-A54H	92	Included
+TCGA	KIRC	TCGA-B8-A54I	83	Included
+TCGA	KIRC	TCGA-B8-A54J	82	Included
+TCGA	KIRC	TCGA-B8-A7U6	84	Included
+TCGA	KIRC	TCGA-B8-A8YJ	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4161	81	Included
+TCGA	KIRC	TCGA-BP-4162	55	Included
+TCGA	KIRC	TCGA-BP-4163	55	Included
+TCGA	KIRC	TCGA-BP-4164	53	Included
+TCGA	KIRC	TCGA-BP-4167	82	Included
+TCGA	KIRC	TCGA-BP-4177	21	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4760	20	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4770	75	Included
+TCGA	KIRC	TCGA-BP-4782	95	Included
+TCGA	KIRC	TCGA-BP-4795	31	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4801	64	Included
+TCGA	KIRC	TCGA-BP-4960	74	Included
+TCGA	KIRC	TCGA-BP-4961	48	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4962	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4963	97	Included
+TCGA	KIRC	TCGA-BP-4964	108	Included
+TCGA	KIRC	TCGA-BP-4965	64	Included
+TCGA	KIRC	TCGA-BP-4967	74	Included
+TCGA	KIRC	TCGA-BP-4968	51	Included
+TCGA	KIRC	TCGA-BP-4970	31	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4971	52	Included
+TCGA	KIRC	TCGA-BP-4972	52	Included
+TCGA	KIRC	TCGA-BP-4973	30	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4974	39	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4975	22	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4976	102	Included
+TCGA	KIRC	TCGA-BP-4977	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4981	76	Included
+TCGA	KIRC	TCGA-BP-4982	51	Included
+TCGA	KIRC	TCGA-BP-4983	99	Included
+TCGA	KIRC	TCGA-BP-4985	103	Included
+TCGA	KIRC	TCGA-BP-4986	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4987	35	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4988	61	Included
+TCGA	KIRC	TCGA-BP-4989	80	Included
+TCGA	KIRC	TCGA-BP-4991	56	Included
+TCGA	KIRC	TCGA-BP-4992	51	Included
+TCGA	KIRC	TCGA-BP-4993	73	Included
+TCGA	KIRC	TCGA-BP-4994	30	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4995	56	No matched usable feature bag
+TCGA	KIRC	TCGA-BP-4998	43	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-4999	52	Included
+TCGA	KIRC	TCGA-BP-5000	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5001	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5004	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5006	45	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5007	36	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5008	48	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5009	57	Included
+TCGA	KIRC	TCGA-BP-5010	74	Included
+TCGA	KIRC	TCGA-BP-5168	129	Included
+TCGA	KIRC	TCGA-BP-5169	65	Included
+TCGA	KIRC	TCGA-BP-5170	50	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5173	95	Included
+TCGA	KIRC	TCGA-BP-5174	39	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5175	53	Included
+TCGA	KIRC	TCGA-BP-5176	132	Included
+TCGA	KIRC	TCGA-BP-5177	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5178	70	Included
+TCGA	KIRC	TCGA-BP-5180	45	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5181	70	Included
+TCGA	KIRC	TCGA-BP-5182	81	Included
+TCGA	KIRC	TCGA-BP-5183	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5184	34	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5185	93	Included
+TCGA	KIRC	TCGA-BP-5186	40	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5187	81	Included
+TCGA	KIRC	TCGA-BP-5189	54	Included
+TCGA	KIRC	TCGA-BP-5190	51	Included
+TCGA	KIRC	TCGA-BP-5191	66	Included
+TCGA	KIRC	TCGA-BP-5192	60	Included
+TCGA	KIRC	TCGA-BP-5194	35	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5195	80	Included
+TCGA	KIRC	TCGA-BP-5196	54	Included
+TCGA	KIRC	TCGA-BP-5198	81	Included
+TCGA	KIRC	TCGA-BP-5199	86	Included
+TCGA	KIRC	TCGA-BP-5200	49	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5201	50	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-BP-5202	48	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CJ-4634	96	Included
+TCGA	KIRC	TCGA-CJ-4636	74	Included
+TCGA	KIRC	TCGA-CJ-4637	60	Included
+TCGA	KIRC	TCGA-CJ-4638	90	Included
+TCGA	KIRC	TCGA-CJ-4639	69	Included
+TCGA	KIRC	TCGA-CJ-4640	73	Included
+TCGA	KIRC	TCGA-CJ-4643	111	Included
+TCGA	KIRC	TCGA-CJ-4644	82	Included
+TCGA	KIRC	TCGA-CJ-4869	79	Included
+TCGA	KIRC	TCGA-CJ-4882	91	Included
+TCGA	KIRC	TCGA-CJ-4899	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CJ-4900	56	Included
+TCGA	KIRC	TCGA-CJ-4901	63	Included
+TCGA	KIRC	TCGA-CJ-4902	80	Included
+TCGA	KIRC	TCGA-CJ-4903	54	Included
+TCGA	KIRC	TCGA-CJ-4904	61	Included
+TCGA	KIRC	TCGA-CJ-4905	63	Included
+TCGA	KIRC	TCGA-CJ-4907	85	Included
+TCGA	KIRC	TCGA-CJ-4908	37	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CJ-4912	95	Included
+TCGA	KIRC	TCGA-CJ-4913	75	Included
+TCGA	KIRC	TCGA-CJ-4916	57	Included
+TCGA	KIRC	TCGA-CJ-4918	81	Included
+TCGA	KIRC	TCGA-CJ-4920	151	Included
+TCGA	KIRC	TCGA-CJ-4923	60	Included
+TCGA	KIRC	TCGA-CJ-5671	83	Included
+TCGA	KIRC	TCGA-CJ-5672	111	Included
+TCGA	KIRC	TCGA-CJ-5675	84	Included
+TCGA	KIRC	TCGA-CJ-5676	78	Included
+TCGA	KIRC	TCGA-CJ-5677	90	Included
+TCGA	KIRC	TCGA-CJ-5678	53	Included
+TCGA	KIRC	TCGA-CJ-5679	115	Included
+TCGA	KIRC	TCGA-CJ-5680	64	Included
+TCGA	KIRC	TCGA-CJ-5681	32	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CJ-5682	86	Included
+TCGA	KIRC	TCGA-CJ-5683	76	Included
+TCGA	KIRC	TCGA-CJ-5684	54	Included
+TCGA	KIRC	TCGA-CJ-5686	70	Included
+TCGA	KIRC	TCGA-CJ-5689	95	Included
+TCGA	KIRC	TCGA-CJ-6027	102	Included
+TCGA	KIRC	TCGA-CJ-6028	72	Included
+TCGA	KIRC	TCGA-CJ-6030	121	Included
+TCGA	KIRC	TCGA-CJ-6031	70	No matched usable feature bag
+TCGA	KIRC	TCGA-CJ-6032	56	Included
+TCGA	KIRC	TCGA-CJ-6033	89	Included
+TCGA	KIRC	TCGA-CW-5580	108	Included
+TCGA	KIRC	TCGA-CW-5581	65	Included
+TCGA	KIRC	TCGA-CW-5583	32	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CW-5585	56	Included
+TCGA	KIRC	TCGA-CW-5587	75	Included
+TCGA	KIRC	TCGA-CW-5591	48	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CW-6090	113	No matched usable feature bag
+TCGA	KIRC	TCGA-CW-6093	123	Included
+TCGA	KIRC	TCGA-CW-6097	25	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-4853	118	Included
+TCGA	KIRC	TCGA-CZ-4856	77	Included
+TCGA	KIRC	TCGA-CZ-4859	117	Included
+TCGA	KIRC	TCGA-CZ-4863	53	Included
+TCGA	KIRC	TCGA-CZ-4864	98	Included
+TCGA	KIRC	TCGA-CZ-4865	104	Included
+TCGA	KIRC	TCGA-CZ-4866	94	Included
+TCGA	KIRC	TCGA-CZ-5451	103	Included
+TCGA	KIRC	TCGA-CZ-5452	38	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-5453	95	Included
+TCGA	KIRC	TCGA-CZ-5454	37	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-5455	52	Included
+TCGA	KIRC	TCGA-CZ-5456	83	Included
+TCGA	KIRC	TCGA-CZ-5457	83	Included
+TCGA	KIRC	TCGA-CZ-5458	42	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-5459	111	Included
+TCGA	KIRC	TCGA-CZ-5460	66	Included
+TCGA	KIRC	TCGA-CZ-5461	79	Included
+TCGA	KIRC	TCGA-CZ-5462	78	Included
+TCGA	KIRC	TCGA-CZ-5463	65	Included
+TCGA	KIRC	TCGA-CZ-5465	118	Included
+TCGA	KIRC	TCGA-CZ-5466	75	Included
+TCGA	KIRC	TCGA-CZ-5467	75	Included
+TCGA	KIRC	TCGA-CZ-5468	151	Included
+TCGA	KIRC	TCGA-CZ-5469	61	Included
+TCGA	KIRC	TCGA-CZ-5470	65	Included
+TCGA	KIRC	TCGA-CZ-5982	56	Included
+TCGA	KIRC	TCGA-CZ-5984	47	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-5985	64	Included
+TCGA	KIRC	TCGA-CZ-5986	68	No matched usable feature bag
+TCGA	KIRC	TCGA-CZ-5987	62	Included
+TCGA	KIRC	TCGA-CZ-5988	50	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-CZ-5989	46	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-DV-5565	67	Included
+TCGA	KIRC	TCGA-DV-5566	67	Included
+TCGA	KIRC	TCGA-DV-5567	22	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-DV-5568	24	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-DV-A4VX	94	Included
+TCGA	KIRC	TCGA-DV-A4VZ	17	No sample with >50 observed substitutions
+TCGA	KIRC	TCGA-DV-A4W0	77	Included
+TCGA	KIRC	TCGA-EU-5904	54	Included
+TCGA	KIRC	TCGA-EU-5905	68	Included
+TCGA	KIRC	TCGA-EU-5906	75	Included
+TCGA	KIRC	TCGA-EU-5907	52	Included
+TCGA	KIRC	TCGA-G6-A5PC	79	Included
+TCGA	KIRC	TCGA-G6-A8L6	84	Included
+TCGA	KIRC	TCGA-G6-A8L7	90	Included
+TCGA	KIRC	TCGA-G6-A8L8	101	Included
+TCGA	KIRC	TCGA-GK-A6C7	243	Included
+TCGA	KIRC	TCGA-MM-A563	54	Included
+TCGA	KIRC	TCGA-MM-A564	101	Included
+TCGA	KIRC	TCGA-MM-A84U	111	No matched usable feature bag
+TCGA	KIRC	TCGA-MW-A4EC	56	No matched usable feature bag
+TCGA	KIRC	TCGA-T7-A92I	45	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-05-4244	262	Included
+TCGA	LUAD	TCGA-05-4249	399	Included
+TCGA	LUAD	TCGA-05-4250	441	Included
+TCGA	LUAD	TCGA-05-4382	2113	Included
+TCGA	LUAD	TCGA-05-4384	170	Included
+TCGA	LUAD	TCGA-05-4389	298	Included
+TCGA	LUAD	TCGA-05-4390	711	Included
+TCGA	LUAD	TCGA-05-4395	352	Included
+TCGA	LUAD	TCGA-05-4396	1929	Included
+TCGA	LUAD	TCGA-05-4397	1025	No matched usable feature bag
+TCGA	LUAD	TCGA-05-4398	951	Included
+TCGA	LUAD	TCGA-05-4402	157	Included
+TCGA	LUAD	TCGA-05-4403	172	Included
+TCGA	LUAD	TCGA-05-4405	498	Included
+TCGA	LUAD	TCGA-05-4410	1401	Included
+TCGA	LUAD	TCGA-05-4415	253	Included
+TCGA	LUAD	TCGA-05-4417	383	Included
+TCGA	LUAD	TCGA-05-4418	339	Included
+TCGA	LUAD	TCGA-05-4420	376	Included
+TCGA	LUAD	TCGA-05-4422	55	Included
+TCGA	LUAD	TCGA-05-4424	932	Included
+TCGA	LUAD	TCGA-05-4425	55	Included
+TCGA	LUAD	TCGA-05-4426	57	Included
+TCGA	LUAD	TCGA-05-4427	1286	Included
+TCGA	LUAD	TCGA-05-4430	359	Included
+TCGA	LUAD	TCGA-05-4432	777	Included
+TCGA	LUAD	TCGA-05-4433	45	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-05-4434	59	Included
+TCGA	LUAD	TCGA-05-5420	117	No matched usable feature bag
+TCGA	LUAD	TCGA-05-5423	188	Included
+TCGA	LUAD	TCGA-05-5425	730	Included
+TCGA	LUAD	TCGA-05-5428	478	Included
+TCGA	LUAD	TCGA-05-5429	47	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-05-5715	151	No matched usable feature bag
+TCGA	LUAD	TCGA-35-3615	148	Included
+TCGA	LUAD	TCGA-35-4122	416	Included
+TCGA	LUAD	TCGA-35-4123	381	Included
+TCGA	LUAD	TCGA-35-5375	529	Included
+TCGA	LUAD	TCGA-38-4625	769	Included
+TCGA	LUAD	TCGA-38-4626	333	Included
+TCGA	LUAD	TCGA-38-4627	36	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-38-4628	151	Included
+TCGA	LUAD	TCGA-38-4629	358	Included
+TCGA	LUAD	TCGA-38-4630	165	Included
+TCGA	LUAD	TCGA-38-4631	950	Included
+TCGA	LUAD	TCGA-38-4632	669	Included
+TCGA	LUAD	TCGA-38-6178	93	Included
+TCGA	LUAD	TCGA-38-7271	117	No matched usable feature bag
+TCGA	LUAD	TCGA-38-A44F	19	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-44-2655	231	Included
+TCGA	LUAD	TCGA-44-2656	2137	Included
+TCGA	LUAD	TCGA-44-2657	1045	Included
+TCGA	LUAD	TCGA-44-2659	1018	Included
+TCGA	LUAD	TCGA-44-2661	102	Included
+TCGA	LUAD	TCGA-44-2662	540	Included
+TCGA	LUAD	TCGA-44-2665	127	Included
+TCGA	LUAD	TCGA-44-2666	86	Included
+TCGA	LUAD	TCGA-44-2668	889	Included
+TCGA	LUAD	TCGA-44-3396	488	Included
+TCGA	LUAD	TCGA-44-3398	506	Included
+TCGA	LUAD	TCGA-44-3917	277	Included
+TCGA	LUAD	TCGA-44-3918	2361	Included
+TCGA	LUAD	TCGA-44-3919	136	Included
+TCGA	LUAD	TCGA-44-4112	1223	Included
+TCGA	LUAD	TCGA-44-5643	330	Included
+TCGA	LUAD	TCGA-44-5644	2401	Included
+TCGA	LUAD	TCGA-44-5645	89	Included
+TCGA	LUAD	TCGA-44-6144	563	Included
+TCGA	LUAD	TCGA-44-6145	790	Included
+TCGA	LUAD	TCGA-44-6146	96	Included
+TCGA	LUAD	TCGA-44-6147	328	Included
+TCGA	LUAD	TCGA-44-6148	17	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-44-6774	784	Included
+TCGA	LUAD	TCGA-44-6775	170	Included
+TCGA	LUAD	TCGA-44-6776	523	Included
+TCGA	LUAD	TCGA-44-6777	953	No matched usable feature bag
+TCGA	LUAD	TCGA-44-6778	982	Included
+TCGA	LUAD	TCGA-44-6779	128	Included
+TCGA	LUAD	TCGA-44-7659	369	Included
+TCGA	LUAD	TCGA-44-7660	944	Included
+TCGA	LUAD	TCGA-44-7661	768	Included
+TCGA	LUAD	TCGA-44-7662	1436	Included
+TCGA	LUAD	TCGA-44-7667	1157	Included
+TCGA	LUAD	TCGA-44-7669	1128	Included
+TCGA	LUAD	TCGA-44-7670	2745	Included
+TCGA	LUAD	TCGA-44-7671	582	Included
+TCGA	LUAD	TCGA-44-7672	409	Included
+TCGA	LUAD	TCGA-44-8117	932	No matched usable feature bag
+TCGA	LUAD	TCGA-44-8119	775	Included
+TCGA	LUAD	TCGA-44-8120	752	Included
+TCGA	LUAD	TCGA-44-A479	380	No matched usable feature bag
+TCGA	LUAD	TCGA-44-A47A	272	No matched usable feature bag
+TCGA	LUAD	TCGA-44-A47B	61	No matched usable feature bag
+TCGA	LUAD	TCGA-44-A47F	114	Included
+TCGA	LUAD	TCGA-44-A47G	101	No matched usable feature bag
+TCGA	LUAD	TCGA-44-A4SS	594	Included
+TCGA	LUAD	TCGA-44-A4SU	189	Included
+TCGA	LUAD	TCGA-49-4486	220	Included
+TCGA	LUAD	TCGA-49-4487	458	Included
+TCGA	LUAD	TCGA-49-4488	368	Included
+TCGA	LUAD	TCGA-49-4490	72	Included
+TCGA	LUAD	TCGA-49-4494	243	Included
+TCGA	LUAD	TCGA-49-4501	75	Included
+TCGA	LUAD	TCGA-49-4505	274	Included
+TCGA	LUAD	TCGA-49-4506	144	Included
+TCGA	LUAD	TCGA-49-4507	256	Included
+TCGA	LUAD	TCGA-49-4510	82	Included
+TCGA	LUAD	TCGA-49-4512	56	Included
+TCGA	LUAD	TCGA-49-4514	425	Included
+TCGA	LUAD	TCGA-49-6742	356	Included
+TCGA	LUAD	TCGA-49-6743	981	Included
+TCGA	LUAD	TCGA-49-6744	299	Included
+TCGA	LUAD	TCGA-49-6745	176	Included
+TCGA	LUAD	TCGA-49-6761	419	Included
+TCGA	LUAD	TCGA-49-6767	616	Included
+TCGA	LUAD	TCGA-49-AAQV	88	No matched usable feature bag
+TCGA	LUAD	TCGA-49-AAR0	177	Included
+TCGA	LUAD	TCGA-49-AAR2	488	No matched usable feature bag
+TCGA	LUAD	TCGA-49-AAR3	171	No matched usable feature bag
+TCGA	LUAD	TCGA-49-AAR4	712	Included
+TCGA	LUAD	TCGA-49-AAR9	812	Included
+TCGA	LUAD	TCGA-49-AARE	1677	Included
+TCGA	LUAD	TCGA-49-AARN	934	Included
+TCGA	LUAD	TCGA-49-AARO	738	Included
+TCGA	LUAD	TCGA-49-AARQ	893	Included
+TCGA	LUAD	TCGA-49-AARR	3	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-4B-A93V	171	Included
+TCGA	LUAD	TCGA-50-5044	182	Included
+TCGA	LUAD	TCGA-50-5045	373	Included
+TCGA	LUAD	TCGA-50-5049	1010	Included
+TCGA	LUAD	TCGA-50-5051	145	Included
+TCGA	LUAD	TCGA-50-5055	22	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-50-5066	459	Included
+TCGA	LUAD	TCGA-50-5068	120	Included
+TCGA	LUAD	TCGA-50-5072	208	Included
+TCGA	LUAD	TCGA-50-5930	1445	Included
+TCGA	LUAD	TCGA-50-5931	385	Included
+TCGA	LUAD	TCGA-50-5932	92	Included
+TCGA	LUAD	TCGA-50-5933	669	No matched usable feature bag
+TCGA	LUAD	TCGA-50-5935	124	Included
+TCGA	LUAD	TCGA-50-5936	146	Included
+TCGA	LUAD	TCGA-50-5939	105	Included
+TCGA	LUAD	TCGA-50-5941	506	Included
+TCGA	LUAD	TCGA-50-5942	73	No matched usable feature bag
+TCGA	LUAD	TCGA-50-5944	85	No matched usable feature bag
+TCGA	LUAD	TCGA-50-5946	849	Included
+TCGA	LUAD	TCGA-50-6590	1124	Included
+TCGA	LUAD	TCGA-50-6591	70	Included
+TCGA	LUAD	TCGA-50-6592	364	Included
+TCGA	LUAD	TCGA-50-6593	390	Included
+TCGA	LUAD	TCGA-50-6594	647	Included
+TCGA	LUAD	TCGA-50-6595	123	Included
+TCGA	LUAD	TCGA-50-6597	79	Included
+TCGA	LUAD	TCGA-50-6673	111	Included
+TCGA	LUAD	TCGA-50-7109	320	Included
+TCGA	LUAD	TCGA-50-8457	67	Included
+TCGA	LUAD	TCGA-50-8459	119	No matched usable feature bag
+TCGA	LUAD	TCGA-50-8460	36	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-53-7624	1029	Included
+TCGA	LUAD	TCGA-53-7626	1507	Included
+TCGA	LUAD	TCGA-53-7813	187	Included
+TCGA	LUAD	TCGA-53-A4EZ	677	Included
+TCGA	LUAD	TCGA-55-1592	700	Included
+TCGA	LUAD	TCGA-55-1594	238	Included
+TCGA	LUAD	TCGA-55-1595	426	Included
+TCGA	LUAD	TCGA-55-1596	234	No matched usable feature bag
+TCGA	LUAD	TCGA-55-5899	552	Included
+TCGA	LUAD	TCGA-55-6543	26	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-6642	172	Included
+TCGA	LUAD	TCGA-55-6712	206	Included
+TCGA	LUAD	TCGA-55-6968	671	Included
+TCGA	LUAD	TCGA-55-6969	605	Included
+TCGA	LUAD	TCGA-55-6970	222	Included
+TCGA	LUAD	TCGA-55-6971	297	Included
+TCGA	LUAD	TCGA-55-6972	370	Included
+TCGA	LUAD	TCGA-55-6975	107	Included
+TCGA	LUAD	TCGA-55-6978	79	Included
+TCGA	LUAD	TCGA-55-6979	771	Included
+TCGA	LUAD	TCGA-55-6980	38	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-6981	300	Included
+TCGA	LUAD	TCGA-55-6982	304	Included
+TCGA	LUAD	TCGA-55-6983	140	Included
+TCGA	LUAD	TCGA-55-6984	50	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-6985	617	No matched usable feature bag
+TCGA	LUAD	TCGA-55-6986	33	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-6987	291	Included
+TCGA	LUAD	TCGA-55-7281	1165	Included
+TCGA	LUAD	TCGA-55-7283	596	No matched usable feature bag
+TCGA	LUAD	TCGA-55-7570	964	Included
+TCGA	LUAD	TCGA-55-7573	65	Included
+TCGA	LUAD	TCGA-55-7574	661	Included
+TCGA	LUAD	TCGA-55-7576	1022	Included
+TCGA	LUAD	TCGA-55-7724	285	No matched usable feature bag
+TCGA	LUAD	TCGA-55-7725	156	No matched usable feature bag
+TCGA	LUAD	TCGA-55-7726	142	Included
+TCGA	LUAD	TCGA-55-7727	318	Included
+TCGA	LUAD	TCGA-55-7728	122	Included
+TCGA	LUAD	TCGA-55-7815	184	Included
+TCGA	LUAD	TCGA-55-7903	189	Included
+TCGA	LUAD	TCGA-55-7907	1461	Included
+TCGA	LUAD	TCGA-55-7910	370	Included
+TCGA	LUAD	TCGA-55-7911	282	Included
+TCGA	LUAD	TCGA-55-7913	436	No matched usable feature bag
+TCGA	LUAD	TCGA-55-7914	214	Included
+TCGA	LUAD	TCGA-55-7994	1899	Included
+TCGA	LUAD	TCGA-55-7995	829	Included
+TCGA	LUAD	TCGA-55-8085	331	Included
+TCGA	LUAD	TCGA-55-8089	1556	Included
+TCGA	LUAD	TCGA-55-8090	113	Included
+TCGA	LUAD	TCGA-55-8091	38	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-8094	561	No matched usable feature bag
+TCGA	LUAD	TCGA-55-8096	179	No matched usable feature bag
+TCGA	LUAD	TCGA-55-8097	142	Included
+TCGA	LUAD	TCGA-55-8203	536	Included
+TCGA	LUAD	TCGA-55-8204	270	Included
+TCGA	LUAD	TCGA-55-8205	648	No matched usable feature bag
+TCGA	LUAD	TCGA-55-8206	38	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-8207	388	Included
+TCGA	LUAD	TCGA-55-8208	446	Included
+TCGA	LUAD	TCGA-55-8301	362	Included
+TCGA	LUAD	TCGA-55-8302	848	Included
+TCGA	LUAD	TCGA-55-8505	48	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-8506	2123	Included
+TCGA	LUAD	TCGA-55-8507	1219	Included
+TCGA	LUAD	TCGA-55-8508	229	Included
+TCGA	LUAD	TCGA-55-8510	395	Included
+TCGA	LUAD	TCGA-55-8511	715	Included
+TCGA	LUAD	TCGA-55-8512	52	Included
+TCGA	LUAD	TCGA-55-8513	9	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-8514	353	Included
+TCGA	LUAD	TCGA-55-8614	300	Included
+TCGA	LUAD	TCGA-55-8615	164	Included
+TCGA	LUAD	TCGA-55-8616	607	Included
+TCGA	LUAD	TCGA-55-8619	27	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-55-8620	618	Included
+TCGA	LUAD	TCGA-55-8621	89	Included
+TCGA	LUAD	TCGA-55-A48X	485	Included
+TCGA	LUAD	TCGA-55-A48Y	446	Included
+TCGA	LUAD	TCGA-55-A48Z	68	Included
+TCGA	LUAD	TCGA-55-A490	1653	No matched usable feature bag
+TCGA	LUAD	TCGA-55-A491	467	Included
+TCGA	LUAD	TCGA-55-A492	358	Included
+TCGA	LUAD	TCGA-55-A493	340	Included
+TCGA	LUAD	TCGA-55-A494	299	Included
+TCGA	LUAD	TCGA-55-A4DF	984	Included
+TCGA	LUAD	TCGA-55-A4DG	848	Included
+TCGA	LUAD	TCGA-55-A57B	49	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-62-8394	175	Included
+TCGA	LUAD	TCGA-62-8395	90	No matched usable feature bag
+TCGA	LUAD	TCGA-62-8397	32	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-62-8398	104	Included
+TCGA	LUAD	TCGA-62-8399	662	No matched usable feature bag
+TCGA	LUAD	TCGA-62-8402	74	Included
+TCGA	LUAD	TCGA-62-A46O	1095	Included
+TCGA	LUAD	TCGA-62-A46P	354	Included
+TCGA	LUAD	TCGA-62-A46R	209	No matched usable feature bag
+TCGA	LUAD	TCGA-62-A46S	160	Included
+TCGA	LUAD	TCGA-62-A46U	52	Included
+TCGA	LUAD	TCGA-62-A46V	71	Included
+TCGA	LUAD	TCGA-62-A46Y	40	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-62-A470	147	Included
+TCGA	LUAD	TCGA-62-A471	148	No matched usable feature bag
+TCGA	LUAD	TCGA-62-A472	72	Included
+TCGA	LUAD	TCGA-64-1676	742	Included
+TCGA	LUAD	TCGA-64-1677	267	Included
+TCGA	LUAD	TCGA-64-1679	636	Included
+TCGA	LUAD	TCGA-64-1680	78	Included
+TCGA	LUAD	TCGA-64-1681	106	Included
+TCGA	LUAD	TCGA-64-5774	176	Included
+TCGA	LUAD	TCGA-64-5775	592	Included
+TCGA	LUAD	TCGA-64-5778	584	Included
+TCGA	LUAD	TCGA-64-5779	438	Included
+TCGA	LUAD	TCGA-64-5781	1417	Included
+TCGA	LUAD	TCGA-64-5815	214	Included
+TCGA	LUAD	TCGA-67-3770	273	Included
+TCGA	LUAD	TCGA-67-3771	1337	Included
+TCGA	LUAD	TCGA-67-3772	79	Included
+TCGA	LUAD	TCGA-67-3773	128	Included
+TCGA	LUAD	TCGA-67-3774	151	Included
+TCGA	LUAD	TCGA-67-4679	365	Included
+TCGA	LUAD	TCGA-67-6215	137	Included
+TCGA	LUAD	TCGA-67-6216	47	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-67-6217	239	Included
+TCGA	LUAD	TCGA-69-7760	88	Included
+TCGA	LUAD	TCGA-69-7761	36	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-69-7763	102	Included
+TCGA	LUAD	TCGA-69-7764	117	Included
+TCGA	LUAD	TCGA-69-7765	755	No matched usable feature bag
+TCGA	LUAD	TCGA-69-7973	311	Included
+TCGA	LUAD	TCGA-69-7974	646	Included
+TCGA	LUAD	TCGA-69-7978	773	Included
+TCGA	LUAD	TCGA-69-7979	1808	No matched usable feature bag
+TCGA	LUAD	TCGA-69-7980	977	Included
+TCGA	LUAD	TCGA-69-8253	210	Included
+TCGA	LUAD	TCGA-69-8254	97	No matched usable feature bag
+TCGA	LUAD	TCGA-69-8255	367	Included
+TCGA	LUAD	TCGA-71-6725	81	Included
+TCGA	LUAD	TCGA-73-4658	449	Included
+TCGA	LUAD	TCGA-73-4659	274	Included
+TCGA	LUAD	TCGA-73-4662	277	Included
+TCGA	LUAD	TCGA-73-4666	487	Included
+TCGA	LUAD	TCGA-73-4668	650	Included
+TCGA	LUAD	TCGA-73-4670	452	Included
+TCGA	LUAD	TCGA-73-4675	85	Included
+TCGA	LUAD	TCGA-73-4676	114	Included
+TCGA	LUAD	TCGA-73-4677	311	Included
+TCGA	LUAD	TCGA-73-7498	141	Included
+TCGA	LUAD	TCGA-73-7499	85	Included
+TCGA	LUAD	TCGA-73-A9RS	1174	Included
+TCGA	LUAD	TCGA-75-5122	168	Included
+TCGA	LUAD	TCGA-75-5125	215	Included
+TCGA	LUAD	TCGA-75-5126	818	Included
+TCGA	LUAD	TCGA-75-5146	239	Included
+TCGA	LUAD	TCGA-75-5147	47	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-75-6203	19	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-75-6205	62	Included
+TCGA	LUAD	TCGA-75-6206	109	No matched usable feature bag
+TCGA	LUAD	TCGA-75-6207	84	Included
+TCGA	LUAD	TCGA-75-6211	460	Included
+TCGA	LUAD	TCGA-75-6212	23	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-75-7025	43	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-75-7027	313	Included
+TCGA	LUAD	TCGA-75-7031	266	Included
+TCGA	LUAD	TCGA-78-7145	258	Included
+TCGA	LUAD	TCGA-78-7146	505	Included
+TCGA	LUAD	TCGA-78-7147	438	Included
+TCGA	LUAD	TCGA-78-7148	289	Included
+TCGA	LUAD	TCGA-78-7149	200	Included
+TCGA	LUAD	TCGA-78-7150	521	Included
+TCGA	LUAD	TCGA-78-7152	260	Included
+TCGA	LUAD	TCGA-78-7153	160	Included
+TCGA	LUAD	TCGA-78-7154	333	Included
+TCGA	LUAD	TCGA-78-7155	1868	Included
+TCGA	LUAD	TCGA-78-7156	427	Included
+TCGA	LUAD	TCGA-78-7158	340	Included
+TCGA	LUAD	TCGA-78-7159	420	Included
+TCGA	LUAD	TCGA-78-7160	72	Included
+TCGA	LUAD	TCGA-78-7161	250	Included
+TCGA	LUAD	TCGA-78-7162	103	Included
+TCGA	LUAD	TCGA-78-7163	70	Included
+TCGA	LUAD	TCGA-78-7166	277	Included
+TCGA	LUAD	TCGA-78-7167	155	Included
+TCGA	LUAD	TCGA-78-7220	1063	Included
+TCGA	LUAD	TCGA-78-7535	224	Included
+TCGA	LUAD	TCGA-78-7536	846	Included
+TCGA	LUAD	TCGA-78-7537	171	Included
+TCGA	LUAD	TCGA-78-7539	614	Included
+TCGA	LUAD	TCGA-78-7540	345	Included
+TCGA	LUAD	TCGA-78-7542	479	No matched usable feature bag
+TCGA	LUAD	TCGA-78-7633	203	Included
+TCGA	LUAD	TCGA-78-8640	917	Included
+TCGA	LUAD	TCGA-78-8655	133	No matched usable feature bag
+TCGA	LUAD	TCGA-78-8660	308	Included
+TCGA	LUAD	TCGA-78-8662	1444	Included
+TCGA	LUAD	TCGA-80-5611	249	Included
+TCGA	LUAD	TCGA-83-5908	295	Included
+TCGA	LUAD	TCGA-86-6562	76	Included
+TCGA	LUAD	TCGA-86-6851	1145	Included
+TCGA	LUAD	TCGA-86-7701	570	Included
+TCGA	LUAD	TCGA-86-7711	564	Included
+TCGA	LUAD	TCGA-86-7713	399	Included
+TCGA	LUAD	TCGA-86-7714	91	Included
+TCGA	LUAD	TCGA-86-7953	65	Included
+TCGA	LUAD	TCGA-86-7954	291	Included
+TCGA	LUAD	TCGA-86-7955	381	Included
+TCGA	LUAD	TCGA-86-8054	276	Included
+TCGA	LUAD	TCGA-86-8055	65	Included
+TCGA	LUAD	TCGA-86-8056	342	Included
+TCGA	LUAD	TCGA-86-8073	1857	Included
+TCGA	LUAD	TCGA-86-8074	79	Included
+TCGA	LUAD	TCGA-86-8075	62	Included
+TCGA	LUAD	TCGA-86-8278	145	Included
+TCGA	LUAD	TCGA-86-8279	639	No matched usable feature bag
+TCGA	LUAD	TCGA-86-8280	55	Included
+TCGA	LUAD	TCGA-86-8281	338	Included
+TCGA	LUAD	TCGA-86-8358	1381	Included
+TCGA	LUAD	TCGA-86-8359	201	No matched usable feature bag
+TCGA	LUAD	TCGA-86-8585	714	Included
+TCGA	LUAD	TCGA-86-8668	47	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-86-8669	170	Included
+TCGA	LUAD	TCGA-86-8671	47	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-86-8672	378	Included
+TCGA	LUAD	TCGA-86-8673	607	Included
+TCGA	LUAD	TCGA-86-8674	386	Included
+TCGA	LUAD	TCGA-86-A456	454	Included
+TCGA	LUAD	TCGA-86-A4JF	1654	Included
+TCGA	LUAD	TCGA-86-A4P7	85	Included
+TCGA	LUAD	TCGA-86-A4P8	2	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-91-6828	702	Included
+TCGA	LUAD	TCGA-91-6829	823	No matched usable feature bag
+TCGA	LUAD	TCGA-91-6830	346	Included
+TCGA	LUAD	TCGA-91-6831	346	Included
+TCGA	LUAD	TCGA-91-6835	116	Included
+TCGA	LUAD	TCGA-91-6836	655	No matched usable feature bag
+TCGA	LUAD	TCGA-91-6840	178	Included
+TCGA	LUAD	TCGA-91-6847	122	Included
+TCGA	LUAD	TCGA-91-6848	785	Included
+TCGA	LUAD	TCGA-91-6849	157	Included
+TCGA	LUAD	TCGA-91-7771	251	Included
+TCGA	LUAD	TCGA-91-8496	42	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-91-8497	56	Included
+TCGA	LUAD	TCGA-91-8499	397	Included
+TCGA	LUAD	TCGA-91-A4BC	563	Included
+TCGA	LUAD	TCGA-91-A4BD	27	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-93-7347	146	Included
+TCGA	LUAD	TCGA-93-7348	271	Included
+TCGA	LUAD	TCGA-93-8067	675	Included
+TCGA	LUAD	TCGA-93-A4JN	98	Included
+TCGA	LUAD	TCGA-93-A4JO	66	Included
+TCGA	LUAD	TCGA-93-A4JP	83	Included
+TCGA	LUAD	TCGA-93-A4JQ	145	Included
+TCGA	LUAD	TCGA-95-7039	1620	Included
+TCGA	LUAD	TCGA-95-7043	1357	Included
+TCGA	LUAD	TCGA-95-7562	466	Included
+TCGA	LUAD	TCGA-95-7567	1147	Included
+TCGA	LUAD	TCGA-95-7944	309	Included
+TCGA	LUAD	TCGA-95-7947	667	No matched usable feature bag
+TCGA	LUAD	TCGA-95-7948	184	Included
+TCGA	LUAD	TCGA-95-8039	118	Included
+TCGA	LUAD	TCGA-95-8494	133	Included
+TCGA	LUAD	TCGA-95-A4VK	318	Included
+TCGA	LUAD	TCGA-95-A4VN	592	Included
+TCGA	LUAD	TCGA-95-A4VP	161	Included
+TCGA	LUAD	TCGA-97-7546	355	Included
+TCGA	LUAD	TCGA-97-7547	234	No matched usable feature bag
+TCGA	LUAD	TCGA-97-7552	54	Included
+TCGA	LUAD	TCGA-97-7553	51	Included
+TCGA	LUAD	TCGA-97-7554	574	Included
+TCGA	LUAD	TCGA-97-7937	564	Included
+TCGA	LUAD	TCGA-97-7938	506	Included
+TCGA	LUAD	TCGA-97-7941	123	Included
+TCGA	LUAD	TCGA-97-8171	73	Included
+TCGA	LUAD	TCGA-97-8172	331	Included
+TCGA	LUAD	TCGA-97-8174	213	Included
+TCGA	LUAD	TCGA-97-8175	41	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-97-8176	198	Included
+TCGA	LUAD	TCGA-97-8177	48	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-97-8179	209	Included
+TCGA	LUAD	TCGA-97-8547	71	No matched usable feature bag
+TCGA	LUAD	TCGA-97-8552	29	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-97-A4LX	219	Included
+TCGA	LUAD	TCGA-97-A4M0	500	Included
+TCGA	LUAD	TCGA-97-A4M1	55	Included
+TCGA	LUAD	TCGA-97-A4M2	32	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-97-A4M3	251	Included
+TCGA	LUAD	TCGA-97-A4M5	193	Included
+TCGA	LUAD	TCGA-97-A4M6	42	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-97-A4M7	385	Included
+TCGA	LUAD	TCGA-99-7458	594	Included
+TCGA	LUAD	TCGA-99-8025	605	Included
+TCGA	LUAD	TCGA-99-8028	545	Included
+TCGA	LUAD	TCGA-99-8032	492	No matched usable feature bag
+TCGA	LUAD	TCGA-99-8033	223	Included
+TCGA	LUAD	TCGA-99-AA5R	73	Included
+TCGA	LUAD	TCGA-J2-8192	92	Included
+TCGA	LUAD	TCGA-J2-8194	192	Included
+TCGA	LUAD	TCGA-J2-A4AD	420	Included
+TCGA	LUAD	TCGA-J2-A4AE	62	Included
+TCGA	LUAD	TCGA-J2-A4AG	114	Included
+TCGA	LUAD	TCGA-L4-A4E5	421	Included
+TCGA	LUAD	TCGA-L9-A443	307	Included
+TCGA	LUAD	TCGA-L9-A444	701	No matched usable feature bag
+TCGA	LUAD	TCGA-L9-A50W	36	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-L9-A5IP	354	Included
+TCGA	LUAD	TCGA-L9-A743	169	Included
+TCGA	LUAD	TCGA-L9-A7SV	2029	Included
+TCGA	LUAD	TCGA-L9-A8F4	973	Included
+TCGA	LUAD	TCGA-MN-A4N1	589	Included
+TCGA	LUAD	TCGA-MN-A4N4	1880	Included
+TCGA	LUAD	TCGA-MN-A4N5	565	Included
+TCGA	LUAD	TCGA-MP-A4SV	441	Included
+TCGA	LUAD	TCGA-MP-A4SW	87	Included
+TCGA	LUAD	TCGA-MP-A4SY	218	Included
+TCGA	LUAD	TCGA-MP-A4T2	111	Included
+TCGA	LUAD	TCGA-MP-A4T7	160	Included
+TCGA	LUAD	TCGA-MP-A4T8	150	Included
+TCGA	LUAD	TCGA-MP-A4T9	46	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-MP-A4TA	456	No matched usable feature bag
+TCGA	LUAD	TCGA-MP-A4TC	327	Included
+TCGA	LUAD	TCGA-MP-A4TE	174	Included
+TCGA	LUAD	TCGA-MP-A4TF	548	No matched usable feature bag
+TCGA	LUAD	TCGA-MP-A4TH	140	Included
+TCGA	LUAD	TCGA-MP-A4TI	318	Included
+TCGA	LUAD	TCGA-MP-A4TK	444	Included
+TCGA	LUAD	TCGA-MP-A5C7	97	Included
+TCGA	LUAD	TCGA-NJ-A4YF	784	No matched usable feature bag
+TCGA	LUAD	TCGA-NJ-A4YG	199	Included
+TCGA	LUAD	TCGA-NJ-A4YI	559	Included
+TCGA	LUAD	TCGA-NJ-A4YP	692	Included
+TCGA	LUAD	TCGA-NJ-A4YQ	1393	Included
+TCGA	LUAD	TCGA-NJ-A55A	147	Included
+TCGA	LUAD	TCGA-NJ-A55R	326	Included
+TCGA	LUAD	TCGA-NJ-A7XG	42	No sample with >50 observed substitutions
+TCGA	LUAD	TCGA-O1-A52J	213	Included
+TCGA	LUAD	TCGA-S2-AA1A	144	No matched usable feature bag
+TCGA	LUSC	TCGA-18-3406	392	Included
+TCGA	LUSC	TCGA-18-3407	414	Included
+TCGA	LUSC	TCGA-18-3408	130	Included
+TCGA	LUSC	TCGA-18-3409	4321	Included
+TCGA	LUSC	TCGA-18-3410	475	Included
+TCGA	LUSC	TCGA-18-3411	546	Included
+TCGA	LUSC	TCGA-18-3412	322	Included
+TCGA	LUSC	TCGA-18-3414	465	Included
+TCGA	LUSC	TCGA-18-3415	250	Included
+TCGA	LUSC	TCGA-18-3416	835	Included
+TCGA	LUSC	TCGA-18-3417	357	Included
+TCGA	LUSC	TCGA-18-3421	764	Included
+TCGA	LUSC	TCGA-18-4083	474	Included
+TCGA	LUSC	TCGA-18-4721	230	Included
+TCGA	LUSC	TCGA-18-5592	365	Included
+TCGA	LUSC	TCGA-18-5595	319	Included
+TCGA	LUSC	TCGA-21-1070	694	Included
+TCGA	LUSC	TCGA-21-1071	219	Included
+TCGA	LUSC	TCGA-21-1075	244	Included
+TCGA	LUSC	TCGA-21-1076	410	Included
+TCGA	LUSC	TCGA-21-1077	296	Included
+TCGA	LUSC	TCGA-21-1078	98	Included
+TCGA	LUSC	TCGA-21-1079	2409	Included
+TCGA	LUSC	TCGA-21-1080	1140	Included
+TCGA	LUSC	TCGA-21-1081	261	Included
+TCGA	LUSC	TCGA-21-1082	496	Included
+TCGA	LUSC	TCGA-21-1083	919	Included
+TCGA	LUSC	TCGA-21-5782	486	Included
+TCGA	LUSC	TCGA-21-5784	260	Included
+TCGA	LUSC	TCGA-21-5786	486	Included
+TCGA	LUSC	TCGA-21-5787	511	Included
+TCGA	LUSC	TCGA-21-A5DI	172	Included
+TCGA	LUSC	TCGA-22-0940	274	Included
+TCGA	LUSC	TCGA-22-0944	165	Included
+TCGA	LUSC	TCGA-22-1000	122	Included
+TCGA	LUSC	TCGA-22-1002	299	Included
+TCGA	LUSC	TCGA-22-1005	350	Included
+TCGA	LUSC	TCGA-22-1011	135	Included
+TCGA	LUSC	TCGA-22-1012	349	Included
+TCGA	LUSC	TCGA-22-1016	450	Included
+TCGA	LUSC	TCGA-22-4591	275	No matched usable feature bag
+TCGA	LUSC	TCGA-22-4593	237	Included
+TCGA	LUSC	TCGA-22-4594	440	Included
+TCGA	LUSC	TCGA-22-4595	407	Included
+TCGA	LUSC	TCGA-22-4596	174	Included
+TCGA	LUSC	TCGA-22-4599	454	Included
+TCGA	LUSC	TCGA-22-4601	234	Included
+TCGA	LUSC	TCGA-22-4604	308	Included
+TCGA	LUSC	TCGA-22-4605	115	Included
+TCGA	LUSC	TCGA-22-4607	84	Included
+TCGA	LUSC	TCGA-22-4609	259	No matched usable feature bag
+TCGA	LUSC	TCGA-22-4613	796	Included
+TCGA	LUSC	TCGA-22-5471	302	No matched usable feature bag
+TCGA	LUSC	TCGA-22-5472	511	Included
+TCGA	LUSC	TCGA-22-5473	1013	Included
+TCGA	LUSC	TCGA-22-5474	109	Included
+TCGA	LUSC	TCGA-22-5477	222	Included
+TCGA	LUSC	TCGA-22-5478	229	No matched usable feature bag
+TCGA	LUSC	TCGA-22-5479	674	Included
+TCGA	LUSC	TCGA-22-5480	202	Included
+TCGA	LUSC	TCGA-22-5481	378	No matched usable feature bag
+TCGA	LUSC	TCGA-22-5482	210	Included
+TCGA	LUSC	TCGA-22-5483	300	Included
+TCGA	LUSC	TCGA-22-5485	255	Included
+TCGA	LUSC	TCGA-22-5489	309	Included
+TCGA	LUSC	TCGA-22-5491	421	Included
+TCGA	LUSC	TCGA-22-5492	292	Included
+TCGA	LUSC	TCGA-22-A5C4	439	Included
+TCGA	LUSC	TCGA-33-4532	504	Included
+TCGA	LUSC	TCGA-33-4533	377	Included
+TCGA	LUSC	TCGA-33-4538	233	Included
+TCGA	LUSC	TCGA-33-4547	252	Included
+TCGA	LUSC	TCGA-33-4566	1648	Included
+TCGA	LUSC	TCGA-33-4582	252	Included
+TCGA	LUSC	TCGA-33-4583	748	Included
+TCGA	LUSC	TCGA-33-4586	460	Included
+TCGA	LUSC	TCGA-33-4587	291	Included
+TCGA	LUSC	TCGA-33-4589	140	Included
+TCGA	LUSC	TCGA-33-6737	572	Included
+TCGA	LUSC	TCGA-33-6738	434	Included
+TCGA	LUSC	TCGA-33-A4WN	259	Included
+TCGA	LUSC	TCGA-33-A5GW	250	Included
+TCGA	LUSC	TCGA-33-AAS8	288	Included
+TCGA	LUSC	TCGA-33-AASB	459	Included
+TCGA	LUSC	TCGA-33-AASD	459	No matched usable feature bag
+TCGA	LUSC	TCGA-33-AASI	500	No matched usable feature bag
+TCGA	LUSC	TCGA-33-AASJ	229	No matched usable feature bag
+TCGA	LUSC	TCGA-33-AASL	381	Included
+TCGA	LUSC	TCGA-34-2596	334	Included
+TCGA	LUSC	TCGA-34-2600	574	Included
+TCGA	LUSC	TCGA-34-2604	765	Included
+TCGA	LUSC	TCGA-34-2605	479	Included
+TCGA	LUSC	TCGA-34-2608	192	No matched usable feature bag
+TCGA	LUSC	TCGA-34-2609	306	Included
+TCGA	LUSC	TCGA-34-5231	845	Included
+TCGA	LUSC	TCGA-34-5232	260	Included
+TCGA	LUSC	TCGA-34-5234	226	Included
+TCGA	LUSC	TCGA-34-5236	273	Included
+TCGA	LUSC	TCGA-34-5239	313	No matched usable feature bag
+TCGA	LUSC	TCGA-34-5240	218	Included
+TCGA	LUSC	TCGA-34-5241	258	No matched usable feature bag
+TCGA	LUSC	TCGA-34-5927	329	Included
+TCGA	LUSC	TCGA-34-5928	461	Included
+TCGA	LUSC	TCGA-34-5929	283	Included
+TCGA	LUSC	TCGA-34-7107	681	Included
+TCGA	LUSC	TCGA-34-8454	717	Included
+TCGA	LUSC	TCGA-34-8455	617	Included
+TCGA	LUSC	TCGA-34-8456	51	Included
+TCGA	LUSC	TCGA-34-A5IX	354	Included
+TCGA	LUSC	TCGA-37-3783	502	Included
+TCGA	LUSC	TCGA-37-3789	953	Included
+TCGA	LUSC	TCGA-37-3792	1191	Included
+TCGA	LUSC	TCGA-37-4129	6	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-37-4130	1422	Included
+TCGA	LUSC	TCGA-37-4132	388	Included
+TCGA	LUSC	TCGA-37-4133	366	Included
+TCGA	LUSC	TCGA-37-4135	392	Included
+TCGA	LUSC	TCGA-37-4141	408	Included
+TCGA	LUSC	TCGA-37-5819	926	Included
+TCGA	LUSC	TCGA-37-A5EL	535	Included
+TCGA	LUSC	TCGA-37-A5EN	300	Included
+TCGA	LUSC	TCGA-39-5011	795	Included
+TCGA	LUSC	TCGA-39-5016	486	Included
+TCGA	LUSC	TCGA-39-5019	229	Included
+TCGA	LUSC	TCGA-39-5021	199	Included
+TCGA	LUSC	TCGA-39-5022	256	Included
+TCGA	LUSC	TCGA-39-5024	270	Included
+TCGA	LUSC	TCGA-39-5028	224	Included
+TCGA	LUSC	TCGA-39-5029	185	Included
+TCGA	LUSC	TCGA-39-5030	279	Included
+TCGA	LUSC	TCGA-39-5031	818	Included
+TCGA	LUSC	TCGA-39-5034	788	Included
+TCGA	LUSC	TCGA-39-5035	202	Included
+TCGA	LUSC	TCGA-39-5036	331	Included
+TCGA	LUSC	TCGA-39-5037	301	Included
+TCGA	LUSC	TCGA-39-5039	219	Included
+TCGA	LUSC	TCGA-39-5040	598	Included
+TCGA	LUSC	TCGA-43-2576	656	Included
+TCGA	LUSC	TCGA-43-2578	431	Included
+TCGA	LUSC	TCGA-43-2581	1145	Included
+TCGA	LUSC	TCGA-43-3394	481	Included
+TCGA	LUSC	TCGA-43-3920	1242	Included
+TCGA	LUSC	TCGA-43-5668	1656	Included
+TCGA	LUSC	TCGA-43-5670	350	Included
+TCGA	LUSC	TCGA-43-6143	809	Included
+TCGA	LUSC	TCGA-43-6647	409	No matched usable feature bag
+TCGA	LUSC	TCGA-43-6770	542	No matched usable feature bag
+TCGA	LUSC	TCGA-43-6771	519	Included
+TCGA	LUSC	TCGA-43-6773	158	No matched usable feature bag
+TCGA	LUSC	TCGA-43-7656	880	Included
+TCGA	LUSC	TCGA-43-7657	338	Included
+TCGA	LUSC	TCGA-43-7658	530	Included
+TCGA	LUSC	TCGA-43-8115	259	Included
+TCGA	LUSC	TCGA-43-8116	461	No matched usable feature bag
+TCGA	LUSC	TCGA-43-8118	1593	Included
+TCGA	LUSC	TCGA-43-A474	478	Included
+TCGA	LUSC	TCGA-43-A475	305	Included
+TCGA	LUSC	TCGA-43-A56U	319	Included
+TCGA	LUSC	TCGA-43-A56V	278	Included
+TCGA	LUSC	TCGA-46-3765	685	Included
+TCGA	LUSC	TCGA-46-3767	342	Included
+TCGA	LUSC	TCGA-46-3768	523	No matched usable feature bag
+TCGA	LUSC	TCGA-46-3769	1212	Included
+TCGA	LUSC	TCGA-46-6025	237	Included
+TCGA	LUSC	TCGA-46-6026	266	Included
+TCGA	LUSC	TCGA-51-4079	521	Included
+TCGA	LUSC	TCGA-51-4080	352	Included
+TCGA	LUSC	TCGA-51-4081	249	Included
+TCGA	LUSC	TCGA-52-7622	345	Included
+TCGA	LUSC	TCGA-52-7809	311	Included
+TCGA	LUSC	TCGA-52-7810	542	Included
+TCGA	LUSC	TCGA-52-7811	194	Included
+TCGA	LUSC	TCGA-52-7812	382	Included
+TCGA	LUSC	TCGA-56-1622	289	No matched usable feature bag
+TCGA	LUSC	TCGA-56-5897	126	Included
+TCGA	LUSC	TCGA-56-5898	182	Included
+TCGA	LUSC	TCGA-56-6545	374	Included
+TCGA	LUSC	TCGA-56-6546	428	Included
+TCGA	LUSC	TCGA-56-7221	373	Included
+TCGA	LUSC	TCGA-56-7222	982	Included
+TCGA	LUSC	TCGA-56-7223	375	Included
+TCGA	LUSC	TCGA-56-7579	640	Included
+TCGA	LUSC	TCGA-56-7580	354	Included
+TCGA	LUSC	TCGA-56-7582	411	Included
+TCGA	LUSC	TCGA-56-7730	472	Included
+TCGA	LUSC	TCGA-56-7731	934	Included
+TCGA	LUSC	TCGA-56-7822	939	No matched usable feature bag
+TCGA	LUSC	TCGA-56-7823	355	Included
+TCGA	LUSC	TCGA-56-8201	199	Included
+TCGA	LUSC	TCGA-56-8304	304	Included
+TCGA	LUSC	TCGA-56-8305	490	Included
+TCGA	LUSC	TCGA-56-8307	526	Included
+TCGA	LUSC	TCGA-56-8308	437	Included
+TCGA	LUSC	TCGA-56-8309	161	Included
+TCGA	LUSC	TCGA-56-8503	209	Included
+TCGA	LUSC	TCGA-56-8504	584	Included
+TCGA	LUSC	TCGA-56-8622	582	Included
+TCGA	LUSC	TCGA-56-8624	315	Included
+TCGA	LUSC	TCGA-56-8625	1127	Included
+TCGA	LUSC	TCGA-56-8626	323	No matched usable feature bag
+TCGA	LUSC	TCGA-56-8628	1034	Included
+TCGA	LUSC	TCGA-56-8629	556	No matched usable feature bag
+TCGA	LUSC	TCGA-56-A4BW	292	Included
+TCGA	LUSC	TCGA-56-A4BY	188	Included
+TCGA	LUSC	TCGA-56-A4ZJ	144	Included
+TCGA	LUSC	TCGA-56-A5DS	264	Included
+TCGA	LUSC	TCGA-56-A62T	630	Included
+TCGA	LUSC	TCGA-58-8386	316	No matched usable feature bag
+TCGA	LUSC	TCGA-58-8387	235	Included
+TCGA	LUSC	TCGA-58-8388	227	Included
+TCGA	LUSC	TCGA-58-8391	431	Included
+TCGA	LUSC	TCGA-58-8393	342	Included
+TCGA	LUSC	TCGA-58-A46J	217	Included
+TCGA	LUSC	TCGA-58-A46K	196	Included
+TCGA	LUSC	TCGA-58-A46L	283	No matched usable feature bag
+TCGA	LUSC	TCGA-58-A46M	533	Included
+TCGA	LUSC	TCGA-58-A46N	265	Included
+TCGA	LUSC	TCGA-60-2695	273	Included
+TCGA	LUSC	TCGA-60-2697	24	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-60-2698	1403	Included
+TCGA	LUSC	TCGA-60-2703	376	Included
+TCGA	LUSC	TCGA-60-2704	256	Included
+TCGA	LUSC	TCGA-60-2706	14	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-60-2707	142	Included
+TCGA	LUSC	TCGA-60-2708	259	Included
+TCGA	LUSC	TCGA-60-2709	216	Included
+TCGA	LUSC	TCGA-60-2710	254	Included
+TCGA	LUSC	TCGA-60-2711	159	Included
+TCGA	LUSC	TCGA-60-2712	113	Included
+TCGA	LUSC	TCGA-60-2713	324	Included
+TCGA	LUSC	TCGA-60-2714	1103	Included
+TCGA	LUSC	TCGA-60-2715	162	Included
+TCGA	LUSC	TCGA-60-2716	22	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-60-2719	280	Included
+TCGA	LUSC	TCGA-60-2720	527	Included
+TCGA	LUSC	TCGA-60-2721	271	Included
+TCGA	LUSC	TCGA-60-2722	395	Included
+TCGA	LUSC	TCGA-60-2723	359	Included
+TCGA	LUSC	TCGA-60-2724	446	Included
+TCGA	LUSC	TCGA-60-2725	191	Included
+TCGA	LUSC	TCGA-60-2726	430	Included
+TCGA	LUSC	TCGA-63-5128	378	Included
+TCGA	LUSC	TCGA-63-5131	395	Included
+TCGA	LUSC	TCGA-63-6202	426	Included
+TCGA	LUSC	TCGA-63-7020	260	Included
+TCGA	LUSC	TCGA-63-7021	329	Included
+TCGA	LUSC	TCGA-63-7022	247	Included
+TCGA	LUSC	TCGA-63-7023	192	Included
+TCGA	LUSC	TCGA-63-A5M9	137	Included
+TCGA	LUSC	TCGA-63-A5MB	417	Included
+TCGA	LUSC	TCGA-63-A5MG	140	Included
+TCGA	LUSC	TCGA-63-A5MH	285	Included
+TCGA	LUSC	TCGA-63-A5MI	270	No matched usable feature bag
+TCGA	LUSC	TCGA-63-A5MJ	243	Included
+TCGA	LUSC	TCGA-63-A5ML	307	Included
+TCGA	LUSC	TCGA-63-A5MM	1424	Included
+TCGA	LUSC	TCGA-63-A5MN	48	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-63-A5MP	235	Included
+TCGA	LUSC	TCGA-63-A5MR	227	Included
+TCGA	LUSC	TCGA-63-A5MS	489	Included
+TCGA	LUSC	TCGA-63-A5MT	298	Included
+TCGA	LUSC	TCGA-63-A5MU	274	Included
+TCGA	LUSC	TCGA-63-A5MV	155	Included
+TCGA	LUSC	TCGA-63-A5MW	588	Included
+TCGA	LUSC	TCGA-63-A5MY	218	Included
+TCGA	LUSC	TCGA-66-2727	427	Included
+TCGA	LUSC	TCGA-66-2734	707	Included
+TCGA	LUSC	TCGA-66-2742	305	Included
+TCGA	LUSC	TCGA-66-2744	472	Included
+TCGA	LUSC	TCGA-66-2754	468	Included
+TCGA	LUSC	TCGA-66-2755	291	Included
+TCGA	LUSC	TCGA-66-2756	640	Included
+TCGA	LUSC	TCGA-66-2757	319	Included
+TCGA	LUSC	TCGA-66-2758	429	Included
+TCGA	LUSC	TCGA-66-2759	550	Included
+TCGA	LUSC	TCGA-66-2763	496	Included
+TCGA	LUSC	TCGA-66-2765	113	Included
+TCGA	LUSC	TCGA-66-2766	507	Included
+TCGA	LUSC	TCGA-66-2767	418	Included
+TCGA	LUSC	TCGA-66-2768	306	Included
+TCGA	LUSC	TCGA-66-2769	458	Included
+TCGA	LUSC	TCGA-66-2770	323	Included
+TCGA	LUSC	TCGA-66-2771	355	Included
+TCGA	LUSC	TCGA-66-2773	765	Included
+TCGA	LUSC	TCGA-66-2777	215	Included
+TCGA	LUSC	TCGA-66-2778	186	Included
+TCGA	LUSC	TCGA-66-2780	179	Included
+TCGA	LUSC	TCGA-66-2781	168	Included
+TCGA	LUSC	TCGA-66-2782	472	Included
+TCGA	LUSC	TCGA-66-2783	308	Included
+TCGA	LUSC	TCGA-66-2785	1470	Included
+TCGA	LUSC	TCGA-66-2786	286	Included
+TCGA	LUSC	TCGA-66-2787	742	Included
+TCGA	LUSC	TCGA-66-2788	264	Included
+TCGA	LUSC	TCGA-66-2789	485	Included
+TCGA	LUSC	TCGA-66-2791	457	Included
+TCGA	LUSC	TCGA-66-2792	222	Included
+TCGA	LUSC	TCGA-66-2793	385	Included
+TCGA	LUSC	TCGA-66-2794	203	Included
+TCGA	LUSC	TCGA-66-2795	556	Included
+TCGA	LUSC	TCGA-66-2800	259	Included
+TCGA	LUSC	TCGA-68-7755	342	No matched usable feature bag
+TCGA	LUSC	TCGA-68-7756	121	Included
+TCGA	LUSC	TCGA-68-7757	378	Included
+TCGA	LUSC	TCGA-68-8250	378	Included
+TCGA	LUSC	TCGA-68-8251	394	No matched usable feature bag
+TCGA	LUSC	TCGA-68-A59J	469	Included
+TCGA	LUSC	TCGA-6A-AB49	492	Included
+TCGA	LUSC	TCGA-70-6722	367	Included
+TCGA	LUSC	TCGA-70-6723	141	Included
+TCGA	LUSC	TCGA-77-6842	959	Included
+TCGA	LUSC	TCGA-77-6843	447	Included
+TCGA	LUSC	TCGA-77-6844	500	Included
+TCGA	LUSC	TCGA-77-6845	637	Included
+TCGA	LUSC	TCGA-77-7139	481	Included
+TCGA	LUSC	TCGA-77-7140	461	Included
+TCGA	LUSC	TCGA-77-7141	890	Included
+TCGA	LUSC	TCGA-77-7142	341	Included
+TCGA	LUSC	TCGA-77-7335	303	Included
+TCGA	LUSC	TCGA-77-7337	429	Included
+TCGA	LUSC	TCGA-77-7338	172	Included
+TCGA	LUSC	TCGA-77-7463	503	Included
+TCGA	LUSC	TCGA-77-7465	487	Included
+TCGA	LUSC	TCGA-77-8007	119	Included
+TCGA	LUSC	TCGA-77-8008	220	Included
+TCGA	LUSC	TCGA-77-8009	215	Included
+TCGA	LUSC	TCGA-77-8128	381	Included
+TCGA	LUSC	TCGA-77-8130	226	Included
+TCGA	LUSC	TCGA-77-8131	87	Included
+TCGA	LUSC	TCGA-77-8133	471	Included
+TCGA	LUSC	TCGA-77-8136	563	Included
+TCGA	LUSC	TCGA-77-8138	127	Included
+TCGA	LUSC	TCGA-77-8139	264	Included
+TCGA	LUSC	TCGA-77-8140	460	Included
+TCGA	LUSC	TCGA-77-8143	183	Included
+TCGA	LUSC	TCGA-77-8144	484	Included
+TCGA	LUSC	TCGA-77-8145	150	Included
+TCGA	LUSC	TCGA-77-8148	331	Included
+TCGA	LUSC	TCGA-77-8150	150	Included
+TCGA	LUSC	TCGA-77-8153	224	Included
+TCGA	LUSC	TCGA-77-8154	257	Included
+TCGA	LUSC	TCGA-77-8156	273	Included
+TCGA	LUSC	TCGA-77-A5FZ	1	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-77-A5G1	201	Included
+TCGA	LUSC	TCGA-77-A5G3	778	No matched usable feature bag
+TCGA	LUSC	TCGA-77-A5G6	616	Included
+TCGA	LUSC	TCGA-77-A5G7	130	No matched usable feature bag
+TCGA	LUSC	TCGA-77-A5G8	279	No matched usable feature bag
+TCGA	LUSC	TCGA-77-A5GA	195	Included
+TCGA	LUSC	TCGA-77-A5GB	171	Included
+TCGA	LUSC	TCGA-77-A5GF	147	No matched usable feature bag
+TCGA	LUSC	TCGA-77-A5GH	344	Included
+TCGA	LUSC	TCGA-79-5596	263	Included
+TCGA	LUSC	TCGA-85-6175	54	Included
+TCGA	LUSC	TCGA-85-6560	529	Included
+TCGA	LUSC	TCGA-85-6561	1606	Included
+TCGA	LUSC	TCGA-85-6798	354	Included
+TCGA	LUSC	TCGA-85-7696	276	Included
+TCGA	LUSC	TCGA-85-7697	350	Included
+TCGA	LUSC	TCGA-85-7698	169	Included
+TCGA	LUSC	TCGA-85-7699	243	Included
+TCGA	LUSC	TCGA-85-7710	500	Included
+TCGA	LUSC	TCGA-85-7843	303	Included
+TCGA	LUSC	TCGA-85-7844	219	Included
+TCGA	LUSC	TCGA-85-7950	332	Included
+TCGA	LUSC	TCGA-85-8048	152	Included
+TCGA	LUSC	TCGA-85-8049	270	Included
+TCGA	LUSC	TCGA-85-8052	156	Included
+TCGA	LUSC	TCGA-85-8070	277	Included
+TCGA	LUSC	TCGA-85-8071	484	Included
+TCGA	LUSC	TCGA-85-8276	351	Included
+TCGA	LUSC	TCGA-85-8277	302	Included
+TCGA	LUSC	TCGA-85-8287	317	Included
+TCGA	LUSC	TCGA-85-8288	307	Included
+TCGA	LUSC	TCGA-85-8350	402	Included
+TCGA	LUSC	TCGA-85-8351	188	Included
+TCGA	LUSC	TCGA-85-8353	222	Included
+TCGA	LUSC	TCGA-85-8355	284	Included
+TCGA	LUSC	TCGA-85-8479	148	Included
+TCGA	LUSC	TCGA-85-8481	389	Included
+TCGA	LUSC	TCGA-85-8582	396	No matched usable feature bag
+TCGA	LUSC	TCGA-85-8584	331	Included
+TCGA	LUSC	TCGA-85-8664	281	Included
+TCGA	LUSC	TCGA-85-8666	296	Included
+TCGA	LUSC	TCGA-85-A4CL	1036	Included
+TCGA	LUSC	TCGA-85-A4CN	239	Included
+TCGA	LUSC	TCGA-85-A4JB	586	No matched usable feature bag
+TCGA	LUSC	TCGA-85-A4JC	327	Included
+TCGA	LUSC	TCGA-85-A4PA	16	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-85-A4QQ	397	Included
+TCGA	LUSC	TCGA-85-A4QR	280	No matched usable feature bag
+TCGA	LUSC	TCGA-85-A50M	105	No matched usable feature bag
+TCGA	LUSC	TCGA-85-A50Z	572	Included
+TCGA	LUSC	TCGA-85-A510	186	Included
+TCGA	LUSC	TCGA-85-A511	265	Included
+TCGA	LUSC	TCGA-85-A512	202	Included
+TCGA	LUSC	TCGA-85-A513	28	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-85-A53L	244	Included
+TCGA	LUSC	TCGA-85-A5B5	467	Included
+TCGA	LUSC	TCGA-90-7766	275	Included
+TCGA	LUSC	TCGA-90-7767	283	Included
+TCGA	LUSC	TCGA-90-7769	1283	Included
+TCGA	LUSC	TCGA-90-7964	1196	Included
+TCGA	LUSC	TCGA-90-A4ED	2757	Included
+TCGA	LUSC	TCGA-90-A4EE	456	No matched usable feature bag
+TCGA	LUSC	TCGA-90-A59Q	355	Included
+TCGA	LUSC	TCGA-92-7340	1129	Included
+TCGA	LUSC	TCGA-92-7341	429	Included
+TCGA	LUSC	TCGA-92-8063	442	Included
+TCGA	LUSC	TCGA-92-8064	276	Included
+TCGA	LUSC	TCGA-92-8065	356	Included
+TCGA	LUSC	TCGA-94-7033	162	Included
+TCGA	LUSC	TCGA-94-7557	139	No matched usable feature bag
+TCGA	LUSC	TCGA-94-7943	256	Included
+TCGA	LUSC	TCGA-94-8035	252	No matched usable feature bag
+TCGA	LUSC	TCGA-94-8490	1139	Included
+TCGA	LUSC	TCGA-94-8491	679	Included
+TCGA	LUSC	TCGA-94-A4VJ	513	Included
+TCGA	LUSC	TCGA-94-A5I4	317	Included
+TCGA	LUSC	TCGA-94-A5I6	215	Included
+TCGA	LUSC	TCGA-96-7544	503	Included
+TCGA	LUSC	TCGA-96-7545	153	Included
+TCGA	LUSC	TCGA-96-8169	214	Included
+TCGA	LUSC	TCGA-96-8170	333	Included
+TCGA	LUSC	TCGA-96-A4JK	635	Included
+TCGA	LUSC	TCGA-96-A4JL	74	No matched usable feature bag
+TCGA	LUSC	TCGA-98-7454	522	Included
+TCGA	LUSC	TCGA-98-8020	118	Included
+TCGA	LUSC	TCGA-98-8022	308	Included
+TCGA	LUSC	TCGA-98-8023	253	Included
+TCGA	LUSC	TCGA-98-A538	844	No matched usable feature bag
+TCGA	LUSC	TCGA-98-A539	228	Included
+TCGA	LUSC	TCGA-98-A53A	395	Included
+TCGA	LUSC	TCGA-98-A53B	192	Included
+TCGA	LUSC	TCGA-98-A53C	4	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-98-A53H	37	No sample with >50 observed substitutions
+TCGA	LUSC	TCGA-98-A53I	491	Included
+TCGA	LUSC	TCGA-98-A53J	147	Included
+TCGA	LUSC	TCGA-J1-A4AH	234	Included
+TCGA	LUSC	TCGA-L3-A4E7	126	Included
+TCGA	LUSC	TCGA-L3-A524	434	Included
+TCGA	LUSC	TCGA-LA-A446	420	No matched usable feature bag
+TCGA	LUSC	TCGA-LA-A7SW	126	No matched usable feature bag
+TCGA	LUSC	TCGA-MF-A522	756	Included
+TCGA	LUSC	TCGA-NC-A5HD	567	Included
+TCGA	LUSC	TCGA-NC-A5HE	254	Included
+TCGA	LUSC	TCGA-NC-A5HF	316	Included
+TCGA	LUSC	TCGA-NC-A5HG	791	Included
+TCGA	LUSC	TCGA-NC-A5HH	441	Included
+TCGA	LUSC	TCGA-NC-A5HI	545	No matched usable feature bag
+TCGA	LUSC	TCGA-NC-A5HJ	505	Included
+TCGA	LUSC	TCGA-NC-A5HK	344	Included
+TCGA	LUSC	TCGA-NC-A5HL	271	Included
+TCGA	LUSC	TCGA-NC-A5HM	357	No matched usable feature bag
+TCGA	LUSC	TCGA-NC-A5HN	744	Included
+TCGA	LUSC	TCGA-NC-A5HO	310	No matched usable feature bag
+TCGA	LUSC	TCGA-NC-A5HP	514	Included
+TCGA	LUSC	TCGA-NC-A5HQ	430	Included
+TCGA	LUSC	TCGA-NC-A5HR	410	Included
+TCGA	LUSC	TCGA-NC-A5HT	414	Included
+TCGA	LUSC	TCGA-NK-A5CR	382	Included
+TCGA	LUSC	TCGA-NK-A5CT	408	Included
+TCGA	LUSC	TCGA-NK-A5CX	216	No matched usable feature bag
+TCGA	LUSC	TCGA-NK-A5D1	161	Included
+TCGA	LUSC	TCGA-NK-A7XE	132	Included
+TCGA	LUSC	TCGA-O2-A52N	636	Included
+TCGA	LUSC	TCGA-O2-A52Q	1228	Included
+TCGA	LUSC	TCGA-O2-A52S	474	Included
+TCGA	LUSC	TCGA-O2-A52V	334	Included
+TCGA	LUSC	TCGA-O2-A52W	131	Included
+TCGA	LUSC	TCGA-O2-A5IB	317	Included
+TCGA	LUSC	TCGA-XC-AA0X	231	Included
+TCGA	OV	TCGA-04-1331	178	Included
+TCGA	OV	TCGA-04-1335	28	No sample with >50 observed substitutions
+TCGA	OV	TCGA-04-1336	80	Included
+TCGA	OV	TCGA-04-1341	36	No sample with >50 observed substitutions
+TCGA	OV	TCGA-04-1342	267	Included
+TCGA	OV	TCGA-04-1343	140	Included
+TCGA	OV	TCGA-04-1346	75	Included
+TCGA	OV	TCGA-04-1348	82	Included
+TCGA	OV	TCGA-04-1349	86	Included
+TCGA	OV	TCGA-04-1353	27	No sample with >50 observed substitutions
+TCGA	OV	TCGA-04-1356	129	Included
+TCGA	OV	TCGA-04-1357	108	Included
+TCGA	OV	TCGA-04-1360	169	Included
+TCGA	OV	TCGA-04-1361	174	Included
+TCGA	OV	TCGA-04-1362	87	Included
+TCGA	OV	TCGA-04-1367	159	Included
+TCGA	OV	TCGA-04-1516	69	Included
+TCGA	OV	TCGA-04-1542	79	Included
+TCGA	OV	TCGA-04-1638	75	Included
+TCGA	OV	TCGA-04-1644	44	No sample with >50 observed substitutions
+TCGA	OV	TCGA-04-1646	41	No sample with >50 observed substitutions
+TCGA	OV	TCGA-04-1648	118	Included
+TCGA	OV	TCGA-04-1649	115	Included
+TCGA	OV	TCGA-04-1651	116	Included
+TCGA	OV	TCGA-04-1652	112	Included
+TCGA	OV	TCGA-04-1655	113	Included
+TCGA	OV	TCGA-09-0364	1	No sample with >50 observed substitutions
+TCGA	OV	TCGA-09-0365	74	Included
+TCGA	OV	TCGA-09-0369	133	Included
+TCGA	OV	TCGA-09-1664	18	No sample with >50 observed substitutions
+TCGA	OV	TCGA-09-1672	31	No sample with >50 observed substitutions
+TCGA	OV	TCGA-09-1673	55	Included
+TCGA	OV	TCGA-09-1674	144	Included
+TCGA	OV	TCGA-09-1675	81	Included
+TCGA	OV	TCGA-09-2043	142	Included
+TCGA	OV	TCGA-09-2044	2904	Included
+TCGA	OV	TCGA-09-2045	58	Included
+TCGA	OV	TCGA-09-2049	173	Included
+TCGA	OV	TCGA-09-2050	153	Included
+TCGA	OV	TCGA-09-2051	316	Included
+TCGA	OV	TCGA-09-2053	99	Included
+TCGA	OV	TCGA-09-2055	136	Included
+TCGA	OV	TCGA-09-2056	101	Included
+TCGA	OV	TCGA-10-0926	29	No sample with >50 observed substitutions
+TCGA	OV	TCGA-10-0927	25	No sample with >50 observed substitutions
+TCGA	OV	TCGA-10-0928	10	No sample with >50 observed substitutions
+TCGA	OV	TCGA-10-0930	208	Included
+TCGA	OV	TCGA-10-0931	79	Included
+TCGA	OV	TCGA-10-0933	109	Included
+TCGA	OV	TCGA-10-0934	21	No sample with >50 observed substitutions
+TCGA	OV	TCGA-10-0935	68	Included
+TCGA	OV	TCGA-10-0937	5	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0714	7	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0726	98	Included
+TCGA	OV	TCGA-13-0751	81	Included
+TCGA	OV	TCGA-13-0755	144	Included
+TCGA	OV	TCGA-13-0757	123	Included
+TCGA	OV	TCGA-13-0760	232	Included
+TCGA	OV	TCGA-13-0764	43	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0768	32	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0791	129	Included
+TCGA	OV	TCGA-13-0794	35	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0795	115	Included
+TCGA	OV	TCGA-13-0800	173	Included
+TCGA	OV	TCGA-13-0804	46	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0805	36	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0807	438	Included
+TCGA	OV	TCGA-13-0883	40	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0884	146	Included
+TCGA	OV	TCGA-13-0885	248	Included
+TCGA	OV	TCGA-13-0886	58	Included
+TCGA	OV	TCGA-13-0887	196	Included
+TCGA	OV	TCGA-13-0888	252	Included
+TCGA	OV	TCGA-13-0889	6	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0890	91	Included
+TCGA	OV	TCGA-13-0891	30	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0893	106	Included
+TCGA	OV	TCGA-13-0897	67	Included
+TCGA	OV	TCGA-13-0899	36	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0903	349	Included
+TCGA	OV	TCGA-13-0904	64	Included
+TCGA	OV	TCGA-13-0905	108	Included
+TCGA	OV	TCGA-13-0910	78	Included
+TCGA	OV	TCGA-13-0911	17	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0912	57	Included
+TCGA	OV	TCGA-13-0913	48	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0916	39	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-0921	51	Included
+TCGA	OV	TCGA-13-0923	60	Included
+TCGA	OV	TCGA-13-1403	80	Included
+TCGA	OV	TCGA-13-1404	76	Included
+TCGA	OV	TCGA-13-1405	69	Included
+TCGA	OV	TCGA-13-1411	83	Included
+TCGA	OV	TCGA-13-1412	89	Included
+TCGA	OV	TCGA-13-1477	288	Included
+TCGA	OV	TCGA-13-1481	302	Included
+TCGA	OV	TCGA-13-1482	74	Included
+TCGA	OV	TCGA-13-1483	95	Included
+TCGA	OV	TCGA-13-1484	62	Included
+TCGA	OV	TCGA-13-1487	33	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-1488	222	Included
+TCGA	OV	TCGA-13-1489	69	Included
+TCGA	OV	TCGA-13-1491	67	Included
+TCGA	OV	TCGA-13-1492	19	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-1494	106	Included
+TCGA	OV	TCGA-13-1495	27	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-1496	87	Included
+TCGA	OV	TCGA-13-1497	185	Included
+TCGA	OV	TCGA-13-1498	176	Included
+TCGA	OV	TCGA-13-1499	111	Included
+TCGA	OV	TCGA-13-1500	120	Included
+TCGA	OV	TCGA-13-1501	112	Included
+TCGA	OV	TCGA-13-1504	58	Included
+TCGA	OV	TCGA-13-1505	96	Included
+TCGA	OV	TCGA-13-1506	35	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-1507	117	Included
+TCGA	OV	TCGA-13-1509	126	Included
+TCGA	OV	TCGA-13-1510	60	Included
+TCGA	OV	TCGA-13-1511	31	No sample with >50 observed substitutions
+TCGA	OV	TCGA-13-1512	81	Included
+TCGA	OV	TCGA-13-2057	260	Included
+TCGA	OV	TCGA-13-2059	123	Included
+TCGA	OV	TCGA-13-2060	94	Included
+TCGA	OV	TCGA-13-2061	144	Included
+TCGA	OV	TCGA-13-2065	67	Included
+TCGA	OV	TCGA-13-2071	75	Included
+TCGA	OV	TCGA-13-A5FT	125	Included
+TCGA	OV	TCGA-13-A5FU	118	Included
+TCGA	OV	TCGA-20-0987	44	No sample with >50 observed substitutions
+TCGA	OV	TCGA-20-0991	317	Included
+TCGA	OV	TCGA-20-1682	113	Included
+TCGA	OV	TCGA-20-1683	134	Included
+TCGA	OV	TCGA-20-1684	54	Included
+TCGA	OV	TCGA-20-1685	99	Included
+TCGA	OV	TCGA-20-1686	135	Included
+TCGA	OV	TCGA-20-1687	98	Included
+TCGA	OV	TCGA-23-1021	118	Included
+TCGA	OV	TCGA-23-1022	269	Included
+TCGA	OV	TCGA-23-1027	68	Included
+TCGA	OV	TCGA-23-1029	104	Included
+TCGA	OV	TCGA-23-1030	64	Included
+TCGA	OV	TCGA-23-1032	287	Included
+TCGA	OV	TCGA-23-1110	175	Included
+TCGA	OV	TCGA-23-1111	83	Included
+TCGA	OV	TCGA-23-1113	66	Included
+TCGA	OV	TCGA-23-1114	176	Included
+TCGA	OV	TCGA-23-1116	289	Included
+TCGA	OV	TCGA-23-1117	203	Included
+TCGA	OV	TCGA-23-1118	126	Included
+TCGA	OV	TCGA-23-1121	452	Included
+TCGA	OV	TCGA-23-1123	110	Included
+TCGA	OV	TCGA-23-1124	211	Included
+TCGA	OV	TCGA-23-1809	59	Included
+TCGA	OV	TCGA-23-2072	72	Included
+TCGA	OV	TCGA-23-2077	157	Included
+TCGA	OV	TCGA-23-2078	278	Included
+TCGA	OV	TCGA-23-2079	77	Included
+TCGA	OV	TCGA-23-2081	86	Included
+TCGA	OV	TCGA-23-2084	196	Included
+TCGA	OV	TCGA-23-2641	117	Included
+TCGA	OV	TCGA-23-2643	70	Included
+TCGA	OV	TCGA-23-2645	157	Included
+TCGA	OV	TCGA-24-0970	49	No sample with >50 observed substitutions
+TCGA	OV	TCGA-24-0980	84	Included
+TCGA	OV	TCGA-24-0982	86	Included
+TCGA	OV	TCGA-24-1103	89	Included
+TCGA	OV	TCGA-24-1104	125	Included
+TCGA	OV	TCGA-24-1413	63	Included
+TCGA	OV	TCGA-24-1416	23	No sample with >50 observed substitutions
+TCGA	OV	TCGA-24-1417	117	Included
+TCGA	OV	TCGA-24-1418	84	Included
+TCGA	OV	TCGA-24-1419	56	Included
+TCGA	OV	TCGA-24-1422	233	Included
+TCGA	OV	TCGA-24-1423	117	Included
+TCGA	OV	TCGA-24-1424	94	Included
+TCGA	OV	TCGA-24-1425	122	Included
+TCGA	OV	TCGA-24-1426	209	Included
+TCGA	OV	TCGA-24-1427	82	Included
+TCGA	OV	TCGA-24-1428	100	Included
+TCGA	OV	TCGA-24-1430	63	Included
+TCGA	OV	TCGA-24-1431	134	Included
+TCGA	OV	TCGA-24-1434	90	Included
+TCGA	OV	TCGA-24-1435	128	Included
+TCGA	OV	TCGA-24-1436	127	Included
+TCGA	OV	TCGA-24-1463	87	Included
+TCGA	OV	TCGA-24-1464	82	Included
+TCGA	OV	TCGA-24-1466	87	Included
+TCGA	OV	TCGA-24-1467	10	No sample with >50 observed substitutions
+TCGA	OV	TCGA-24-1469	335	Included
+TCGA	OV	TCGA-24-1470	89	Included
+TCGA	OV	TCGA-24-1471	57	Included
+TCGA	OV	TCGA-24-1474	97	Included
+TCGA	OV	TCGA-24-1550	80	Included
+TCGA	OV	TCGA-24-1551	60	Included
+TCGA	OV	TCGA-24-1552	63	Included
+TCGA	OV	TCGA-24-1562	39	No sample with >50 observed substitutions
+TCGA	OV	TCGA-24-1564	66	Included
+TCGA	OV	TCGA-24-1565	51	Included
+TCGA	OV	TCGA-24-1603	51	Included
+TCGA	OV	TCGA-24-1616	78	Included
+TCGA	OV	TCGA-24-1842	69	Included
+TCGA	OV	TCGA-24-1843	115	Included
+TCGA	OV	TCGA-24-1844	211	Included
+TCGA	OV	TCGA-24-1845	231	Included
+TCGA	OV	TCGA-24-1846	145	Included
+TCGA	OV	TCGA-24-1847	131	Included
+TCGA	OV	TCGA-24-1849	157	Included
+TCGA	OV	TCGA-24-1850	114	Included
+TCGA	OV	TCGA-24-1927	166	Included
+TCGA	OV	TCGA-24-2019	66	Included
+TCGA	OV	TCGA-24-2024	138	Included
+TCGA	OV	TCGA-24-2030	89	Included
+TCGA	OV	TCGA-24-2033	140	Included
+TCGA	OV	TCGA-24-2035	169	Included
+TCGA	OV	TCGA-24-2036	65	Included
+TCGA	OV	TCGA-24-2038	20	No sample with >50 observed substitutions
+TCGA	OV	TCGA-24-2254	88	Included
+TCGA	OV	TCGA-24-2260	95	Included
+TCGA	OV	TCGA-24-2261	72	Included
+TCGA	OV	TCGA-24-2262	142	Included
+TCGA	OV	TCGA-24-2267	155	Included
+TCGA	OV	TCGA-24-2271	68	Included
+TCGA	OV	TCGA-24-2280	279	Included
+TCGA	OV	TCGA-24-2281	123	Included
+TCGA	OV	TCGA-24-2288	259	Included
+TCGA	OV	TCGA-24-2289	216	Included
+TCGA	OV	TCGA-24-2290	82	Included
+TCGA	OV	TCGA-24-2293	161	Included
+TCGA	OV	TCGA-24-2295	122	Included
+TCGA	OV	TCGA-24-2298	186	Included
+TCGA	OV	TCGA-25-1312	29	No sample with >50 observed substitutions
+TCGA	OV	TCGA-25-1313	240	Included
+TCGA	OV	TCGA-25-1314	109	Included
+TCGA	OV	TCGA-25-1315	93	Included
+TCGA	OV	TCGA-25-1316	23	No sample with >50 observed substitutions
+TCGA	OV	TCGA-25-1319	73	Included
+TCGA	OV	TCGA-25-1320	154	Included
+TCGA	OV	TCGA-25-1323	113	Included
+TCGA	OV	TCGA-25-1329	77	Included
+TCGA	OV	TCGA-25-2042	171	Included
+TCGA	OV	TCGA-25-2391	93	Included
+TCGA	OV	TCGA-25-2392	165	Included
+TCGA	OV	TCGA-25-2393	93	Included
+TCGA	OV	TCGA-25-2396	51	Included
+TCGA	OV	TCGA-25-2397	174	Included
+TCGA	OV	TCGA-25-2398	298	Included
+TCGA	OV	TCGA-25-2399	62	Included
+TCGA	OV	TCGA-25-2400	129	Included
+TCGA	OV	TCGA-25-2401	109	Included
+TCGA	OV	TCGA-25-2404	73	Included
+TCGA	OV	TCGA-25-2408	23	No sample with >50 observed substitutions
+TCGA	OV	TCGA-25-2409	41	No sample with >50 observed substitutions
+TCGA	OV	TCGA-29-1688	82	Included
+TCGA	OV	TCGA-29-1691	260	Included
+TCGA	OV	TCGA-29-1693	132	Included
+TCGA	OV	TCGA-29-1694	47	No sample with >50 observed substitutions
+TCGA	OV	TCGA-29-1695	86	Included
+TCGA	OV	TCGA-29-1696	76	Included
+TCGA	OV	TCGA-29-1697	42	No sample with >50 observed substitutions
+TCGA	OV	TCGA-29-1698	111	Included
+TCGA	OV	TCGA-29-1699	98	Included
+TCGA	OV	TCGA-29-1701	104	Included
+TCGA	OV	TCGA-29-1702	69	Included
+TCGA	OV	TCGA-29-1703	106	Included
+TCGA	OV	TCGA-29-1705	60	Included
+TCGA	OV	TCGA-29-1707	69	Included
+TCGA	OV	TCGA-29-1710	62	Included
+TCGA	OV	TCGA-29-1711	92	Included
+TCGA	OV	TCGA-29-1761	256	Included
+TCGA	OV	TCGA-29-1762	97	Included
+TCGA	OV	TCGA-29-1763	215	Included
+TCGA	OV	TCGA-29-1764	126	Included
+TCGA	OV	TCGA-29-1766	104	Included
+TCGA	OV	TCGA-29-1768	56	Included
+TCGA	OV	TCGA-29-1769	112	Included
+TCGA	OV	TCGA-29-1770	198	Included
+TCGA	OV	TCGA-29-1771	28	No sample with >50 observed substitutions
+TCGA	OV	TCGA-29-1774	67	Included
+TCGA	OV	TCGA-29-1775	166	Included
+TCGA	OV	TCGA-29-1776	66	Included
+TCGA	OV	TCGA-29-1777	181	Included
+TCGA	OV	TCGA-29-1778	80	Included
+TCGA	OV	TCGA-29-1781	130	Included
+TCGA	OV	TCGA-29-1783	98	Included
+TCGA	OV	TCGA-29-1784	165	Included
+TCGA	OV	TCGA-29-1785	86	Included
+TCGA	OV	TCGA-29-2427	91	Included
+TCGA	OV	TCGA-29-2429	110	Included
+TCGA	OV	TCGA-29-2431	53	Included
+TCGA	OV	TCGA-29-2432	121	Included
+TCGA	OV	TCGA-29-2434	146	Included
+TCGA	OV	TCGA-29-2436	14	No sample with >50 observed substitutions
+TCGA	OV	TCGA-29-A5NZ	82	Included
+TCGA	OV	TCGA-30-1714	85	Included
+TCGA	OV	TCGA-30-1718	207	Included
+TCGA	OV	TCGA-30-1853	63	Included
+TCGA	OV	TCGA-30-1855	155	Included
+TCGA	OV	TCGA-30-1856	83	Included
+TCGA	OV	TCGA-30-1857	124	Included
+TCGA	OV	TCGA-30-1862	60	Included
+TCGA	OV	TCGA-30-1891	90	Included
+TCGA	OV	TCGA-31-1950	96	Included
+TCGA	OV	TCGA-31-1953	75	Included
+TCGA	OV	TCGA-31-1959	97	Included
+TCGA	OV	TCGA-36-2530	97	Included
+TCGA	OV	TCGA-36-2532	66	Included
+TCGA	OV	TCGA-36-2533	98	Included
+TCGA	OV	TCGA-36-2534	178	Included
+TCGA	OV	TCGA-36-2537	58	Included
+TCGA	OV	TCGA-36-2538	60	Included
+TCGA	OV	TCGA-36-2540	8	No sample with >50 observed substitutions
+TCGA	OV	TCGA-36-2542	103	Included
+TCGA	OV	TCGA-36-2543	92	Included
+TCGA	OV	TCGA-36-2544	85	Included
+TCGA	OV	TCGA-36-2545	91	Included
+TCGA	OV	TCGA-36-2547	200	Included
+TCGA	OV	TCGA-36-2548	73	Included
+TCGA	OV	TCGA-36-2551	48	No sample with >50 observed substitutions
+TCGA	OV	TCGA-36-2552	84	Included
+TCGA	OV	TCGA-3P-A9WA	191	Included
+TCGA	OV	TCGA-42-2582	152	Included
+TCGA	OV	TCGA-42-2587	188	Included
+TCGA	OV	TCGA-42-2588	45	No sample with >50 observed substitutions
+TCGA	OV	TCGA-42-2589	128	Included
+TCGA	OV	TCGA-42-2590	83	Included
+TCGA	OV	TCGA-42-2591	101	Included
+TCGA	OV	TCGA-42-2593	62	Included
+TCGA	OV	TCGA-57-1586	15	No sample with >50 observed substitutions
+TCGA	OV	TCGA-57-1992	193	Included
+TCGA	OV	TCGA-57-1993	115	Included
+TCGA	OV	TCGA-57-1994	92	Included
+TCGA	OV	TCGA-59-2348	143	Included
+TCGA	OV	TCGA-59-2350	54	Included
+TCGA	OV	TCGA-59-2351	150	Included
+TCGA	OV	TCGA-59-2352	118	Included
+TCGA	OV	TCGA-59-2354	108	Included
+TCGA	OV	TCGA-59-2355	35	No sample with >50 observed substitutions
+TCGA	OV	TCGA-59-2363	113	Included
+TCGA	OV	TCGA-59-2372	114	Included
+TCGA	OV	TCGA-59-A5PD	254	Included
+TCGA	OV	TCGA-5X-AA5U	49	No sample with >50 observed substitutions
+TCGA	OV	TCGA-61-1722	139	Included
+TCGA	OV	TCGA-61-1725	89	Included
+TCGA	OV	TCGA-61-1727	171	Included
+TCGA	OV	TCGA-61-1728	86	Included
+TCGA	OV	TCGA-61-1730	86	Included
+TCGA	OV	TCGA-61-1733	70	Included
+TCGA	OV	TCGA-61-1736	73	Included
+TCGA	OV	TCGA-61-1737	165	Included
+TCGA	OV	TCGA-61-1738	76	Included
+TCGA	OV	TCGA-61-1740	269	Included
+TCGA	OV	TCGA-61-1741	42	No sample with >50 observed substitutions
+TCGA	OV	TCGA-61-1895	90	Included
+TCGA	OV	TCGA-61-1899	90	Included
+TCGA	OV	TCGA-61-1900	104	Included
+TCGA	OV	TCGA-61-1901	71	Included
+TCGA	OV	TCGA-61-1903	84	Included
+TCGA	OV	TCGA-61-1904	197	Included
+TCGA	OV	TCGA-61-1906	85	Included
+TCGA	OV	TCGA-61-1907	145	Included
+TCGA	OV	TCGA-61-1910	162	Included
+TCGA	OV	TCGA-61-1911	61	Included
+TCGA	OV	TCGA-61-1913	71	Included
+TCGA	OV	TCGA-61-1914	158	Included
+TCGA	OV	TCGA-61-1915	120	Included
+TCGA	OV	TCGA-61-1919	105	Included
+TCGA	OV	TCGA-61-1995	46	No sample with >50 observed substitutions
+TCGA	OV	TCGA-61-1998	306	Included
+TCGA	OV	TCGA-61-2000	100	Included
+TCGA	OV	TCGA-61-2002	60	Included
+TCGA	OV	TCGA-61-2003	128	Included
+TCGA	OV	TCGA-61-2008	96	Included
+TCGA	OV	TCGA-61-2009	104	Included
+TCGA	OV	TCGA-61-2012	198	Included
+TCGA	OV	TCGA-61-2016	43	No sample with >50 observed substitutions
+TCGA	OV	TCGA-61-2018	145	Included
+TCGA	OV	TCGA-61-2087	100	Included
+TCGA	OV	TCGA-61-2088	24	No sample with >50 observed substitutions
+TCGA	OV	TCGA-61-2092	88	Included
+TCGA	OV	TCGA-61-2094	86	Included
+TCGA	OV	TCGA-61-2095	295	Included
+TCGA	OV	TCGA-61-2096	149	Included
+TCGA	OV	TCGA-61-2101	68	Included
+TCGA	OV	TCGA-61-2102	92	Included
+TCGA	OV	TCGA-61-2104	100	Included
+TCGA	OV	TCGA-61-2109	101	Included
+TCGA	OV	TCGA-61-2110	115	Included
+TCGA	OV	TCGA-61-2113	333	Included
+TCGA	OV	TCGA-61-2610	129	No matched usable feature bag
+TCGA	OV	TCGA-61-2611	98	No matched usable feature bag
+TCGA	OV	TCGA-61-2612	63	Included
+TCGA	OV	TCGA-61-2613	109	Included
+TCGA	OV	TCGA-61-2614	71	Included
+TCGA	OV	TCGA-OY-A56P	56	Included
+TCGA	OV	TCGA-OY-A56Q	87	Included
+TCGA	OV	TCGA-WR-A838	77	Included
+TCGA	UCEC	TCGA-2E-A9G8	92	Included
+TCGA	UCEC	TCGA-4E-A92E	261	Included
+TCGA	UCEC	TCGA-5B-A90C	74	Included
+TCGA	UCEC	TCGA-5S-A9Q8	74	No matched usable feature bag
+TCGA	UCEC	TCGA-A5-A0G2	39856	Included
+TCGA	UCEC	TCGA-A5-A0G5	185	Included
+TCGA	UCEC	TCGA-A5-A0G9	538	Included
+TCGA	UCEC	TCGA-A5-A0GA	373	Included
+TCGA	UCEC	TCGA-A5-A0GB	851	Included
+TCGA	UCEC	TCGA-A5-A0GE	36	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-A5-A0GH	528	No matched usable feature bag
+TCGA	UCEC	TCGA-A5-A0GI	438	Included
+TCGA	UCEC	TCGA-A5-A0GJ	88	Included
+TCGA	UCEC	TCGA-A5-A0GM	51	Included
+TCGA	UCEC	TCGA-A5-A0GN	76	Included
+TCGA	UCEC	TCGA-A5-A0GP	2229	Included
+TCGA	UCEC	TCGA-A5-A0GQ	83	Included
+TCGA	UCEC	TCGA-A5-A0GU	60	Included
+TCGA	UCEC	TCGA-A5-A0GV	63	Included
+TCGA	UCEC	TCGA-A5-A0GW	397	Included
+TCGA	UCEC	TCGA-A5-A0GX	43	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-A5-A0R6	67	Included
+TCGA	UCEC	TCGA-A5-A0R7	97	Included
+TCGA	UCEC	TCGA-A5-A0R8	90	Included
+TCGA	UCEC	TCGA-A5-A0R9	57	Included
+TCGA	UCEC	TCGA-A5-A0RA	87	Included
+TCGA	UCEC	TCGA-A5-A0VP	2230	Included
+TCGA	UCEC	TCGA-A5-A0VQ	453	Included
+TCGA	UCEC	TCGA-A5-A1OF	18601	Included
+TCGA	UCEC	TCGA-A5-A1OG	47	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-A5-A1OJ	90	Included
+TCGA	UCEC	TCGA-A5-A1OK	90	Included
+TCGA	UCEC	TCGA-A5-A2K2	195	Included
+TCGA	UCEC	TCGA-A5-A2K3	2125	Included
+TCGA	UCEC	TCGA-A5-A2K4	52	Included
+TCGA	UCEC	TCGA-A5-A2K5	15150	Included
+TCGA	UCEC	TCGA-A5-A2K7	900	Included
+TCGA	UCEC	TCGA-A5-A3LO	47	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-A5-A3LP	79	Included
+TCGA	UCEC	TCGA-A5-A7WK	118	Included
+TCGA	UCEC	TCGA-A5-AB3J	63	Included
+TCGA	UCEC	TCGA-AJ-A23M	156	Included
+TCGA	UCEC	TCGA-AJ-A23N	67	Included
+TCGA	UCEC	TCGA-AJ-A23O	1286	Included
+TCGA	UCEC	TCGA-AJ-A2QK	113	Included
+TCGA	UCEC	TCGA-AJ-A2QL	119	Included
+TCGA	UCEC	TCGA-AJ-A2QM	299	Included
+TCGA	UCEC	TCGA-AJ-A2QN	103	Included
+TCGA	UCEC	TCGA-AJ-A2QO	1489	No matched usable feature bag
+TCGA	UCEC	TCGA-AJ-A3BD	114	No matched usable feature bag
+TCGA	UCEC	TCGA-AJ-A3BF	44	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AJ-A3BG	1885	Included
+TCGA	UCEC	TCGA-AJ-A3BH	4183	Included
+TCGA	UCEC	TCGA-AJ-A3BI	55	Included
+TCGA	UCEC	TCGA-AJ-A3BK	93	Included
+TCGA	UCEC	TCGA-AJ-A3EJ	90	Included
+TCGA	UCEC	TCGA-AJ-A3EK	10237	Included
+TCGA	UCEC	TCGA-AJ-A3EL	13294	Included
+TCGA	UCEC	TCGA-AJ-A3EM	87	Included
+TCGA	UCEC	TCGA-AJ-A3I9	48	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AJ-A3IA	378	Included
+TCGA	UCEC	TCGA-AJ-A3NF	81	No matched usable feature bag
+TCGA	UCEC	TCGA-AJ-A3NG	125	Included
+TCGA	UCEC	TCGA-AJ-A3OJ	1227	Included
+TCGA	UCEC	TCGA-AJ-A3OK	1120	Included
+TCGA	UCEC	TCGA-AJ-A3OL	372	Included
+TCGA	UCEC	TCGA-AJ-A3QS	396	Included
+TCGA	UCEC	TCGA-AJ-A3TW	189	Included
+TCGA	UCEC	TCGA-AJ-A5DV	113	No matched usable feature bag
+TCGA	UCEC	TCGA-AJ-A5DW	5623	Included
+TCGA	UCEC	TCGA-AJ-A6NU	69	Included
+TCGA	UCEC	TCGA-AJ-A8CT	945	Included
+TCGA	UCEC	TCGA-AJ-A8CV	300	Included
+TCGA	UCEC	TCGA-AJ-A8CW	886	Included
+TCGA	UCEC	TCGA-AP-A051	12129	Included
+TCGA	UCEC	TCGA-AP-A052	55	Included
+TCGA	UCEC	TCGA-AP-A053	58	Included
+TCGA	UCEC	TCGA-AP-A054	1503	Included
+TCGA	UCEC	TCGA-AP-A056	12453	Included
+TCGA	UCEC	TCGA-AP-A059	16416	Included
+TCGA	UCEC	TCGA-AP-A05A	93	Included
+TCGA	UCEC	TCGA-AP-A05D	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A05H	85	Included
+TCGA	UCEC	TCGA-AP-A05J	60	Included
+TCGA	UCEC	TCGA-AP-A05N	303	Included
+TCGA	UCEC	TCGA-AP-A05P	73	Included
+TCGA	UCEC	TCGA-AP-A0L8	86	Included
+TCGA	UCEC	TCGA-AP-A0L9	95	Included
+TCGA	UCEC	TCGA-AP-A0LD	587	Included
+TCGA	UCEC	TCGA-AP-A0LE	624	Included
+TCGA	UCEC	TCGA-AP-A0LF	327	Included
+TCGA	UCEC	TCGA-AP-A0LG	521	Included
+TCGA	UCEC	TCGA-AP-A0LH	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A0LI	157	Included
+TCGA	UCEC	TCGA-AP-A0LJ	53	Included
+TCGA	UCEC	TCGA-AP-A0LL	58	Included
+TCGA	UCEC	TCGA-AP-A0LM	19978	Included
+TCGA	UCEC	TCGA-AP-A0LN	75	Included
+TCGA	UCEC	TCGA-AP-A0LO	39	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A0LP	346	Included
+TCGA	UCEC	TCGA-AP-A0LQ	73	Included
+TCGA	UCEC	TCGA-AP-A0LS	567	Included
+TCGA	UCEC	TCGA-AP-A0LT	782	Included
+TCGA	UCEC	TCGA-AP-A0LV	30	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A1DH	778	Included
+TCGA	UCEC	TCGA-AP-A1DK	18827	No matched usable feature bag
+TCGA	UCEC	TCGA-AP-A1DM	480	Included
+TCGA	UCEC	TCGA-AP-A1DO	802	Included
+TCGA	UCEC	TCGA-AP-A1DP	631	Included
+TCGA	UCEC	TCGA-AP-A1DQ	42	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A1DR	1000	No matched usable feature bag
+TCGA	UCEC	TCGA-AP-A1DV	21469	No matched usable feature bag
+TCGA	UCEC	TCGA-AP-A1E0	8411	Included
+TCGA	UCEC	TCGA-AP-A1E1	767	No matched usable feature bag
+TCGA	UCEC	TCGA-AP-A1E3	62	Included
+TCGA	UCEC	TCGA-AP-A1E4	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AP-A5FX	60	Included
+TCGA	UCEC	TCGA-AW-A1PO	105	Included
+TCGA	UCEC	TCGA-AX-A05S	635	Included
+TCGA	UCEC	TCGA-AX-A05T	68	Included
+TCGA	UCEC	TCGA-AX-A05U	35	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A05W	95	Included
+TCGA	UCEC	TCGA-AX-A05Y	253	Included
+TCGA	UCEC	TCGA-AX-A05Z	10642	Included
+TCGA	UCEC	TCGA-AX-A060	983	Included
+TCGA	UCEC	TCGA-AX-A062	36	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A063	1326	Included
+TCGA	UCEC	TCGA-AX-A064	352	Included
+TCGA	UCEC	TCGA-AX-A06B	54	Included
+TCGA	UCEC	TCGA-AX-A06F	11213	Included
+TCGA	UCEC	TCGA-AX-A06H	492	Included
+TCGA	UCEC	TCGA-AX-A06J	81	Included
+TCGA	UCEC	TCGA-AX-A06L	56	Included
+TCGA	UCEC	TCGA-AX-A0IS	63	Included
+TCGA	UCEC	TCGA-AX-A0IU	79	Included
+TCGA	UCEC	TCGA-AX-A0IW	73	Included
+TCGA	UCEC	TCGA-AX-A0J0	22279	Included
+TCGA	UCEC	TCGA-AX-A0J1	7699	Included
+TCGA	UCEC	TCGA-AX-A1C4	1191	Included
+TCGA	UCEC	TCGA-AX-A1C5	1452	Included
+TCGA	UCEC	TCGA-AX-A1C7	61	Included
+TCGA	UCEC	TCGA-AX-A1C8	100	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A1C9	1607	Included
+TCGA	UCEC	TCGA-AX-A1CA	163	Included
+TCGA	UCEC	TCGA-AX-A1CC	28	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A1CE	19621	Included
+TCGA	UCEC	TCGA-AX-A1CF	153	Included
+TCGA	UCEC	TCGA-AX-A1CI	106	Included
+TCGA	UCEC	TCGA-AX-A1CJ	85	Included
+TCGA	UCEC	TCGA-AX-A1CK	81	Included
+TCGA	UCEC	TCGA-AX-A1CN	50	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A1CP	38	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A1CR	76	Included
+TCGA	UCEC	TCGA-AX-A2H2	314	Included
+TCGA	UCEC	TCGA-AX-A2H4	286	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A2H5	62	Included
+TCGA	UCEC	TCGA-AX-A2H7	274	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A2H8	75	Included
+TCGA	UCEC	TCGA-AX-A2HA	2201	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A2HC	22941	Included
+TCGA	UCEC	TCGA-AX-A2HD	14106	Included
+TCGA	UCEC	TCGA-AX-A2HF	29	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A2HG	1154	Included
+TCGA	UCEC	TCGA-AX-A2HH	71	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A2HJ	2377	Included
+TCGA	UCEC	TCGA-AX-A2HK	96	Included
+TCGA	UCEC	TCGA-AX-A2IN	744	Included
+TCGA	UCEC	TCGA-AX-A2IO	627	Included
+TCGA	UCEC	TCGA-AX-A3FS	1027	Included
+TCGA	UCEC	TCGA-AX-A3FT	1868	Included
+TCGA	UCEC	TCGA-AX-A3FV	150	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A3FW	76	Included
+TCGA	UCEC	TCGA-AX-A3FX	99	Included
+TCGA	UCEC	TCGA-AX-A3FZ	58	Included
+TCGA	UCEC	TCGA-AX-A3G1	85	Included
+TCGA	UCEC	TCGA-AX-A3G3	237	Included
+TCGA	UCEC	TCGA-AX-A3G4	60	Included
+TCGA	UCEC	TCGA-AX-A3G6	76	No matched usable feature bag
+TCGA	UCEC	TCGA-AX-A3G7	45	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-AX-A3G8	1062	Included
+TCGA	UCEC	TCGA-AX-A3G9	884	Included
+TCGA	UCEC	TCGA-AX-A3GB	137	Included
+TCGA	UCEC	TCGA-AX-A3GI	73	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A0JN	195	Included
+TCGA	UCEC	TCGA-B5-A0JR	796	Included
+TCGA	UCEC	TCGA-B5-A0JS	37	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-B5-A0JT	82	Included
+TCGA	UCEC	TCGA-B5-A0JU	611	Included
+TCGA	UCEC	TCGA-B5-A0JV	459	Included
+TCGA	UCEC	TCGA-B5-A0JX	105	Included
+TCGA	UCEC	TCGA-B5-A0JY	14254	Included
+TCGA	UCEC	TCGA-B5-A0JZ	585	Included
+TCGA	UCEC	TCGA-B5-A0K0	24	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-B5-A0K1	66	Included
+TCGA	UCEC	TCGA-B5-A0K2	371	Included
+TCGA	UCEC	TCGA-B5-A0K3	76	Included
+TCGA	UCEC	TCGA-B5-A0K4	60	Included
+TCGA	UCEC	TCGA-B5-A0K6	465	Included
+TCGA	UCEC	TCGA-B5-A0K7	67	Included
+TCGA	UCEC	TCGA-B5-A0K8	70	Included
+TCGA	UCEC	TCGA-B5-A0K9	941	Included
+TCGA	UCEC	TCGA-B5-A0KB	62	Included
+TCGA	UCEC	TCGA-B5-A11E	13676	Included
+TCGA	UCEC	TCGA-B5-A11F	57	Included
+TCGA	UCEC	TCGA-B5-A11G	688	Included
+TCGA	UCEC	TCGA-B5-A11H	1170	Included
+TCGA	UCEC	TCGA-B5-A11I	72	Included
+TCGA	UCEC	TCGA-B5-A11J	545	Included
+TCGA	UCEC	TCGA-B5-A11L	159	Included
+TCGA	UCEC	TCGA-B5-A11N	2732	Included
+TCGA	UCEC	TCGA-B5-A11O	133	Included
+TCGA	UCEC	TCGA-B5-A11P	75	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A11Q	51	Included
+TCGA	UCEC	TCGA-B5-A11R	960	Included
+TCGA	UCEC	TCGA-B5-A11S	63	Included
+TCGA	UCEC	TCGA-B5-A11U	439	Included
+TCGA	UCEC	TCGA-B5-A11V	74	Included
+TCGA	UCEC	TCGA-B5-A11W	92	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A11Y	1479	Included
+TCGA	UCEC	TCGA-B5-A11Z	78	Included
+TCGA	UCEC	TCGA-B5-A121	42	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-B5-A1MR	12277	Included
+TCGA	UCEC	TCGA-B5-A1MS	66	Included
+TCGA	UCEC	TCGA-B5-A1MU	44	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-B5-A1MV	101	Included
+TCGA	UCEC	TCGA-B5-A1MW	864	Included
+TCGA	UCEC	TCGA-B5-A1MX	9583	Included
+TCGA	UCEC	TCGA-B5-A1MY	63	Included
+TCGA	UCEC	TCGA-B5-A1MZ	77	Included
+TCGA	UCEC	TCGA-B5-A1N2	201	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A3F9	105	Included
+TCGA	UCEC	TCGA-B5-A3FA	17722	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A3FB	77	Included
+TCGA	UCEC	TCGA-B5-A3FC	21793	No matched usable feature bag
+TCGA	UCEC	TCGA-B5-A3FD	74	Included
+TCGA	UCEC	TCGA-B5-A3FH	59	Included
+TCGA	UCEC	TCGA-B5-A3S1	149	Included
+TCGA	UCEC	TCGA-B5-A5OC	1457	Included
+TCGA	UCEC	TCGA-B5-A5OD	66	Included
+TCGA	UCEC	TCGA-B5-A5OE	117	Included
+TCGA	UCEC	TCGA-BG-A0LW	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0LX	589	Included
+TCGA	UCEC	TCGA-BG-A0M0	175	Included
+TCGA	UCEC	TCGA-BG-A0M2	39	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0M3	75	Included
+TCGA	UCEC	TCGA-BG-A0M4	763	Included
+TCGA	UCEC	TCGA-BG-A0M6	54	Included
+TCGA	UCEC	TCGA-BG-A0M7	87	Included
+TCGA	UCEC	TCGA-BG-A0M8	104	Included
+TCGA	UCEC	TCGA-BG-A0MA	61	No matched usable feature bag
+TCGA	UCEC	TCGA-BG-A0MC	72	Included
+TCGA	UCEC	TCGA-BG-A0MG	150	Included
+TCGA	UCEC	TCGA-BG-A0MI	76	Included
+TCGA	UCEC	TCGA-BG-A0MK	142	Included
+TCGA	UCEC	TCGA-BG-A0MO	59	Included
+TCGA	UCEC	TCGA-BG-A0MQ	722	Included
+TCGA	UCEC	TCGA-BG-A0MS	60	Included
+TCGA	UCEC	TCGA-BG-A0MT	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0MU	84	Included
+TCGA	UCEC	TCGA-BG-A0RY	71	No matched usable feature bag
+TCGA	UCEC	TCGA-BG-A0VT	45	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0VV	62	No matched usable feature bag
+TCGA	UCEC	TCGA-BG-A0VW	596	Included
+TCGA	UCEC	TCGA-BG-A0VX	275	Included
+TCGA	UCEC	TCGA-BG-A0VZ	412	Included
+TCGA	UCEC	TCGA-BG-A0W1	77	Included
+TCGA	UCEC	TCGA-BG-A0W2	48	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0YU	31	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A0YV	101	Included
+TCGA	UCEC	TCGA-BG-A186	40	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BG-A187	109	No matched usable feature bag
+TCGA	UCEC	TCGA-BG-A18A	81	Included
+TCGA	UCEC	TCGA-BG-A18B	421	Included
+TCGA	UCEC	TCGA-BG-A18C	65	Included
+TCGA	UCEC	TCGA-BG-A221	1759	Included
+TCGA	UCEC	TCGA-BG-A222	7126	Included
+TCGA	UCEC	TCGA-BG-A2AE	166	Included
+TCGA	UCEC	TCGA-BG-A2L7	1562	Included
+TCGA	UCEC	TCGA-BG-A3EW	637	No matched usable feature bag
+TCGA	UCEC	TCGA-BG-A3PP	159	No matched usable feature bag
+TCGA	UCEC	TCGA-BK-A0C9	819	Included
+TCGA	UCEC	TCGA-BK-A0CA	75	Included
+TCGA	UCEC	TCGA-BK-A0CB	79	Included
+TCGA	UCEC	TCGA-BK-A0CC	80	Included
+TCGA	UCEC	TCGA-BK-A139	250	Included
+TCGA	UCEC	TCGA-BK-A13B	871	Included
+TCGA	UCEC	TCGA-BK-A13C	114	Included
+TCGA	UCEC	TCGA-BK-A26L	122	Included
+TCGA	UCEC	TCGA-BK-A4ZD	237	Included
+TCGA	UCEC	TCGA-BK-A56F	82	Included
+TCGA	UCEC	TCGA-BK-A6W3	7184	Included
+TCGA	UCEC	TCGA-BK-A6W4	38	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BS-A0T9	71	Included
+TCGA	UCEC	TCGA-BS-A0TA	581	Included
+TCGA	UCEC	TCGA-BS-A0TC	1886	Included
+TCGA	UCEC	TCGA-BS-A0TD	49	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BS-A0TE	416	Included
+TCGA	UCEC	TCGA-BS-A0TG	58	Included
+TCGA	UCEC	TCGA-BS-A0TI	112	Included
+TCGA	UCEC	TCGA-BS-A0TJ	849	Included
+TCGA	UCEC	TCGA-BS-A0U5	74	Included
+TCGA	UCEC	TCGA-BS-A0U7	265	Included
+TCGA	UCEC	TCGA-BS-A0U8	512	Included
+TCGA	UCEC	TCGA-BS-A0U9	38	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BS-A0UA	403	Included
+TCGA	UCEC	TCGA-BS-A0UF	11886	Included
+TCGA	UCEC	TCGA-BS-A0UJ	2328	Included
+TCGA	UCEC	TCGA-BS-A0UL	497	Included
+TCGA	UCEC	TCGA-BS-A0UT	44	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-BS-A0UV	13323	Included
+TCGA	UCEC	TCGA-BS-A0V4	438	Included
+TCGA	UCEC	TCGA-BS-A0V6	75	Included
+TCGA	UCEC	TCGA-BS-A0V7	74	Included
+TCGA	UCEC	TCGA-BS-A0V8	107	Included
+TCGA	UCEC	TCGA-BS-A0VI	437	Included
+TCGA	UCEC	TCGA-BS-A0WQ	61	Included
+TCGA	UCEC	TCGA-D1-A0ZN	58	Included
+TCGA	UCEC	TCGA-D1-A0ZO	713	Included
+TCGA	UCEC	TCGA-D1-A0ZP	46	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-D1-A0ZQ	107	Included
+TCGA	UCEC	TCGA-D1-A0ZR	71	Included
+TCGA	UCEC	TCGA-D1-A0ZS	478	Included
+TCGA	UCEC	TCGA-D1-A0ZV	51	Included
+TCGA	UCEC	TCGA-D1-A0ZZ	84	Included
+TCGA	UCEC	TCGA-D1-A101	597	Included
+TCGA	UCEC	TCGA-D1-A102	62	Included
+TCGA	UCEC	TCGA-D1-A103	10582	Included
+TCGA	UCEC	TCGA-D1-A15V	59	Included
+TCGA	UCEC	TCGA-D1-A15W	90	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A15X	2375	Included
+TCGA	UCEC	TCGA-D1-A15Z	91	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A160	613	Included
+TCGA	UCEC	TCGA-D1-A161	114	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A163	665	Included
+TCGA	UCEC	TCGA-D1-A165	86	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A167	2352	Included
+TCGA	UCEC	TCGA-D1-A168	66	Included
+TCGA	UCEC	TCGA-D1-A169	76	Included
+TCGA	UCEC	TCGA-D1-A16B	61	Included
+TCGA	UCEC	TCGA-D1-A16D	50	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-D1-A16E	76	Included
+TCGA	UCEC	TCGA-D1-A16G	54	Included
+TCGA	UCEC	TCGA-D1-A16I	54	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A16J	325	Included
+TCGA	UCEC	TCGA-D1-A16N	172	Included
+TCGA	UCEC	TCGA-D1-A16O	43	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-D1-A16Q	41	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-D1-A16R	60	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A16S	73	Included
+TCGA	UCEC	TCGA-D1-A16V	53	Included
+TCGA	UCEC	TCGA-D1-A16X	3840	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A16Y	1547	Included
+TCGA	UCEC	TCGA-D1-A174	972	Included
+TCGA	UCEC	TCGA-D1-A176	533	Included
+TCGA	UCEC	TCGA-D1-A177	894	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A17A	302	Included
+TCGA	UCEC	TCGA-D1-A17B	359	Included
+TCGA	UCEC	TCGA-D1-A17C	67	Included
+TCGA	UCEC	TCGA-D1-A17D	603	Included
+TCGA	UCEC	TCGA-D1-A17F	334	Included
+TCGA	UCEC	TCGA-D1-A17H	805	Included
+TCGA	UCEC	TCGA-D1-A17K	84	Included
+TCGA	UCEC	TCGA-D1-A17L	84	Included
+TCGA	UCEC	TCGA-D1-A17M	535	Included
+TCGA	UCEC	TCGA-D1-A17N	38	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-D1-A17Q	8610	Included
+TCGA	UCEC	TCGA-D1-A17R	334	Included
+TCGA	UCEC	TCGA-D1-A17S	59	Included
+TCGA	UCEC	TCGA-D1-A17T	97	Included
+TCGA	UCEC	TCGA-D1-A17U	489	Included
+TCGA	UCEC	TCGA-D1-A1NS	416	Included
+TCGA	UCEC	TCGA-D1-A1NU	110	Included
+TCGA	UCEC	TCGA-D1-A1NW	70	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A1NX	52	Included
+TCGA	UCEC	TCGA-D1-A1NY	765	Included
+TCGA	UCEC	TCGA-D1-A1NZ	1063	Included
+TCGA	UCEC	TCGA-D1-A1O0	90	Included
+TCGA	UCEC	TCGA-D1-A1O5	104	Included
+TCGA	UCEC	TCGA-D1-A1O7	511	Included
+TCGA	UCEC	TCGA-D1-A1O8	101	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A2G0	1144	Included
+TCGA	UCEC	TCGA-D1-A2G5	315	Included
+TCGA	UCEC	TCGA-D1-A2G6	135	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A2G7	78	Included
+TCGA	UCEC	TCGA-D1-A3DA	118	Included
+TCGA	UCEC	TCGA-D1-A3DG	178	Included
+TCGA	UCEC	TCGA-D1-A3DH	152	No matched usable feature bag
+TCGA	UCEC	TCGA-D1-A3JP	72	Included
+TCGA	UCEC	TCGA-D1-A3JQ	52	Included
+TCGA	UCEC	TCGA-DF-A2KN	6828	Included
+TCGA	UCEC	TCGA-DF-A2KR	147	No matched usable feature bag
+TCGA	UCEC	TCGA-DF-A2KS	178	Included
+TCGA	UCEC	TCGA-DF-A2KU	18113	Included
+TCGA	UCEC	TCGA-DF-A2KV	2391	Included
+TCGA	UCEC	TCGA-DF-A2KZ	842	Included
+TCGA	UCEC	TCGA-DF-A2L0	69	Included
+TCGA	UCEC	TCGA-DI-A0WH	782	Included
+TCGA	UCEC	TCGA-DI-A1BU	13162	Included
+TCGA	UCEC	TCGA-DI-A1BY	87	Included
+TCGA	UCEC	TCGA-DI-A1C3	57	Included
+TCGA	UCEC	TCGA-DI-A1NN	73	Included
+TCGA	UCEC	TCGA-DI-A1NO	357	Included
+TCGA	UCEC	TCGA-DI-A2QT	35	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-DI-A2QU	92	Included
+TCGA	UCEC	TCGA-DI-A2QY	154	Included
+TCGA	UCEC	TCGA-E6-A1LX	22064	Included
+TCGA	UCEC	TCGA-E6-A1LZ	350	Included
+TCGA	UCEC	TCGA-E6-A1M0	6277	Included
+TCGA	UCEC	TCGA-E6-A2P8	797	Included
+TCGA	UCEC	TCGA-E6-A2P9	1271	No matched usable feature bag
+TCGA	UCEC	TCGA-E6-A8L9	76	No matched usable feature bag
+TCGA	UCEC	TCGA-EC-A1NJ	418	Included
+TCGA	UCEC	TCGA-EC-A1QX	946	Included
+TCGA	UCEC	TCGA-EC-A24G	1797	Included
+TCGA	UCEC	TCGA-EO-A1Y5	108	Included
+TCGA	UCEC	TCGA-EO-A1Y7	77	Included
+TCGA	UCEC	TCGA-EO-A1Y8	75	Included
+TCGA	UCEC	TCGA-EO-A22R	22821	Included
+TCGA	UCEC	TCGA-EO-A22S	875	Included
+TCGA	UCEC	TCGA-EO-A22T	1459	Included
+TCGA	UCEC	TCGA-EO-A22U	25299	Included
+TCGA	UCEC	TCGA-EO-A22X	16806	Included
+TCGA	UCEC	TCGA-EO-A22Y	78	No matched usable feature bag
+TCGA	UCEC	TCGA-EO-A2CG	51	Included
+TCGA	UCEC	TCGA-EO-A2CH	65	Included
+TCGA	UCEC	TCGA-EO-A3AS	239	Included
+TCGA	UCEC	TCGA-EO-A3AU	943	Included
+TCGA	UCEC	TCGA-EO-A3AV	7328	Included
+TCGA	UCEC	TCGA-EO-A3AY	6317	Included
+TCGA	UCEC	TCGA-EO-A3AZ	1441	Included
+TCGA	UCEC	TCGA-EO-A3B0	19430	Included
+TCGA	UCEC	TCGA-EO-A3B1	64	Included
+TCGA	UCEC	TCGA-EO-A3KU	86	Included
+TCGA	UCEC	TCGA-EO-A3KW	66	Included
+TCGA	UCEC	TCGA-EO-A3KX	4778	No matched usable feature bag
+TCGA	UCEC	TCGA-EO-A3L0	117	Included
+TCGA	UCEC	TCGA-EY-A1G7	127	Included
+TCGA	UCEC	TCGA-EY-A1G8	4476	Included
+TCGA	UCEC	TCGA-EY-A1GC	65	Included
+TCGA	UCEC	TCGA-EY-A1GD	1895	Included
+TCGA	UCEC	TCGA-EY-A1GE	59	No matched usable feature bag
+TCGA	UCEC	TCGA-EY-A1GF	500	Included
+TCGA	UCEC	TCGA-EY-A1GH	88	Included
+TCGA	UCEC	TCGA-EY-A1GI	7878	Included
+TCGA	UCEC	TCGA-EY-A1GJ	67	Included
+TCGA	UCEC	TCGA-EY-A1GK	1131	No matched usable feature bag
+TCGA	UCEC	TCGA-EY-A1GL	71	Included
+TCGA	UCEC	TCGA-EY-A1GM	58	Included
+TCGA	UCEC	TCGA-EY-A1GO	452	Included
+TCGA	UCEC	TCGA-EY-A1GP	53	Included
+TCGA	UCEC	TCGA-EY-A1GQ	671	Included
+TCGA	UCEC	TCGA-EY-A1GR	80	Included
+TCGA	UCEC	TCGA-EY-A1GS	499	Included
+TCGA	UCEC	TCGA-EY-A1GU	2021	Included
+TCGA	UCEC	TCGA-EY-A1GV	51	Included
+TCGA	UCEC	TCGA-EY-A1GW	72	No matched usable feature bag
+TCGA	UCEC	TCGA-EY-A1GX	123	Included
+TCGA	UCEC	TCGA-EY-A1H0	452	Included
+TCGA	UCEC	TCGA-EY-A210	58	Included
+TCGA	UCEC	TCGA-EY-A212	82	Included
+TCGA	UCEC	TCGA-EY-A214	87	Included
+TCGA	UCEC	TCGA-EY-A215	7857	Included
+TCGA	UCEC	TCGA-EY-A2OM	840	Included
+TCGA	UCEC	TCGA-EY-A2ON	112	Included
+TCGA	UCEC	TCGA-EY-A2OO	86	Included
+TCGA	UCEC	TCGA-EY-A2OP	643	Included
+TCGA	UCEC	TCGA-EY-A2OQ	71	Included
+TCGA	UCEC	TCGA-EY-A3L3	86	Included
+TCGA	UCEC	TCGA-EY-A3QX	81	Included
+TCGA	UCEC	TCGA-EY-A4KR	132	Included
+TCGA	UCEC	TCGA-EY-A547	240	Included
+TCGA	UCEC	TCGA-EY-A548	757	Included
+TCGA	UCEC	TCGA-EY-A549	1963	Included
+TCGA	UCEC	TCGA-EY-A54A	156	Included
+TCGA	UCEC	TCGA-EY-A5W2	1067	Included
+TCGA	UCEC	TCGA-EY-A72D	73	Included
+TCGA	UCEC	TCGA-FI-A2CX	32	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-FI-A2CY	59	Included
+TCGA	UCEC	TCGA-FI-A2D0	11416	Included
+TCGA	UCEC	TCGA-FI-A2D2	50	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-FI-A2D4	468	Included
+TCGA	UCEC	TCGA-FI-A2D5	24237	Included
+TCGA	UCEC	TCGA-FI-A2D6	844	Included
+TCGA	UCEC	TCGA-FI-A2EU	72	Included
+TCGA	UCEC	TCGA-FI-A2EW	139	Included
+TCGA	UCEC	TCGA-FI-A2EX	80	Included
+TCGA	UCEC	TCGA-FI-A2EY	149	Included
+TCGA	UCEC	TCGA-FI-A2F4	3071	Included
+TCGA	UCEC	TCGA-FI-A2F8	111	Included
+TCGA	UCEC	TCGA-FI-A2F9	62	Included
+TCGA	UCEC	TCGA-FI-A3PV	104	Included
+TCGA	UCEC	TCGA-FI-A3PX	131	No matched usable feature bag
+TCGA	UCEC	TCGA-H5-A2HR	69	Included
+TCGA	UCEC	TCGA-JU-AAVI	79	Included
+TCGA	UCEC	TCGA-K6-A3WQ	53	Included
+TCGA	UCEC	TCGA-KJ-A3U4	72	Included
+TCGA	UCEC	TCGA-KP-A3VZ	148	Included
+TCGA	UCEC	TCGA-KP-A3W0	43	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-KP-A3W1	72	Included
+TCGA	UCEC	TCGA-KP-A3W3	64	Included
+TCGA	UCEC	TCGA-KP-A3W4	73	Included
+TCGA	UCEC	TCGA-PG-A5BC	74	Included
+TCGA	UCEC	TCGA-PG-A6IB	625	Included
+TCGA	UCEC	TCGA-PG-A7D5	59	Included
+TCGA	UCEC	TCGA-PG-A914	226	Included
+TCGA	UCEC	TCGA-PG-A915	115	No matched usable feature bag
+TCGA	UCEC	TCGA-PG-A916	58	Included
+TCGA	UCEC	TCGA-PG-A917	1069	Included
+TCGA	UCEC	TCGA-QF-A5YS	2789	Included
+TCGA	UCEC	TCGA-QF-A5YT	11	No sample with >50 observed substitutions
+TCGA	UCEC	TCGA-QS-A5YQ	1670	Included
+TCGA	UCEC	TCGA-QS-A5YR	345	Included
+TCGA	UCEC	TCGA-QS-A744	100	Included
+TCGA	UCEC	TCGA-QS-A8F1	105	Included
+TCGA	UCEC	TCGA-SJ-A6ZI	2336	Included
+TCGA	UCEC	TCGA-SJ-A6ZJ	105	No matched usable feature bag
+TCGA	UCEC	TCGA-SL-A6J9	77	Included
+TCGA	UCEC	TCGA-SL-A6JA	1002	Included
+CPTAC	BRCA	01BR001	75	Included
+CPTAC	BRCA	01BR008	94	Included
+CPTAC	BRCA	01BR009	123	Included
+CPTAC	BRCA	01BR010	55	Included
+CPTAC	BRCA	01BR015	66	Included
+CPTAC	BRCA	01BR017	135	Included
+CPTAC	BRCA	01BR018	336	Included
+CPTAC	BRCA	01BR020	68	Included
+CPTAC	BRCA	01BR023	23	No sample with >50 observed substitutions
+CPTAC	BRCA	01BR025	25	No sample with >50 observed substitutions
+CPTAC	BRCA	01BR026	58	Included
+CPTAC	BRCA	01BR027	154	Included
+CPTAC	BRCA	01BR030	58	Included
+CPTAC	BRCA	01BR031	98	Included
+CPTAC	BRCA	01BR032	47	No sample with >50 observed substitutions
+CPTAC	BRCA	01BR033	87	Included
+CPTAC	BRCA	01BR040	46	No sample with >50 observed substitutions
+CPTAC	BRCA	01BR042	308	Included
+CPTAC	BRCA	01BR043	13717	Included
+CPTAC	BRCA	01BR044	101	Absent from prepared model inputs
+CPTAC	BRCA	03BR002	4	No sample with >50 observed substitutions
+CPTAC	BRCA	03BR004	55	Included
+CPTAC	BRCA	03BR005	2	No sample with >50 observed substitutions
+CPTAC	BRCA	03BR006	70	Included
+CPTAC	BRCA	03BR010	47	No sample with >50 observed substitutions
+CPTAC	BRCA	03BR011	68	Included
+CPTAC	BRCA	03BR013	54	Included
+CPTAC	BRCA	05BR001	56	Included
+CPTAC	BRCA	05BR003	37	No sample with >50 observed substitutions
+CPTAC	BRCA	05BR004	47	No sample with >50 observed substitutions
+CPTAC	BRCA	05BR005	31	No sample with >50 observed substitutions
+CPTAC	BRCA	05BR009	61	Included
+CPTAC	BRCA	05BR016	54	Included
+CPTAC	BRCA	05BR026	40	No sample with >50 observed substitutions
+CPTAC	BRCA	05BR029	449	Included
+CPTAC	BRCA	05BR038	337	Included
+CPTAC	BRCA	05BR042	131	Included
+CPTAC	BRCA	05BR043	177	Included
+CPTAC	BRCA	05BR044	52	No matched usable feature bag
+CPTAC	BRCA	05BR045	76	Included
+CPTAC	BRCA	06BR003	71	Included
+CPTAC	BRCA	06BR005	33	No sample with >50 observed substitutions
+CPTAC	BRCA	06BR006	46	No sample with >50 observed substitutions
+CPTAC	BRCA	06BR014	19	No sample with >50 observed substitutions
+CPTAC	BRCA	09BR001	62	Included
+CPTAC	BRCA	09BR004	84	Included
+CPTAC	BRCA	09BR005	81	Included
+CPTAC	BRCA	09BR007	72	Included
+CPTAC	BRCA	11BR003	809	Included
+CPTAC	BRCA	11BR004	38	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR006	124	Included
+CPTAC	BRCA	11BR009	125	Included
+CPTAC	BRCA	11BR010	83	Included
+CPTAC	BRCA	11BR011	33	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR012	105	Included
+CPTAC	BRCA	11BR013	83	Included
+CPTAC	BRCA	11BR014	137	Included
+CPTAC	BRCA	11BR015	30	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR016	72	Included
+CPTAC	BRCA	11BR017	60	Included
+CPTAC	BRCA	11BR018	82	Included
+CPTAC	BRCA	11BR019	82	Included
+CPTAC	BRCA	11BR020	149	Included
+CPTAC	BRCA	11BR022	29	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR023	100	Included
+CPTAC	BRCA	11BR024	85	Included
+CPTAC	BRCA	11BR025	66	Included
+CPTAC	BRCA	11BR027	240	Included
+CPTAC	BRCA	11BR028	154	Included
+CPTAC	BRCA	11BR030	163	Included
+CPTAC	BRCA	11BR031	360	Included
+CPTAC	BRCA	11BR032	23	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR036	89	Included
+CPTAC	BRCA	11BR038	45	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR040	24	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR042	38	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR043	112	Included
+CPTAC	BRCA	11BR044	66	Included
+CPTAC	BRCA	11BR047	36	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR049	29	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR050	27	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR051	53	No matched usable feature bag
+CPTAC	BRCA	11BR053	105	Included
+CPTAC	BRCA	11BR054	43	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR055	98	Included
+CPTAC	BRCA	11BR056	57	Included
+CPTAC	BRCA	11BR058	92	Included
+CPTAC	BRCA	11BR059	75	Included
+CPTAC	BRCA	11BR060	130	Included
+CPTAC	BRCA	11BR072	44	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR073	92	Included
+CPTAC	BRCA	11BR074	29	No sample with >50 observed substitutions
+CPTAC	BRCA	11BR075	159	Included
+CPTAC	BRCA	11BR080	41	No sample with >50 observed substitutions
+CPTAC	BRCA	13BR009	104	Included
+CPTAC	BRCA	14BR005	27	No sample with >50 observed substitutions
+CPTAC	BRCA	14BR008	19	No sample with >50 observed substitutions
+CPTAC	BRCA	14BR014	28	No sample with >50 observed substitutions
+CPTAC	BRCA	15BR003	737	Included
+CPTAC	BRCA	16BR012	229	Included
+CPTAC	BRCA	18BR002	197	Included
+CPTAC	BRCA	18BR003	1448	Included
+CPTAC	BRCA	18BR004	34	No sample with >50 observed substitutions
+CPTAC	BRCA	18BR006	131	Included
+CPTAC	BRCA	18BR007	131	Included
+CPTAC	BRCA	18BR009	46	No sample with >50 observed substitutions
+CPTAC	BRCA	18BR010	29	No sample with >50 observed substitutions
+CPTAC	BRCA	18BR016	44	No sample with >50 observed substitutions
+CPTAC	BRCA	18BR017	100	Included
+CPTAC	BRCA	18BR019	39	No sample with >50 observed substitutions
+CPTAC	BRCA	20BR001	36	No sample with >50 observed substitutions
+CPTAC	BRCA	20BR002	131	Included
+CPTAC	BRCA	20BR005	167	Included
+CPTAC	BRCA	20BR006	110	Included
+CPTAC	BRCA	20BR007	105	Included
+CPTAC	BRCA	20BR008	109	Included
+CPTAC	BRCA	21BR001	309	Included
+CPTAC	BRCA	21BR002	39	No sample with >50 observed substitutions
+CPTAC	BRCA	21BR010	28	No sample with >50 observed substitutions
+CPTAC	BRCA	22BR005	118	Included
+CPTAC	BRCA	22BR006	25	No sample with >50 observed substitutions
+CPTAC	BRCA	604	92	Absent from prepared model inputs
+CPTAC	HNSC	C3L-00977	126	Included
+CPTAC	HNSC	C3L-00987	86	Included
+CPTAC	HNSC	C3L-00994	77	Included
+CPTAC	HNSC	C3L-00995	96	Included
+CPTAC	HNSC	C3L-00997	154	Included
+CPTAC	HNSC	C3L-00999	198	Included
+CPTAC	HNSC	C3L-01138	208	Included
+CPTAC	HNSC	C3L-01237	172	Included
+CPTAC	HNSC	C3L-02617	525	Included
+CPTAC	HNSC	C3L-02621	424	Included
+CPTAC	HNSC	C3L-02651	455	Included
+CPTAC	HNSC	C3L-03378	246	Included
+CPTAC	HNSC	C3L-04025	34	No sample with >50 observed substitutions
+CPTAC	HNSC	C3L-04354	213	Included
+CPTAC	HNSC	C3L-04791	614	Included
+CPTAC	HNSC	C3L-04844	370	Included
+CPTAC	HNSC	C3L-04849	183	Included
+CPTAC	HNSC	C3N-00204	1028	Included
+CPTAC	HNSC	C3N-00295	373	Included
+CPTAC	HNSC	C3N-00297	144	Included
+CPTAC	HNSC	C3N-00299	1265	Included
+CPTAC	HNSC	C3N-00306	152	Included
+CPTAC	HNSC	C3N-00307	143	Included
+CPTAC	HNSC	C3N-00498	183	Included
+CPTAC	HNSC	C3N-00519	223	Included
+CPTAC	HNSC	C3N-00822	108	Included
+CPTAC	HNSC	C3N-00825	58	Included
+CPTAC	HNSC	C3N-00828	373	Included
+CPTAC	HNSC	C3N-00829	220	Included
+CPTAC	HNSC	C3N-00846	96	Included
+CPTAC	HNSC	C3N-00857	216	Included
+CPTAC	HNSC	C3N-00871	155	Included
+CPTAC	HNSC	C3N-01337	158	Included
+CPTAC	HNSC	C3N-01338	349	Included
+CPTAC	HNSC	C3N-01339	286	Included
+CPTAC	HNSC	C3N-01340	118	Included
+CPTAC	HNSC	C3N-01620	205	Included
+CPTAC	HNSC	C3N-01645	130	Included
+CPTAC	HNSC	C3N-01752	154	Included
+CPTAC	HNSC	C3N-01754	124	Included
+CPTAC	HNSC	C3N-01755	136	Included
+CPTAC	HNSC	C3N-01756	116	Included
+CPTAC	HNSC	C3N-01757	192	Included
+CPTAC	HNSC	C3N-01758	79	Included
+CPTAC	HNSC	C3N-01858	1471	Included
+CPTAC	HNSC	C3N-01859	292	Included
+CPTAC	HNSC	C3N-01943	164	Included
+CPTAC	HNSC	C3N-01944	149	Included
+CPTAC	HNSC	C3N-01945	129	Included
+CPTAC	HNSC	C3N-01946	1392	Included
+CPTAC	HNSC	C3N-01947	93	Included
+CPTAC	HNSC	C3N-01948	75	Included
+CPTAC	HNSC	C3N-02275	910	Included
+CPTAC	HNSC	C3N-02279	233	Included
+CPTAC	HNSC	C3N-02333	425	Included
+CPTAC	HNSC	C3N-02694	99	Included
+CPTAC	HNSC	C3N-02695	106	Included
+CPTAC	HNSC	C3N-02700	1622	Included
+CPTAC	HNSC	C3N-02713	710	Included
+CPTAC	HNSC	C3N-02714	63	Included
+CPTAC	HNSC	C3N-02716	1529	Included
+CPTAC	HNSC	C3N-02727	96	Included
+CPTAC	HNSC	C3N-02730	24	No sample with >50 observed substitutions
+CPTAC	HNSC	C3N-02925	54	Included
+CPTAC	HNSC	C3N-03008	192	Included
+CPTAC	HNSC	C3N-03009	156	Included
+CPTAC	HNSC	C3N-03011	85	Included
+CPTAC	HNSC	C3N-03012	390	Included
+CPTAC	HNSC	C3N-03013	77	Included
+CPTAC	HNSC	C3N-03015	237	Included
+CPTAC	HNSC	C3N-03027	162	Included
+CPTAC	HNSC	C3N-03028	123	Included
+CPTAC	HNSC	C3N-03042	124	Included
+CPTAC	HNSC	C3N-03045	147	Included
+CPTAC	HNSC	C3N-03226	52	Included
+CPTAC	HNSC	C3N-03433	523	Included
+CPTAC	HNSC	C3N-03456	105	Included
+CPTAC	HNSC	C3N-03457	303	Included
+CPTAC	HNSC	C3N-03458	163	Included
+CPTAC	HNSC	C3N-03487	94	Included
+CPTAC	HNSC	C3N-03488	143	Included
+CPTAC	HNSC	C3N-03490	142	Included
+CPTAC	HNSC	C3N-03619	114	Included
+CPTAC	HNSC	C3N-03620	22	No sample with >50 observed substitutions
+CPTAC	HNSC	C3N-03664	194	Included
+CPTAC	HNSC	C3N-03781	232	Included
+CPTAC	HNSC	C3N-03782	111	Included
+CPTAC	HNSC	C3N-03783	148	Included
+CPTAC	HNSC	C3N-03785	162	Included
+CPTAC	HNSC	C3N-03837	531	Included
+CPTAC	HNSC	C3N-03841	102	Included
+CPTAC	HNSC	C3N-03849	142	Included
+CPTAC	HNSC	C3N-03876	167	Included
+CPTAC	HNSC	C3N-03878	92	Included
+CPTAC	HNSC	C3N-03888	141	Included
+CPTAC	HNSC	C3N-03889	112	Included
+CPTAC	HNSC	C3N-03928	76	Included
+CPTAC	HNSC	C3N-03933	89	Included
+CPTAC	HNSC	C3N-04152	100	Included
+CPTAC	HNSC	C3N-04273	124	Included
+CPTAC	HNSC	C3N-04275	95	Included
+CPTAC	HNSC	C3N-04276	203	Included
+CPTAC	HNSC	C3N-04277	144	Included
+CPTAC	HNSC	C3N-04278	347	Included
+CPTAC	HNSC	C3N-04279	204	Included
+CPTAC	HNSC	C3N-04280	104	Included
+CPTAC	HNSC	C3N-04611	116	Included
+CPTAC	KIRC	C3L-00004	84	Included
+CPTAC	KIRC	C3L-00010	19	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00011	80	Included
+CPTAC	KIRC	C3L-00026	151	Included
+CPTAC	KIRC	C3L-00079	130	Included
+CPTAC	KIRC	C3L-00088	130	Included
+CPTAC	KIRC	C3L-00096	58	Included
+CPTAC	KIRC	C3L-00097	80	Included
+CPTAC	KIRC	C3L-00103	33	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00183	54	Included
+CPTAC	KIRC	C3L-00360	84	Included
+CPTAC	KIRC	C3L-00369	115	Included
+CPTAC	KIRC	C3L-00416	117	Included
+CPTAC	KIRC	C3L-00418	65	Included
+CPTAC	KIRC	C3L-00447	34	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00448	84	Included
+CPTAC	KIRC	C3L-00561	81	Included
+CPTAC	KIRC	C3L-00581	84	Included
+CPTAC	KIRC	C3L-00583	62	Included
+CPTAC	KIRC	C3L-00606	66	Included
+CPTAC	KIRC	C3L-00607	73	Included
+CPTAC	KIRC	C3L-00610	48	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00765	64	Included
+CPTAC	KIRC	C3L-00766	35	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00790	37	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00791	76	Included
+CPTAC	KIRC	C3L-00792	79	Included
+CPTAC	KIRC	C3L-00796	80	Included
+CPTAC	KIRC	C3L-00799	52	Included
+CPTAC	KIRC	C3L-00800	48	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-00812	77	Included
+CPTAC	KIRC	C3L-00813	68	Included
+CPTAC	KIRC	C3L-00814	71	Included
+CPTAC	KIRC	C3L-00817	63	Included
+CPTAC	KIRC	C3L-00902	100	Included
+CPTAC	KIRC	C3L-00907	66	Included
+CPTAC	KIRC	C3L-00908	66	Included
+CPTAC	KIRC	C3L-00910	81	Included
+CPTAC	KIRC	C3L-00917	25	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-01281	103	Included
+CPTAC	KIRC	C3L-01283	33	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-01286	97	Included
+CPTAC	KIRC	C3L-01287	70	Included
+CPTAC	KIRC	C3L-01288	112	Included
+CPTAC	KIRC	C3L-01302	59	Included
+CPTAC	KIRC	C3L-01313	118	Included
+CPTAC	KIRC	C3L-01352	100	Included
+CPTAC	KIRC	C3L-01553	51	Included
+CPTAC	KIRC	C3L-01557	62	Included
+CPTAC	KIRC	C3L-01560	56	Included
+CPTAC	KIRC	C3L-01603	68	Included
+CPTAC	KIRC	C3L-01607	101	Included
+CPTAC	KIRC	C3L-01836	30	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-01861	52	Included
+CPTAC	KIRC	C3L-01882	49	No sample with >50 observed substitutions
+CPTAC	KIRC	C3L-01885	90	Included
+CPTAC	KIRC	C3N-00148	102	Included
+CPTAC	KIRC	C3N-00149	100	Included
+CPTAC	KIRC	C3N-00150	57	Included
+CPTAC	KIRC	C3N-00154	125	Included
+CPTAC	KIRC	C3N-00168	66	Included
+CPTAC	KIRC	C3N-00177	70	Included
+CPTAC	KIRC	C3N-00194	49	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-00242	83	Included
+CPTAC	KIRC	C3N-00244	65	Included
+CPTAC	KIRC	C3N-00246	41	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-00305	62	Included
+CPTAC	KIRC	C3N-00310	131	Included
+CPTAC	KIRC	C3N-00312	82	Included
+CPTAC	KIRC	C3N-00314	96	Included
+CPTAC	KIRC	C3N-00315	132	Included
+CPTAC	KIRC	C3N-00317	98	Included
+CPTAC	KIRC	C3N-00320	103	Included
+CPTAC	KIRC	C3N-00380	84	Included
+CPTAC	KIRC	C3N-00390	49	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-00437	102	Included
+CPTAC	KIRC	C3N-00491	65	Included
+CPTAC	KIRC	C3N-00494	89	Included
+CPTAC	KIRC	C3N-00495	80	Included
+CPTAC	KIRC	C3N-00573	62	Included
+CPTAC	KIRC	C3N-00577	92	Included
+CPTAC	KIRC	C3N-00646	88	Included
+CPTAC	KIRC	C3N-00733	53	Included
+CPTAC	KIRC	C3N-00831	49	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-00834	64	Included
+CPTAC	KIRC	C3N-00852	66	Included
+CPTAC	KIRC	C3N-00953	37	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-01176	85	Included
+CPTAC	KIRC	C3N-01178	62	Included
+CPTAC	KIRC	C3N-01179	85	Included
+CPTAC	KIRC	C3N-01200	76	Included
+CPTAC	KIRC	C3N-01213	89	Included
+CPTAC	KIRC	C3N-01214	44	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-01220	94	Included
+CPTAC	KIRC	C3N-01261	60	Included
+CPTAC	KIRC	C3N-01361	34	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-01522	90	Included
+CPTAC	KIRC	C3N-01524	113	Included
+CPTAC	KIRC	C3N-01646	143	Included
+CPTAC	KIRC	C3N-01648	6	No sample with >50 observed substitutions
+CPTAC	KIRC	C3N-01649	109	Included
+CPTAC	KIRC	C3N-01651	81	Included
+CPTAC	KIRC	C3N-01808	46	No sample with >50 observed substitutions
+CPTAC	LUAD	11LU013	93	Absent from prepared model inputs
+CPTAC	LUAD	11LU016	698	Absent from prepared model inputs
+CPTAC	LUAD	11LU022	1204	Absent from prepared model inputs
+CPTAC	LUAD	11LU035	113	Absent from prepared model inputs
+CPTAC	LUAD	C3L-00001	84	Included
+CPTAC	LUAD	C3L-00009	379	Included
+CPTAC	LUAD	C3L-00080	897	Included
+CPTAC	LUAD	C3L-00093	171	Included
+CPTAC	LUAD	C3L-00094	285	Included
+CPTAC	LUAD	C3L-00095	993	Included
+CPTAC	LUAD	C3L-00140	57	Included
+CPTAC	LUAD	C3L-00144	1981	Included
+CPTAC	LUAD	C3L-00263	7	No sample with >50 observed substitutions
+CPTAC	LUAD	C3L-00279	820	Included
+CPTAC	LUAD	C3L-00368	128	Included
+CPTAC	LUAD	C3L-00412	155	Included
+CPTAC	LUAD	C3L-00422	14	No sample with >50 observed substitutions
+CPTAC	LUAD	C3L-00510	60	Included
+CPTAC	LUAD	C3L-00604	60	Included
+CPTAC	LUAD	C3L-00893	109	Included
+CPTAC	LUAD	C3L-00913	305	Included
+CPTAC	LUAD	C3L-00973	32	No sample with >50 observed substitutions
+CPTAC	LUAD	C3L-01330	63	Included
+CPTAC	LUAD	C3L-01632	230	Included
+CPTAC	LUAD	C3L-01682	127	Included
+CPTAC	LUAD	C3L-01683	20	No sample with >50 observed substitutions
+CPTAC	LUAD	C3L-01862	182	Included
+CPTAC	LUAD	C3L-01889	241	Included
+CPTAC	LUAD	C3L-01924	787	Included
+CPTAC	LUAD	C3L-02219	133	Included
+CPTAC	LUAD	C3L-02345	332	Included
+CPTAC	LUAD	C3L-02348	75	Included
+CPTAC	LUAD	C3L-02350	52	Included
+CPTAC	LUAD	C3L-02365	440	Included
+CPTAC	LUAD	C3L-02508	10	No sample with >50 observed substitutions
+CPTAC	LUAD	C3L-02549	29	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-00167	49	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-00169	240	Included
+CPTAC	LUAD	C3N-00175	1555	Included
+CPTAC	LUAD	C3N-00180	147	Included
+CPTAC	LUAD	C3N-00199	324	Included
+CPTAC	LUAD	C3N-00203	561	Included
+CPTAC	LUAD	C3N-00217	807	Included
+CPTAC	LUAD	C3N-00223	39	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-00293	386	Included
+CPTAC	LUAD	C3N-00294	1595	Included
+CPTAC	LUAD	C3N-00433	220	Included
+CPTAC	LUAD	C3N-00546	174	Included
+CPTAC	LUAD	C3N-00547	820	Included
+CPTAC	LUAD	C3N-00549	497	Included
+CPTAC	LUAD	C3N-00550	54	Included
+CPTAC	LUAD	C3N-00551	743	Included
+CPTAC	LUAD	C3N-00552	55	Included
+CPTAC	LUAD	C3N-00556	724	Included
+CPTAC	LUAD	C3N-00559	70	Included
+CPTAC	LUAD	C3N-00560	1533	Included
+CPTAC	LUAD	C3N-00572	35	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-00574	69	Included
+CPTAC	LUAD	C3N-00578	41	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-00579	97	Included
+CPTAC	LUAD	C3N-00580	1180	Included
+CPTAC	LUAD	C3N-00704	724	Included
+CPTAC	LUAD	C3N-00737	253	Included
+CPTAC	LUAD	C3N-00738	235	Included
+CPTAC	LUAD	C3N-00959	39	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-01016	460	Included
+CPTAC	LUAD	C3N-01021	48	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-01023	239	Included
+CPTAC	LUAD	C3N-01024	94	Included
+CPTAC	LUAD	C3N-01030	922	Included
+CPTAC	LUAD	C3N-01071	459	Included
+CPTAC	LUAD	C3N-01072	89	Included
+CPTAC	LUAD	C3N-01074	559	Included
+CPTAC	LUAD	C3N-01405	543	Included
+CPTAC	LUAD	C3N-01410	318	Included
+CPTAC	LUAD	C3N-01413	60	Included
+CPTAC	LUAD	C3N-01414	664	Included
+CPTAC	LUAD	C3N-01415	653	Included
+CPTAC	LUAD	C3N-01416	108	Included
+CPTAC	LUAD	C3N-01488	689	Included
+CPTAC	LUAD	C3N-01489	897	Included
+CPTAC	LUAD	C3N-01799	61	Included
+CPTAC	LUAD	C3N-01823	617	Included
+CPTAC	LUAD	C3N-01842	510	Included
+CPTAC	LUAD	C3N-02000	30	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-02002	66	Included
+CPTAC	LUAD	C3N-02003	399	Included
+CPTAC	LUAD	C3N-02067	37	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-02087	53	Included
+CPTAC	LUAD	C3N-02089	1268	Included
+CPTAC	LUAD	C3N-02145	48	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-02149	691	Included
+CPTAC	LUAD	C3N-02155	192	Included
+CPTAC	LUAD	C3N-02158	54	Included
+CPTAC	LUAD	C3N-02379	72	Included
+CPTAC	LUAD	C3N-02380	62	Included
+CPTAC	LUAD	C3N-02421	46	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-02422	69	Included
+CPTAC	LUAD	C3N-02423	603	Included
+CPTAC	LUAD	C3N-02424	74	Included
+CPTAC	LUAD	C3N-02433	68	Included
+CPTAC	LUAD	C3N-02529	143	Included
+CPTAC	LUAD	C3N-02572	54	Included
+CPTAC	LUAD	C3N-02582	136	Included
+CPTAC	LUAD	C3N-02586	134	Included
+CPTAC	LUAD	C3N-02587	30	No sample with >50 observed substitutions
+CPTAC	LUAD	C3N-02588	69	Included
+CPTAC	LUAD	C3N-02729	39	No sample with >50 observed substitutions
+CPTAC	LUSC	C3L-00081	367	Included
+CPTAC	LUSC	C3L-00415	187	Included
+CPTAC	LUSC	C3L-00445	246	Included
+CPTAC	LUSC	C3L-00568	325	Included
+CPTAC	LUSC	C3L-00603	226	Included
+CPTAC	LUSC	C3L-00904	380	Included
+CPTAC	LUSC	C3L-00923	218	Included
+CPTAC	LUSC	C3L-00927	269	Included
+CPTAC	LUSC	C3L-00965	402	Included
+CPTAC	LUSC	C3L-00993	348	Included
+CPTAC	LUSC	C3L-01000	503	Included
+CPTAC	LUSC	C3L-01285	318	Included
+CPTAC	LUSC	C3L-01455	223	Included
+CPTAC	LUSC	C3L-01606	382	Included
+CPTAC	LUSC	C3L-01663	465	Included
+CPTAC	LUSC	C3L-01838	136	Included
+CPTAC	LUSC	C3L-01884	386	Included
+CPTAC	LUSC	C3L-02127	241	Included
+CPTAC	LUSC	C3L-02130	395	Included
+CPTAC	LUSC	C3L-02163	288	Included
+CPTAC	LUSC	C3L-02164	3	No sample with >50 observed substitutions
+CPTAC	LUSC	C3L-02168	472	Included
+CPTAC	LUSC	C3L-02170	95	Included
+CPTAC	LUSC	C3L-02349	499	Included
+CPTAC	LUSC	C3L-02358	274	Included
+CPTAC	LUSC	C3L-02546	284	Included
+CPTAC	LUSC	C3L-02552	85	Included
+CPTAC	LUSC	C3L-02619	332	Included
+CPTAC	LUSC	C3L-02625	458	Included
+CPTAC	LUSC	C3L-02627	629	Included
+CPTAC	LUSC	C3L-02629	94	Included
+CPTAC	LUSC	C3L-02646	379	Included
+CPTAC	LUSC	C3L-02648	348	Included
+CPTAC	LUSC	C3L-02649	392	Included
+CPTAC	LUSC	C3L-02650	259	Included
+CPTAC	LUSC	C3L-02660	385	Included
+CPTAC	LUSC	C3L-02665	664	Included
+CPTAC	LUSC	C3L-02669	672	Included
+CPTAC	LUSC	C3L-02891	129	Included
+CPTAC	LUSC	C3L-02951	483	Included
+CPTAC	LUSC	C3L-02963	176	Included
+CPTAC	LUSC	C3L-02964	248	Included
+CPTAC	LUSC	C3L-02968	278	Included
+CPTAC	LUSC	C3L-02969	310	Included
+CPTAC	LUSC	C3L-03272	330	Included
+CPTAC	LUSC	C3L-03678	512	Included
+CPTAC	LUSC	C3L-03961	158	Included
+CPTAC	LUSC	C3L-03962	306	Included
+CPTAC	LUSC	C3L-03963	256	Included
+CPTAC	LUSC	C3L-03965	519	Included
+CPTAC	LUSC	C3L-04013	197	Included
+CPTAC	LUSC	C3L-04014	354	Included
+CPTAC	LUSC	C3L-04071	157	Included
+CPTAC	LUSC	C3L-04391	238	Included
+CPTAC	LUSC	C3N-00211	51	No matched usable feature bag
+CPTAC	LUSC	C3N-00221	365	Included
+CPTAC	LUSC	C3N-00247	44	No sample with >50 observed substitutions
+CPTAC	LUSC	C3N-00497	380	Included
+CPTAC	LUSC	C3N-00555	298	Included
+CPTAC	LUSC	C3N-01017	293	Included
+CPTAC	LUSC	C3N-01020	223	Included
+CPTAC	LUSC	C3N-01025	307	Included
+CPTAC	LUSC	C3N-01028	799	Included
+CPTAC	LUSC	C3N-01194	371	Included
+CPTAC	LUSC	C3N-01411	493	Included
+CPTAC	LUSC	C3N-01846	174	Included
+CPTAC	LUSC	C3N-01892	377	Included
+CPTAC	LUSC	C3N-01893	651	Included
+CPTAC	LUSC	C3N-02252	221	Included
+CPTAC	LUSC	C3N-02283	835	Included
+CPTAC	LUSC	C3N-02284	639	Included
+CPTAC	LUSC	C3N-02285	404	Included
+CPTAC	LUSC	C3N-02288	259	Included
+CPTAC	LUSC	C3N-02289	300	Included
+CPTAC	LUSC	C3N-02300	827	Included
+CPTAC	LUSC	C3N-02339	102	Included
+CPTAC	LUSC	C3N-02374	303	Included
+CPTAC	LUSC	C3N-02375	261	Included
+CPTAC	LUSC	C3N-02425	258	Included
+CPTAC	LUSC	C3N-02426	57	Included
+CPTAC	LUSC	C3N-02434	225	Included
+CPTAC	LUSC	C3N-02435	318	Included
+CPTAC	LUSC	C3N-02494	302	Included
+CPTAC	LUSC	C3N-02523	340	Included
+CPTAC	LUSC	C3N-02575	341	Included
+CPTAC	LUSC	C3N-02675	296	Included
+CPTAC	LUSC	C3N-03051	405	Included
+CPTAC	LUSC	C3N-03072	282	Included
+CPTAC	LUSC	C3N-03076	198	Included
+CPTAC	LUSC	C3N-03092	150	Included
+CPTAC	LUSC	C3N-03093	50	No sample with >50 observed substitutions
+CPTAC	LUSC	C3N-03204	395	Included
+CPTAC	LUSC	C3N-03424	249	Included
+CPTAC	LUSC	C3N-03425	548	Included
+CPTAC	LUSC	C3N-03441	311	Included
+CPTAC	LUSC	C3N-03486	551	Included
+CPTAC	LUSC	C3N-03662	284	Included
+CPTAC	LUSC	C3N-03848	12	No sample with >50 observed substitutions
+CPTAC	LUSC	C3N-03851	617	Included
+CPTAC	LUSC	C3N-03875	666	Included
+CPTAC	LUSC	C3N-03877	148	Included
+CPTAC	LUSC	C3N-03880	265	Included
+CPTAC	LUSC	C3N-03882	292	Included
+CPTAC	LUSC	C3N-03886	301	Included
+CPTAC	LUSC	C3N-04124	301	Included
+CPTAC	LUSC	C3N-04127	82	Included
+CPTAC	LUSC	C3N-04155	384	Included
+CPTAC	LUSC	C3N-04162	316	Included
+CPTAC	OV	01OV007	116	Included
+CPTAC	OV	01OV017	89	Included
+CPTAC	OV	01OV018	106	Included
+CPTAC	OV	01OV023	185	Included
+CPTAC	OV	01OV026	137	Included
+CPTAC	OV	01OV030	65	Included
+CPTAC	OV	01OV039	151	Included
+CPTAC	OV	01OV041	89	Included
+CPTAC	OV	01OV047	41	No sample with >50 observed substitutions
+CPTAC	OV	02OV005	111	Included
+CPTAC	OV	02OV006	188	Included
+CPTAC	OV	02OV008	45	No sample with >50 observed substitutions
+CPTAC	OV	02OV015	82	Included
+CPTAC	OV	02OV022	116	Included
+CPTAC	OV	02OV023	72	Included
+CPTAC	OV	02OV029	83	Included
+CPTAC	OV	02OV032	52	Included
+CPTAC	OV	02OV036	59	Absent from prepared model inputs
+CPTAC	OV	02OV041	129	Absent from prepared model inputs
+CPTAC	OV	02OV044	69	Absent from prepared model inputs
+CPTAC	OV	02OV046	113	Absent from prepared model inputs
+CPTAC	OV	04OV001	81	Included
+CPTAC	OV	04OV004	110	Included
+CPTAC	OV	04OV005	89	Included
+CPTAC	OV	04OV008	204	Included
+CPTAC	OV	04OV011	85	Included
+CPTAC	OV	04OV012	88	Included
+CPTAC	OV	04OV013	142	Included
+CPTAC	OV	04OV017	109	Included
+CPTAC	OV	04OV018	111	Included
+CPTAC	OV	04OV021	123	Included
+CPTAC	OV	04OV023	88	Included
+CPTAC	OV	04OV024	69	Included
+CPTAC	OV	04OV027	88	Included
+CPTAC	OV	04OV028	77	Included
+CPTAC	OV	04OV031	89	Included
+CPTAC	OV	04OV033	113	Included
+CPTAC	OV	04OV036	1323	Absent from prepared model inputs
+CPTAC	OV	04OV037	212	Absent from prepared model inputs
+CPTAC	OV	04OV039	81	Absent from prepared model inputs
+CPTAC	OV	04OV040	132	Absent from prepared model inputs
+CPTAC	OV	04OV044	208	Absent from prepared model inputs
+CPTAC	OV	04OV045	104	Absent from prepared model inputs
+CPTAC	OV	04OV048	66	Absent from prepared model inputs
+CPTAC	OV	04OV049	198	Absent from prepared model inputs
+CPTAC	OV	04OV050	62	Absent from prepared model inputs
+CPTAC	OV	04OV051	89	Absent from prepared model inputs
+CPTAC	OV	04OV053	139	Absent from prepared model inputs
+CPTAC	OV	04OV054	90	Absent from prepared model inputs
+CPTAC	OV	04OV055	85	Absent from prepared model inputs
+CPTAC	OV	04OV057	59	Absent from prepared model inputs
+CPTAC	OV	04OV058	59	Absent from prepared model inputs
+CPTAC	OV	04OV063	94	Absent from prepared model inputs
+CPTAC	OV	11OV002	135	Included
+CPTAC	OV	13OV003	26	No sample with >50 observed substitutions
+CPTAC	OV	14OV011	83	Included
+CPTAC	OV	15OV001	511	Included
+CPTAC	OV	17OV001	97	Included
+CPTAC	OV	17OV002	9971	Included
+CPTAC	OV	17OV010	185	Included
+CPTAC	OV	17OV011	87	Included
+CPTAC	OV	17OV013	23	No sample with >50 observed substitutions
+CPTAC	OV	17OV014	83	Included
+CPTAC	OV	17OV015	85	Included
+CPTAC	OV	17OV017	40	No sample with >50 observed substitutions
+CPTAC	OV	17OV018	50	No sample with >50 observed substitutions
+CPTAC	OV	17OV025	295	Included
+CPTAC	OV	17OV027	109	Included
+CPTAC	OV	17OV028	243	Absent from prepared model inputs
+CPTAC	OV	17OV029	303	Absent from prepared model inputs
+CPTAC	OV	17OV030	195	Absent from prepared model inputs
+CPTAC	OV	17OV033	34	No sample with >50 observed substitutions
+CPTAC	OV	17OV036	52	Absent from prepared model inputs
+CPTAC	OV	17OV039	128	Absent from prepared model inputs
+CPTAC	OV	17OV040	31	No sample with >50 observed substitutions
+CPTAC	OV	18OV001	62	Included
+CPTAC	OV	20OV005	72	Included
+CPTAC	OV	26OV002	55	Included
+CPTAC	OV	26OV008	61	Absent from prepared model inputs
+CPTAC	OV	26OV009	81	Absent from prepared model inputs
+CPTAC	OV	26OV011	119	Absent from prepared model inputs
+CPTAC	OV	26OV013	68	Absent from prepared model inputs
+CPTAC	UCEC	C3L-00006	1734	Included
+CPTAC	UCEC	C3L-00008	467	Included
+CPTAC	UCEC	C3L-00032	59	Included
+CPTAC	UCEC	C3L-00090	82	Included
+CPTAC	UCEC	C3L-00098	100	Included
+CPTAC	UCEC	C3L-00136	57	Included
+CPTAC	UCEC	C3L-00137	54	No matched usable feature bag
+CPTAC	UCEC	C3L-00139	109	Included
+CPTAC	UCEC	C3L-00143	674	Included
+CPTAC	UCEC	C3L-00145	57	Included
+CPTAC	UCEC	C3L-00156	2075	Included
+CPTAC	UCEC	C3L-00161	1022	Included
+CPTAC	UCEC	C3L-00358	138	Included
+CPTAC	UCEC	C3L-00361	720	Included
+CPTAC	UCEC	C3L-00362	40	No sample with >50 observed substitutions
+CPTAC	UCEC	C3L-00413	79	Included
+CPTAC	UCEC	C3L-00449	85	Included
+CPTAC	UCEC	C3L-00563	74	Included
+CPTAC	UCEC	C3L-00586	18929	Included
+CPTAC	UCEC	C3L-00601	5514	Included
+CPTAC	UCEC	C3L-00605	97	Included
+CPTAC	UCEC	C3L-00767	72	Included
+CPTAC	UCEC	C3L-00769	54	Included
+CPTAC	UCEC	C3L-00770	1329	Included
+CPTAC	UCEC	C3L-00771	113	Included
+CPTAC	UCEC	C3L-00780	95	Included
+CPTAC	UCEC	C3L-00781	1307	Included
+CPTAC	UCEC	C3L-00905	77	Included
+CPTAC	UCEC	C3L-00918	384	Included
+CPTAC	UCEC	C3L-00921	65	Included
+CPTAC	UCEC	C3L-00932	195	Included
+CPTAC	UCEC	C3L-00942	152	Included
+CPTAC	UCEC	C3L-00946	918	Included
+CPTAC	UCEC	C3L-00947	63	Included
+CPTAC	UCEC	C3L-00949	76	Included
+CPTAC	UCEC	C3L-00961	70	Included
+CPTAC	UCEC	C3L-00963	55	Included
+CPTAC	UCEC	C3L-01246	92	Included
+CPTAC	UCEC	C3L-01248	16	No sample with >50 observed substitutions
+CPTAC	UCEC	C3L-01249	54	Included
+CPTAC	UCEC	C3L-01252	571	Included
+CPTAC	UCEC	C3L-01256	61	Included
+CPTAC	UCEC	C3L-01257	516	Included
+CPTAC	UCEC	C3L-01275	1049	Included
+CPTAC	UCEC	C3L-01282	1033	Included
+CPTAC	UCEC	C3L-01304	54	Included
+CPTAC	UCEC	C3L-01307	48	No sample with >50 observed substitutions
+CPTAC	UCEC	C3L-01311	3709	Included
+CPTAC	UCEC	C3L-01312	59	Included
+CPTAC	UCEC	C3L-01744	1616	Included
+CPTAC	UCEC	C3L-01925	50	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-00151	13189	Included
+CPTAC	UCEC	C3N-00200	55	Included
+CPTAC	UCEC	C3N-00321	1141	Included
+CPTAC	UCEC	C3N-00322	103	Included
+CPTAC	UCEC	C3N-00323	84	Included
+CPTAC	UCEC	C3N-00324	94	Included
+CPTAC	UCEC	C3N-00326	26	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-00328	7705	Included
+CPTAC	UCEC	C3N-00333	66	Included
+CPTAC	UCEC	C3N-00334	382	Included
+CPTAC	UCEC	C3N-00335	1308	Included
+CPTAC	UCEC	C3N-00337	82	Included
+CPTAC	UCEC	C3N-00339	52	Included
+CPTAC	UCEC	C3N-00340	57	Included
+CPTAC	UCEC	C3N-00377	534	Included
+CPTAC	UCEC	C3N-00379	53	Included
+CPTAC	UCEC	C3N-00383	68	Included
+CPTAC	UCEC	C3N-00386	34	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-00388	482	Included
+CPTAC	UCEC	C3N-00389	696	Included
+CPTAC	UCEC	C3N-00729	88	Included
+CPTAC	UCEC	C3N-00734	37	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-00743	354	Included
+CPTAC	UCEC	C3N-00836	80	Included
+CPTAC	UCEC	C3N-00847	84	Included
+CPTAC	UCEC	C3N-00848	94	Included
+CPTAC	UCEC	C3N-00850	518	Included
+CPTAC	UCEC	C3N-00858	113	Included
+CPTAC	UCEC	C3N-00866	103	Included
+CPTAC	UCEC	C3N-00880	830	Included
+CPTAC	UCEC	C3N-01003	60	Included
+CPTAC	UCEC	C3N-01211	381	Included
+CPTAC	UCEC	C3N-01212	674	Included
+CPTAC	UCEC	C3N-01217	41	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-01219	710	Included
+CPTAC	UCEC	C3N-01267	38	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-01346	59	Included
+CPTAC	UCEC	C3N-01349	143	Included
+CPTAC	UCEC	C3N-01510	560	Included
+CPTAC	UCEC	C3N-01520	4707	Included
+CPTAC	UCEC	C3N-01521	53	No matched usable feature bag
+CPTAC	UCEC	C3N-01537	46	No sample with >50 observed substitutions
+CPTAC	UCEC	C3N-01802	82	Included
+CPTAC	UCEC	C3N-01825	50	No sample with >50 observed substitutions

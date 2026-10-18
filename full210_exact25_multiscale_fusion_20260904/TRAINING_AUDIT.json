@@ -1,0 +1,8 @@
+{
+  "status": "training_complete",
+  "jobs_started_this_launch": 322,
+  "expected_total_jobs": 840,
+  "completed_total_jobs": 840,
+  "failures": [],
+  "cptac_outcomes_read": false
+}

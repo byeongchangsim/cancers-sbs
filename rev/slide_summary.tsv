@@ -1,0 +1,38 @@
+cohort	cancer	embedding	specimen_type	slides	patients
+CPTAC	BRCA	Not supplied in matched IDC extract	tumor_tissue	185	73
+CPTAC	BRCA	Not supplied in matched IDC extract	unspecified	83	72
+CPTAC	HNSC	FFPE	normal_tissue	103	88
+CPTAC	HNSC	FFPE	tumor_tissue	207	94
+CPTAC	HNSC	OCT	normal_tissue	10	10
+CPTAC	HNSC	OCT	tumor_tissue	39	10
+CPTAC	KIRC	FFPE	normal_tissue	83	70
+CPTAC	KIRC	FFPE	tumor_tissue	159	71
+CPTAC	KIRC	OCT	normal_tissue	13	10
+CPTAC	KIRC	OCT	tumor_tissue	42	12
+CPTAC	LUAD	FFPE	normal_tissue	130	81
+CPTAC	LUAD	FFPE	tumor_tissue	243	81
+CPTAC	LUAD	OCT	normal_tissue	10	5
+CPTAC	LUAD	OCT	tumor_tissue	19	5
+CPTAC	LUSC	FFPE	normal_tissue	165	103
+CPTAC	LUSC	FFPE	tumor_tissue	288	103
+CPTAC	OV	Not supplied in matched IDC extract	normal_tissue	10	5
+CPTAC	OV	Not supplied in matched IDC extract	tumor_tissue	119	39
+CPTAC	OV	Not supplied in matched IDC extract	unspecified	9	9
+CPTAC	UCEC	FFPE	normal_tissue	70	59
+CPTAC	UCEC	FFPE	tumor_tissue	123	62
+CPTAC	UCEC	OCT	normal_tissue	44	20
+CPTAC	UCEC	OCT	tumor_tissue	85	20
+TCGA	BRCA	FFPE diagnostic	Primary tumour (sample type 01)	413	390
+TCGA	BRCA	Frozen tissue section	Primary tumour (sample type 01)	562	433
+TCGA	HNSC	FFPE diagnostic	Primary tumour (sample type 01)	256	246
+TCGA	HNSC	Frozen tissue section	Primary tumour (sample type 01)	397	313
+TCGA	KIRC	FFPE diagnostic	Primary tumour (sample type 01)	171	171
+TCGA	KIRC	Frozen tissue section	Primary tumour (sample type 01)	359	241
+TCGA	LUAD	FFPE diagnostic	Primary tumour (sample type 01)	299	262
+TCGA	LUAD	Frozen tissue section	Primary tumour (sample type 01)	476	339
+TCGA	LUSC	FFPE diagnostic	Primary tumour (sample type 01)	301	282
+TCGA	LUSC	Frozen tissue section	Primary tumour (sample type 01)	459	348
+TCGA	OV	FFPE diagnostic	Primary tumour (sample type 01)	40	40
+TCGA	OV	Frozen tissue section	Primary tumour (sample type 01)	674	339
+TCGA	UCEC	FFPE diagnostic	Primary tumour (sample type 01)	320	291
+TCGA	UCEC	Frozen tissue section	Primary tumour (sample type 01)	408	334

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+results/
+*.pt
+*.pth
+*.h5
+*.svs
+*.maf
+*.maf.gz

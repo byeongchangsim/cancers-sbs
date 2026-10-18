@@ -1,0 +1,8 @@
+{
+  "status": "selection_frozen_before_CPTAC_outcomes",
+  "rows": 210,
+  "rule": "within each scale/cancer/seed/fold, maximum stored inner-validation checkpoint score",
+  "outer_test_outcomes_used": false,
+  "cptac_outcomes_used": false,
+  "selection_sha256": "7bea82a703898521c5cea63177bd92321b1a4aea9bfc3364350a1f16c342ccd3"
+}

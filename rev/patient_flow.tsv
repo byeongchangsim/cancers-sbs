@@ -1,0 +1,15 @@
+cohort	cancer	SNV_catalogue_samples	SNV_catalogue_patients	excluded_no_sample_over_50	eligible_genomic_samples	eligible_genomic_patients	prepared_target_patients	excluded_before_prepared_target	excluded_feature_match	total_excluded_after_genomic_eligibility	analysed_patients	analysed_slides
+TCGA	BRCA	980	974	398	579	576	576	0	46	46	530	975
+TCGA	HNSC	485	483	34	451	449	449	0	81	81	368	653
+TCGA	KIRC	356	355	83	272	272	272	0	14	14	258	530
+TCGA	LUAD	497	495	39	458	456	456	0	50	50	406	775
+TCGA	LUSC	472	472	10	462	462	462	0	44	44	418	760
+TCGA	OV	396	396	55	341	341	341	0	2	2	339	714
+TCGA	UCEC	519	518	44	475	474	474	0	52	52	422	728
+CPTAC	BRCA	122	122	41	81	81	79	2	2	4	77	268
+CPTAC	HNSC	107	107	3	104	104	104	0	0	0	104	359
+CPTAC	KIRC	103	103	20	83	83	83	0	0	0	83	297
+CPTAC	LUAD	108	108	18	90	90	86	4	0	4	86	402
+CPTAC	LUSC	108	108	4	104	104	104	0	1	1	103	453
+CPTAC	OV	82	82	8	74	74	45	29	0	29	45	138
+CPTAC	UCEC	95	95	11	84	84	84	0	2	2	82	322

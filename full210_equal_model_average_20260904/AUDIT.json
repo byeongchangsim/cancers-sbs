@@ -1,0 +1,23 @@
+{
+  "audit_pass": true,
+  "brca_sbs3_selected": true,
+  "components": [
+    "retccl_pca_ridge",
+    "mil_1024",
+    "mil_2048"
+  ],
+  "contexts": 105,
+  "cptac_used_for_model_selection_weighting_or_calibration": false,
+  "direction_concordant_estimable": 119,
+  "fixed_weights": {
+    "mil_1024": 0.3333333333333333,
+    "mil_2048": 0.3333333333333333,
+    "retccl_pca_ridge": 0.3333333333333333
+  },
+  "method": "inner-validation standardized fixed unweighted arithmetic mean",
+  "outer_test_used_for_model_average": false,
+  "pairs": 210,
+  "positive_directional_p_in_both": 14,
+  "positive_two_sided_p_in_both": 10,
+  "status": "complete"
+}

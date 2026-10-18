@@ -1,0 +1,10 @@
+package	version
+sigfit	1.2.0
+rstan	2.17.3
+StanHeaders	2.17.2
+Rcpp	0.12.17
+RcppEigen	0.3.3.4.0
+BH	1.66.0.1
+coda	0.19.1
+ggplot2	3.0.0
+clue	0.3.55

@@ -1,0 +1,78 @@
+{
+  "architecture": "coordinate-aligned RetCCL+CTransPath multi-output target-attention MIL",
+  "checkpoint_rule": "maximum inner-validation median Pearson r across eligible SBS1-SBS30",
+  "cohorts_pooled": false,
+  "external_validation_cohort": "CPTAC only after all TCGA decisions are frozen",
+  "inner_validation": "20% of each TCGA outer-training partition",
+  "input_sha256": {
+    "CPTAC_BRCA_feature_meta": "5f178d382a95b2422ccf95017303bf3537e25f31a9dbc75053cd6ece555983c1",
+    "CPTAC_HNSC_feature_meta": "047fcea41429a65351bf61e84a02479fe096d79245a381f07d1005b45c8ec550",
+    "CPTAC_KIRC_feature_meta": "1e6023e5af5ef3531cb8ceedb4e812fe21ef57f86fc141b402cad9cdb536b565",
+    "CPTAC_LUAD_feature_meta": "96ea448a3ea754e6071e9f58aee219dfb9a13d1bd6162977e818b095bd4ef57c",
+    "CPTAC_LUSC_feature_meta": "30a895e0f4f5c8d50041484bbb91aed279f5e5618312063e1ef0fcdcb925db1e",
+    "CPTAC_OV_feature_meta": "36976120920123ae56f5eda9f4b68e16c866ddfd6e5b4ea2b6c20aef70941589",
+    "CPTAC_UCEC_feature_meta": "528921bf33bacaccf785c2b2292d06e95f59d96c49457c918069026145829a27",
+    "TCGA_BRCA_labels": "77e5ce2ca6eed37fe0c14f52a26481b34f2e24a7c13f48d4e7e75d0d9b5dde5a",
+    "TCGA_HNSC_labels": "e6258cab759546f2c8cbad9fec0f606ccce08722097acb0f76e7c032b66c473c",
+    "TCGA_KIRC_labels": "57c2b42d3544397671507c57193db08c4d8a49e2b6dc31b9548837d7cb8e9108",
+    "TCGA_LUAD_labels": "0ed4ec21b41101c244630566e88755bd75c7411aea6e5ac72c9b986b85f51030",
+    "TCGA_LUSC_labels": "8be817130a02bce5d26c6cd8ce189e8573cbaffbaaf8301dc14dc1346a0292e5",
+    "TCGA_OV_labels": "10f3d3819c0501877a962be51ea67be2a13c4ce5c2f6f7425c80e34c144c9623",
+    "TCGA_UCEC_labels": "655268df649f848e8f0e4e150c427780d0f1fd58fb65fcc8982d2201ccd55735",
+    "driver": "36f98402664334a9acab2ae1af3ee8564dbce6045444ff665d431f6dbbb99507",
+    "source_1024": "440a40e848686624a9a867165a9b619c8906c3b2dc21a46ff10d49da07e4bc63",
+    "source_2048": "7d500db77a27aa9c09cca15416f62a5719fd45cc7dd13295aa5b65e3da7aa6a3"
+  },
+  "max_epochs": 25,
+  "outer_cv": "patient-disjoint shuffled 5-fold within TCGA, repeated for 3 fixed seeds",
+  "pair_specific_model_selection": false,
+  "patience": 8,
+  "patient_counts": {
+    "BRCA": {
+      "CPTAC": 77,
+      "TCGA": 530
+    },
+    "HNSC": {
+      "CPTAC": 104,
+      "TCGA": 368
+    },
+    "KIRC": {
+      "CPTAC": 83,
+      "TCGA": 258
+    },
+    "LUAD": {
+      "CPTAC": 86,
+      "TCGA": 406
+    },
+    "LUSC": {
+      "CPTAC": 103,
+      "TCGA": 418
+    },
+    "OV": {
+      "CPTAC": 45,
+      "TCGA": 339
+    },
+    "UCEC": {
+      "CPTAC": 82,
+      "TCGA": 422
+    }
+  },
+  "same_model_predicts_all_30_signatures_within_context": true,
+  "scales": [
+    1024,
+    2048
+  ],
+  "scope": "7 cancers x SBS1-SBS30 (210 pre-specified pairs)",
+  "status": "locked_before_training",
+  "target": "continuous deconstructSigs legacy30_min50 proportional exposures",
+  "training_cohort": "TCGA only",
+  "variant_rule": "within each scale/cancer/seed/fold, maximum stored inner-validation checkpoint score",
+  "variant_selection_uses_cptac": false,
+  "variant_selection_uses_outer_test": false,
+  "variants": [
+    "qhybrid_target_attention",
+    "qhybrid_target_attention_hybrid",
+    "uniform_target_attention",
+    "uniform_target_attention_hybrid"
+  ]
+}

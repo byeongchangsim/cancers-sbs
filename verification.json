@@ -1,0 +1,18 @@
+{
+  "source_files_checked": 195,
+  "patients": {
+    "TCGA": 2741,
+    "CPTAC": 580
+  },
+  "primary_associations": 210,
+  "original_nominal_associations": 14,
+  "original_associations_BH_below_020_in_each_cohort": 9,
+  "training_contexts_checked": 105,
+  "paired_sensitivity_patients": 570,
+  "clinical_analyses_checked": 4,
+  "clinical_bootstrap_replicates": 10000,
+  "primary_clinical_estimates_checked": 4,
+  "signature_comparisons_checked": 1680,
+  "submitted_workbook_checked": true,
+  "model_training_rerun": false
+}

@@ -1,0 +1,16 @@
+{
+  "cancer": "BRCA",
+  "all_patients": 77,
+  "tumour_labelled_patients": 73,
+  "excluded_no_tumour_label": 4,
+  "all_slides": 268,
+  "tumour_slides": 185,
+  "baseline_max_absolute_error": 3.450389740589088e-05,
+  "original_bag_replay": true,
+  "original_checkpoint_hashes_verified": true,
+  "seconds": 30.585988933220506,
+  "MIL_training": false,
+  "ridge": "Original deterministic TCGA fit replay, verified against stored primary ensemble for every context",
+  "scaling": "Original inner-validation means and SD retained",
+  "scope": "CPTAC inference restriction; slide labels do not define pixel-level tumour regions"
+}
