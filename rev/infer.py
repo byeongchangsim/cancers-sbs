@@ -31,7 +31,7 @@ def run(cancer):
     tp,tx,ty,*_=ridge_module.load('TCGA',cancer)
     cp,cx,cy,*_=ridge_module.load('CPTAC',cancer)
     slides=pd.read_csv(builder.SOURCE/'CPTAC'/cancer/'slides.tsv',sep='\t',dtype={'PATIENT':str})
-    annotations=pd.read_csv(ROOT/'jpcr/slide_manifest.tsv',sep='\t').query('cohort == "CPTAC" and cancer == @cancer')
+    annotations=pd.read_csv(ROOT/'rev/slide_manifest.tsv',sep='\t').query('cohort == "CPTAC" and cancer == @cancer')
     slides=slides.merge(annotations[['PATIENT','FILENAME','specimen_type']],on=['PATIENT','FILENAME'],validate='one_to_one')
     assert len(slides)==len(annotations) and set(slides.PATIENT)==set(cp)
     parts={}; means={}; counts=[]; replay_checked=False

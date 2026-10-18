@@ -1,21 +1,15 @@
 #!/usr/bin/env python3
-"""Rebuild v2.34 figures in the paper_ready_20260817 journal layout.
-
-The SBS panels use the locked fully nested seven-cancer analysis. Clinical
-panels retain the v2.33 values, including the mutation-only TCGA polymerase
-analysis.
-"""
+"""Render main Figures 1–3 and provide the shared Figure 4 layout."""
 
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
-import sys
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
-from matplotlib.colors import Normalize, TwoSlopeNorm
+from matplotlib.colors import Normalize
 from matplotlib.lines import Line2D
 from matplotlib.patches import FancyArrowPatch, Rectangle
 import numpy as np
@@ -23,10 +17,8 @@ import pandas as pd
 from scipy.stats import norm, pearsonr
 
 
-BASE = Path("/home/marugoto-1.0.0-regression")
-PACKAGE = BASE / "paper_ready_v2_47"
-SOURCE = PACKAGE / "source_data"
-FIGURE_SOURCE = PACKAGE / "figure_source_data"
+BASE = Path(__file__).resolve().parents[1]
+SOURCE = BASE / "rev"
 PAGE_WIDTH_IN = 170.5 / 25.4
 
 TCGA = "#2F67B1"
@@ -50,7 +42,7 @@ CANCER_COLORS = ["#E486A8", "#7F63B8", "#3CB878", "#4AA1D5", "#E48A35", "#B458A0
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-root", type=Path, default=PACKAGE)
+    parser.add_argument("--output-root", type=Path, default=BASE / "results")
     return parser.parse_args()
 
 
@@ -134,33 +126,20 @@ def fisher_ci(r_value: float, n_value: int) -> tuple[float, float]:
     return float(np.tanh(z_value - delta)), float(np.tanh(z_value + delta))
 
 
-def save_figure(fig: plt.Figure, output: Path, name: str, supplementary: bool = False) -> None:
-    raster_dir = output / ("figures_supp" if supplementary else "figures_main")
-    pdf_dir = output / "vector" / ("supp_pdf" if supplementary else "main_pdf")
-    svg_dir = output / "vector" / ("supp_svg" if supplementary else "main_svg")
-    for directory in (raster_dir, pdf_dir, svg_dir):
-        directory.mkdir(parents=True, exist_ok=True)
-    fig.savefig(pdf_dir / f"{name}.pdf", format="pdf", bbox_inches="tight", pad_inches=0.03, facecolor="white")
-    fig.savefig(svg_dir / f"{name}.svg", format="svg", bbox_inches="tight", pad_inches=0.03, facecolor="white")
-    fig.savefig(raster_dir / f"{name}.png", format="png", dpi=400, bbox_inches="tight", pad_inches=0.03, facecolor="white")
-    fig.savefig(
-        raster_dir / f"{name}.tif",
-        format="tiff",
-        dpi=600,
-        bbox_inches="tight",
-        pad_inches=0.03,
-        facecolor="white",
-        pil_kwargs={"compression": "tiff_lzw"},
-    )
+def save_figure(fig: plt.Figure, output: Path, name: str) -> None:
+    output.mkdir(parents=True, exist_ok=True)
+    fig.savefig(output / f"{name}.pdf", bbox_inches="tight", pad_inches=0.03, facecolor="white")
+    fig.savefig(output / f"{name}.tif", format="tiff", dpi=600,
+                bbox_inches="tight", pad_inches=0.03, facecolor="white",
+                pil_kwargs={"compression": "tiff_lzw"})
     plt.close(fig)
 
 
 def load_prediction(cancer: str, signature: str, dataset: str) -> pd.DataFrame:
-    path = FIGURE_SOURCE / f"{cancer.lower()}_{signature.lower()}_{dataset.lower()}.tsv"
-    if not path.is_file():
-        path = BASE / "full210_exact25_multiscale_fusion_20260904/nested_regularized_stack/external_results/predictions" / path.name
-    frame = pd.read_csv(path, sep="\t")
-    return frame.rename(columns={signature: "observed", "prediction": "predicted"})
+    frame = pd.read_csv(SOURCE / "patient_scores.tsv", sep="\t")
+    frame = frame[frame.cancer.eq(cancer) & frame.cohort.eq(dataset)]
+    return frame[["PATIENT", signature, "prediction_" + signature]].rename(
+        columns={signature: "observed", "prediction_" + signature: "predicted"})
 
 
 def scatter_regression(
@@ -246,51 +225,6 @@ def forest_plot(
             field = f"pearson_p_positive_direction_{dataset}"
             ax.text(upper - 0.005, row_y, p_label(float(getattr(row, field))), ha="right", va="center", fontsize=5.1, color=MUTED)
     clean(ax, "x")
-
-
-def result_matrix(frame: pd.DataFrame, dataset: str, only_pairs: set[str] | None = None) -> np.ndarray:
-    matrix = np.full((len(CANCERS), len(SIGNATURES)), np.nan)
-    subset = frame[frame.dataset.eq(dataset)]
-    if only_pairs is not None:
-        subset = subset[subset.pair.isin(only_pairs)]
-    for row in subset.itertuples(index=False):
-        matrix[CANCERS.index(row.cancer), SIGNATURES.index(row.signature)] = float(row.pearson_r)
-    return matrix
-
-
-def draw_heatmap(
-    ax: plt.Axes,
-    matrix: np.ndarray,
-    norm_value: Normalize,
-    cohort: str,
-    marks: list[tuple[int, int, str]],
-    show_x: bool,
-    cmap_name: str = "RdBu_r",
-) -> None:
-    cmap = mpl.colormaps[cmap_name].copy()
-    cmap.set_bad("#E8ECEF")
-    ax.imshow(np.ma.masked_invalid(matrix), aspect="auto", cmap=cmap, norm=norm_value, interpolation="none")
-    ax.set_yticks(range(len(CANCERS)), CANCERS)
-    if show_x:
-        ax.set_xticks(range(30), SIGNATURES, rotation=55, ha="right", fontsize=5.4)
-        ax.set_xlabel("SBS target")
-    else:
-        ax.set_xticks([])
-    ax.set_ylabel("Cancer")
-    ax.set_title(cohort, loc="left", fontsize=7.8, fontweight="bold", pad=6)
-    for row, column, marker in marks:
-        ax.scatter(
-            column,
-            row,
-            s=45 if marker == "o" else 65,
-            marker=marker,
-            facecolor="none" if marker == "o" else GOLD,
-            edgecolor=GOLD if marker == "o" else INK,
-            linewidth=1.1 if marker == "o" else 0.5,
-            zorder=3,
-        )
-    for spine in ax.spines.values():
-        spine.set_linewidth(0.65)
 
 
 def signal_bubble_matrix(ax: plt.Axes, paired: pd.DataFrame) -> Normalize:
@@ -504,8 +438,7 @@ def figure1(summary: pd.DataFrame, paired: pd.DataFrame, output: Path) -> None:
 
 def figure2(summary: pd.DataFrame, paired: pd.DataFrame, output: Path) -> None:
     # The complete 210-pair landscape is retained in Supplementary Figure S1.
-    # The main figure shows only the locations of the 13 positive-direction
-    # signals, avoiding a redundant field of 210 bubbles.
+    # Highlight the 14 associations with nominal positive correlations in both cohorts.
     fig = plt.figure(figsize=(PAGE_WIDTH_IN, 7.65))
     grid = fig.add_gridspec(3, 1, height_ratios=[0.25, 0.30, 0.45], left=0.12, right=0.965, top=0.97, bottom=0.065, hspace=0.42)
 
@@ -671,34 +604,7 @@ def distribution_panel(
     clean(ax, "y")
 
 
-def clinical_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    tcga_metrics = pd.read_csv(SOURCE / "TCGA_nested_clinical_metrics.tsv", sep="\t")
-    cptac_metrics = pd.read_csv(SOURCE / "CPTAC_locked_clinical_metrics.tsv", sep="\t")
-    # CPTAC contained no qualifying POLD1-positive patient. Its polymerase
-    # analysis is retained separately as a POLE-only sensitivity analysis and
-    # is not shown as validation of the combined POLE/POLD1 endpoint.
-    cptac_metrics = cptac_metrics[cptac_metrics.analysis.ne("POLE/POLD1")].copy()
-    metrics = pd.concat([tcga_metrics, cptac_metrics], ignore_index=True)
-    tcga = pd.read_csv(SOURCE / "TCGA_nested_clinical_predictions.tsv", sep="\t")
-    tcga["cohort"] = np.where(tcga.endpoint.eq("HRD"), "TCGA BRCA", "TCGA UCEC")
-    cptac = pd.read_csv(SOURCE / "CPTAC_locked_clinical_predictions.tsv", sep="\t")
-    cptac = cptac[cptac.endpoint.ne("POLE/POLD1")].copy()
-    cptac["cohort"] = "CPTAC UCEC"
-    scores = pd.concat([tcga, cptac], ignore_index=True, sort=False)
-    auc = metrics[metrics.metric.eq("ROC AUC")].copy()
-    order = [
-        ("HRD >=42", "TCGA BRCA"),
-        ("MSI/MMR", "TCGA UCEC"),
-        ("MSI/MMR", "CPTAC UCEC"),
-        ("POLE/POLD1", "TCGA UCEC"),
-    ]
-    auc["order"] = [order.index((row.analysis, row.cohort)) for row in auc.itertuples(index=False)]
-    auc = auc.sort_values("order").reset_index(drop=True)
-    return metrics, scores, auc
-
-
-def figure4(output: Path) -> None:
-    metrics, scores, auc = clinical_data()
+def figure4(output: Path, metrics: pd.DataFrame, scores: pd.DataFrame, auc: pd.DataFrame) -> None:
     fig = plt.figure(figsize=(PAGE_WIDTH_IN, 7.05))
     grid = fig.add_gridspec(2, 1, height_ratios=[0.40, 0.60], left=0.075, right=0.975, top=0.965, bottom=0.07, hspace=0.36)
     top = grid[0].subgridspec(1, 2, width_ratios=[0.38, 0.62], wspace=0.50)
@@ -725,8 +631,7 @@ def figure4(output: Path) -> None:
 
     ax_b = fig.add_subplot(top[1])
     panel(ax_b, "b", -0.09, 1.04)
-    # Keep the external CPTAC MSI/MMR result in panel c and in the manuscript,
-    # but omit it from the compact panel-b TCGA AUC summary.
+    # Figure 4 shows the three primary TCGA clinical associations.
     auc_panel = auc[
         ~(
             auc.analysis.eq("MSI/MMR")
@@ -735,7 +640,7 @@ def figure4(output: Path) -> None:
     ].reset_index(drop=True)
     labels = [
         "TCGA BRCA\nHRD",
-        "TCGA UCEC\nMSI/MMR",
+        "TCGA UCEC\nMANTIS MSI",
         "TCGA UCEC\n" + r"$\it{POLE}$/$\it{POLD1}$",
     ]
     colors = [TCGA, CPTAC, PURPLE]
@@ -761,82 +666,22 @@ def figure4(output: Path) -> None:
     sub = grid[1].subgridspec(1, 3, width_ratios=[0.27, 0.365, 0.365], wspace=0.28)
     p_lookup = {(str(row.cohort), "HRD" if str(row.analysis).startswith("HRD") else str(row.analysis)): float(row.p_value) for row in auc.itertuples(index=False)}
     distribution_panel(fig.add_subplot(sub[0]), scores, [("TCGA BRCA", "HRD")], "HRD · primary SBS3 score", TCGA, p_lookup, True)
-    distribution_panel(fig.add_subplot(sub[1]), scores, [("TCGA UCEC", "MSI/MMR")], "MSI/MMR · primary SBS6 score", CPTAC, p_lookup, False)
+    distribution_panel(fig.add_subplot(sub[1]), scores, [("TCGA UCEC", "MSI/MMR")], "MANTIS MSI · primary SBS6 score", CPTAC, p_lookup, False)
     distribution_panel(fig.add_subplot(sub[2]), scores, [("TCGA UCEC", "POLE/POLD1")], r"$\it{POLE}$/$\it{POLD1}$ · primary SBS10 score", PURPLE, p_lookup, False)
     save_figure(fig, output, "Figure_4")
-
-
-def figure_s1(summary: pd.DataFrame, paired: pd.DataFrame, output: Path) -> None:
-    tcga_matrix = result_matrix(summary, "TCGA")
-    cptac_matrix = result_matrix(summary, "CPTAC")
-    maximum = max(abs(float(np.nanmin(tcga_matrix))), abs(float(np.nanmax(tcga_matrix))), abs(float(np.nanmin(cptac_matrix))), abs(float(np.nanmax(cptac_matrix))))
-    norm_value = TwoSlopeNorm(vmin=-maximum, vcenter=0, vmax=maximum)
-    tcga_significant = summary[
-        summary.dataset.eq("TCGA") & (summary.pearson_r > 0)
-        & (summary.pearson_p_positive_direction < 0.05)
-    ]
-    cptac_significant = summary[
-        summary.dataset.eq("CPTAC") & (summary.pearson_r > 0)
-        & (summary.pearson_p_positive_direction < 0.05)
-    ]
-    tcga_marks = [(CANCERS.index(row.cancer), SIGNATURES.index(row.signature), "*") for row in tcga_significant.itertuples(index=False)]
-    cptac_marks = [(CANCERS.index(row.cancer), SIGNATURES.index(row.signature), "*") for row in cptac_significant.itertuples(index=False)]
-    fig = plt.figure(figsize=(PAGE_WIDTH_IN, 4.15))
-    grid = fig.add_gridspec(2, 1, left=0.075, right=0.92, top=0.96, bottom=0.15, hspace=0.36)
-    axes = [fig.add_subplot(grid[0]), fig.add_subplot(grid[1])]
-    panel(axes[0], "a", -0.075, 1.05)
-    panel(axes[1], "b", -0.075, 1.05)
-    draw_heatmap(axes[0], tcga_matrix, norm_value, "TCGA", tcga_marks, False)
-    draw_heatmap(axes[1], cptac_matrix, norm_value, "CPTAC", cptac_marks, True)
-    color_ax = fig.add_axes([0.935, 0.25, 0.014, 0.50])
-    colorbar = fig.colorbar(mpl.cm.ScalarMappable(norm=norm_value, cmap=mpl.colormaps["RdBu_r"]), cax=color_ax)
-    colorbar.set_label("Pearson $r$")
-    axes[1].legend(handles=[Line2D([0], [0], marker="*", markersize=8, markerfacecolor=GOLD, markeredgecolor=INK, markeredgewidth=0.4, linestyle="none", label="Cohort-specific positive-direction $P$<0.05")], loc="lower right", bbox_to_anchor=(1.0, 1.04), frameon=False, fontsize=6.2, borderaxespad=0)
-    save_figure(fig, output, "Figure_S1", True)
-
-
-def figure_s2(summary: pd.DataFrame, paired: pd.DataFrame, output: Path) -> None:
-    paired_set = set(paired.pair)
-    fig = plt.figure(figsize=(PAGE_WIDTH_IN, 7.10))
-    grid = fig.add_gridspec(1, 2, width_ratios=[0.42, 0.58], left=0.11, right=0.95, top=0.96, bottom=0.08, wspace=0.34)
-    ax_a = fig.add_subplot(grid[0])
-    panel(ax_a, "a", -0.16, 1.03)
-    forest_plot(ax_a, paired, "TCGA", TCGA, True)
-
-    right = grid[1].subgridspec(2, 1, hspace=0.26)
-    tcga_matrix = result_matrix(summary, "TCGA", paired_set)
-    cptac_matrix = result_matrix(summary, "CPTAC", paired_set)
-    maximum = max(abs(float(np.nanmin(tcga_matrix))), abs(float(np.nanmax(tcga_matrix))), abs(float(np.nanmin(cptac_matrix))), abs(float(np.nanmax(cptac_matrix))))
-    norm_value = TwoSlopeNorm(vmin=-maximum, vcenter=0, vmax=maximum)
-    marks = [(CANCERS.index(row.cancer), SIGNATURES.index(row.signature), "o") for row in paired.itertuples(index=False)]
-    ax_b = fig.add_subplot(right[0])
-    ax_c = fig.add_subplot(right[1])
-    panel(ax_b, "b", -0.10, 1.05)
-    panel(ax_c, "c", -0.10, 1.05)
-    draw_heatmap(ax_b, tcga_matrix, norm_value, "TCGA", marks, False)
-    draw_heatmap(ax_c, cptac_matrix, norm_value, "CPTAC", marks, True)
-    color_ax = fig.add_axes([0.963, 0.28, 0.012, 0.44])
-    colorbar = fig.colorbar(mpl.cm.ScalarMappable(norm=norm_value, cmap=mpl.colormaps["RdBu_r"]), cax=color_ax)
-    colorbar.set_label("Pearson $r$")
-    save_figure(fig, output, "Figure_S2", True)
-
-
-
-
 
 
 def main() -> None:
     args = parse_args()
     configure_style()
-    summary = pd.read_csv(SOURCE / "standardized_210_nested_results.tsv", sep="\t")
-    paired = pd.read_csv(SOURCE / "positive_directional_in_both.tsv", sep="\t")
+    summary = pd.read_csv(SOURCE / "cohort_metrics.tsv", sep="\t")
+    paired = pd.read_csv(SOURCE / "paired_metrics.tsv", sep="\t")
+    paired = paired[paired.nominal_positive_both].copy()
+    paired["pair"] = paired.cancer + "–" + paired.signature
     figure1(summary, paired, args.output_root)
     figure2(summary, paired, args.output_root)
     figure3(summary, paired, args.output_root)
-    figure4(args.output_root)
-    figure_s1(summary, paired, args.output_root)
-    figure_s2(summary, paired, args.output_root)
-    print(f"Built 4 main and 2 supplementary figures under {args.output_root}")
+    print(f"Figures 1–3 saved to {args.output_root}")
 
 
 if __name__ == "__main__":

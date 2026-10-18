@@ -3,8 +3,6 @@
 All clinical panels use the unchanged primary ensemble scores.
 """
 from pathlib import Path
-from types import ModuleType
-import json
 
 import matplotlib
 matplotlib.use('Agg')
@@ -15,15 +13,10 @@ from sklearn.metrics import roc_auc_score
 from scipy.stats import mannwhitneyu
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / 'rev'
-SOURCE = ROOT / 'paper_ready_v2_46/reproducibility/build_v2_40_layout_figures.py'
+import figures as builder
+OUT = builder.parse_args().output_root
+OUT.mkdir(parents=True, exist_ok=True)
 
-code = SOURCE.read_text()
-code = code.replace('"TCGA UCEC\\nMSI/MMR"', '"TCGA UCEC\\nMANTIS MSI"')
-code = code.replace('"MSI/MMR · primary SBS6 score"',
-                    '"MANTIS MSI · primary SBS6 score"')
-builder = ModuleType('final_clinical_figure')
-exec(compile(code, str(SOURCE), 'exec'), builder.__dict__)
 builder.configure_style()
 
 BOOK = ROOT / 'data/Supplementary_Data_S2.xlsx'
@@ -42,10 +35,9 @@ record = metrics[metrics.analysis.eq('MSI/MMR')].iloc[0]
 assert abs(roc_auc_score(patients.loc[msi, 'label'], patients.loc[msi, 'score']) - record.estimate) < 1e-9
 
 auc = metrics[metrics.metric.eq('ROC AUC')].copy().reset_index(drop=True)
-builder.clinical_data = lambda: (metrics, patients, auc)
 figures = []
 builder.save_figure = lambda fig, *args, **kwargs: figures.append(fig)
-builder.figure4(OUT)
+builder.figure4(OUT, metrics, patients, auc)
 fig = figures[0]
 
 # Preserve the submitted bold italic gene typography in the third panel.

@@ -8,7 +8,8 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / 'jpcr'
+OUT = ROOT / 'rev'
+OUT.mkdir(exist_ok=True)
 CANCERS = dict(BRCA='Brca', HNSC='Hnscc', KIRC='Ccrcc', LUAD='Luad', LUSC='Lscc', OV='Ov', UCEC='Ucec')
 tcga_path = ROOT / 'external_hrd_sources/pancancer_clinical_extension_20260612/TCGA-CDR-SupplementalTableS1.xlsx'
 cptac_path = ROOT / 'external_hrd_sources/cptac_package/mssm-all_cancers-clinical-clinical_Pan-cancer.May2022.tsv.gz'

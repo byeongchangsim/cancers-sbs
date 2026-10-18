@@ -81,7 +81,7 @@ def main():
         mut.append(dict(cohort=co,cancer=c,source_samples=len(d),source_patients=d.PATIENT.nunique(),samples_over50=int(d.eligible_sample.sum()),included_patients=data[co,c].PATIENT.nunique(),included_eligible_samples=len(matched),minimum=int(matched.min()),median=float(matched.median()),q1=float(matched.quantile(.25)),q3=float(matched.quantile(.75)),maximum=int(matched.max())))
     tables['mutation_summary']=pd.DataFrame(mut)
     for name in ['patient_flow','eligibility_audit','slide_manifest','slide_summary','cohort_summary']:
-        tables[name]=pd.read_csv(ROOT/f'jpcr/{name}.tsv',sep='\t')
+        tables[name]=pd.read_csv(ROOT/f'rev/{name}.tsv',sep='\t')
     # Context-preserving slide restriction, paired to identical available patients.
     sensitivity=[];restricted_scores=[]
     for c in CANCERS:

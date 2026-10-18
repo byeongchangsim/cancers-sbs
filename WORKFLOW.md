@@ -4,7 +4,7 @@
 
 | Manuscript analysis | Implementation | Inputs and records |
 | --- | --- | --- |
-| Methods 2.1, cohort and slide composition | `jpcr/cohorts.py` | `rev/slide_manifest.tsv`, `rev/eligibility_audit.tsv`, `rev/patient_flow.tsv` |
+| Methods 2.1, cohort and slide composition | `rev/cohorts.py` | `rev/slide_manifest.tsv`, `rev/eligibility_audit.tsv`, `rev/patient_flow.tsv` |
 | Methods 2.2, original SBS1–SBS30 exposures | `cptac_sigprof/extract_cptac_sbs.R` and the TCGA/CPTAC shell drivers | `paper_deconstructsigs_configs.tsv`, `rev/mutation_counts.tsv` |
 | Methods 2.3, image processing | `preprocessing/wsi-norm.py`, `preprocessing/wsi_cache_tiles.py` | Normalisation template and external source WSIs |
 | Methods 2.3, frozen encoder features | `sigprofiler_improved_20260818/scripts/extract_end2end_retccl_qc_v1.py`, `extract_ctranspath_from_existing_cache_20260527.py` | Coordinate-aligned RetCCL and CTransPath features |
@@ -16,15 +16,15 @@
 | Methods 2.7, restricted image inputs | `rev/infer.py` and `rev/analyze.py` | `rev/tumour_scores.tsv`, `rev/input_counts.tsv`, source-slide annotations |
 | Methods 2.8, attention visualisation | `rev/attention.py` | `rev/attention_cases.tsv`, `rev/attention_tiles.tsv`, original WSIs and checkpoints |
 | Alternative target comparisons | `rev/signature_compare.py`, portable `reproduce.py` | `data/alternative_sources.tsv` and its referenced target tables |
-| Figures 1–3 | `jpcr/figure.py` | Original patient scores and figure-source tables |
-| Figure 4 | `rev/clinical_fig.py` and its retained layout dependency | Final clinical scores and Data S2 |
+| Figures 1–3 | `rev/figures.py` | `rev/patient_scores.tsv`, `rev/cohort_metrics.tsv`, `rev/paired_metrics.tsv` |
+| Figure 4 | `rev/clinical_fig.py` and `rev/figures.py` | Final clinical scores and Data S2 |
 | Figure S1 | `rev/s1_rows.py` | All 210 associations in `rev/paired_metrics.tsv` |
 | Figures S2–S5 | `rev/supp.py`, `rev/legends.py` | Distributions, sensitivity, clinical and attention records |
 | Supplementary workbook presentation | `rev/readable_data.py` | Published copies in `data/` |
 
 ## Original execution paths
 
-For extraction and training, set the `BASE` or `ROOT` constants in the relevant original drivers to the repository or working-data root. The recorded workspace was `/home/marugoto-1.0.0-regression`. All paths beneath it retain their original relative names in this repository when the file is included. `source_manifest.tsv` identifies every copied file.
+For extraction and training, set the `BASE` or `ROOT` constants in the relevant original drivers to the repository or working-data root. The recorded workspace was `/home/marugoto-1.0.0-regression`. Training paths retain their original relative names. Cohort and figure scripts are grouped under `rev/`. `source_manifest.tsv` records the original source paths and distributed file paths.
 
 The original preprocessing path `/home/end2end-WSI-preprocessing-1.0.0-preprocessing` corresponds to the included `preprocessing/` source directory and a separately supplied WSI/cache location. The original `/home/model_repos/TransPath` points to the CTransPath implementation and pretrained weights. Adjust these constants, the `/opt/anaconda/...` Python/R interpreter paths and external data paths to the local installation. Do this in a working copy if retaining the checksum-verified source snapshot.
 
@@ -39,3 +39,7 @@ The original preprocessing path `/home/end2end-WSI-preprocessing-1.0.0-preproces
 `rev/signature_compare.py` and its saved comparison table are restricted to the four alternatives reported in the final supplement. The comparison calculations and patient matching are unchanged. `source_manifest.tsv` records the source-file checksum in `source_sha256` and the distributed-file checksum in `sha256`. The comparison does not refit image models or combine split signatures.
 
 Figure S5 weights describe one MIL component at sampled coordinates. They are not tissue labels or the contribution of a region to the full ensemble. Expert pathology review was not performed.
+
+## Render the main figures
+
+With matplotlib and the plotting dependencies listed in ENVIRONMENT.md installed, run `python rev/figures.py` for Figures 1–3 and `python rev/clinical_fig.py` for Figure 4. Both commands use the included final tables and write to `results/`. Use `--output-root PATH` to choose another output folder.
